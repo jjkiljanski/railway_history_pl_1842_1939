@@ -5,7 +5,7 @@ An event-based railway history database verified against historical sources with
 
 ### Railway commercial speed
 
-Average commercial railway speeds for the interwar period were adopted primarily on the basis of contemporary statistical analysis published in the professional railway press.
+Average commercial railway speeds for the interwar period were adopted primarily on the basis of contemporary statistical analysis published in the professional railway press (Tuz, 1939).
 
 Average annual commercial speeds (km/h):
 
@@ -32,9 +32,9 @@ For years not directly covered by the source:
 The commercial speed of horse-drawn wagons transporting goods to railway stations was assumed to be **4 km/h**.
 This value is consistent with contemporary military, engineering, and foreign comparative sources:
 
-* Polish military regulations for wagon trains indicate a typical marching speed of approximately **4 km/h** for horse-drawn transport columns.
-* Cavalry movement at the walk is consistently given as **6 km/h**, providing an upper bound for unloaded or lightly loaded horse movement.
-* U.S. Army field regulations from the early 1920s give wagon-train marching speeds of **2.5–3.5 mph (≈4.0–5.6 km/h)** depending on road conditions and column length, with daily march distances comparable to infantry.
+* Polish military regulations for wagon trains indicate a typical marching speed of approximately **4 km/h** for horse-drawn transport columns (Ministerstwo Spraw Wojskowych, 1930).
+* Cavalry movement at the walk is consistently given as **6 km/h**, providing an upper bound for unloaded or lightly loaded horse movement (Redakcja Przeglądu Wojskowego, 1928).
+* U.S. Army field regulations from the early 1920s give wagon-train marching speeds of **2.5–3.5 mph (≈4.0–5.6 km/h)** depending on road conditions and column length, with daily march distances comparable to infantry (United States War Department, 1924).
 
 Given load, road conditions, and short operational distances typical of feeder transport to railway stations, **4 km/h** was adopted as a conservative and representative commercial speed.
 
