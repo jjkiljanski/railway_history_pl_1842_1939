@@ -75,7 +75,7 @@ def test_base_for_line_build() -> None:
     """
     project_root = Path(__file__).resolve().parents[1]
 
-    history_path = project_root / "railway_history_updated_new_date_edited.csv"
+    history_path = project_root / "data" / "railway_history.csv"
     assert history_path.exists(), f"Missing input file: {history_path}"
 
     # --- 1) Structure checks for railway_history.csv ---
