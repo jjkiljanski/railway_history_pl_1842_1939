@@ -1,0 +1,99 @@
+version: 1
+
+paths:
+  scripts_root: scripts
+  data_root: data
+  data_preprocessed_root: data_preprocessed
+  output_root: output
+
+defaults:
+  years: [1913, 1918, 1924, 1939]
+  warsaw:
+    lon: 21.008333
+    lat: 52.232222
+  isochrones:
+    hours: 96
+  time_savings:
+    hours: 96
+    step_minutes: 60
+
+steps:
+  preprocessing:
+    enabled: true
+    scripts:
+      - preprocessing/build_lines.py
+      - preprocessing/crop_lines.py
+      - preprocessing/make_union_and_centroids.py
+
+  build_networks:
+    enabled: true
+    script: preprocessing/build_routable_network.py
+    builds:
+      - year: 1924
+        speed_normal_kmh: 12
+        speed_narrow_kmh: 12
+      - year: 1918
+        speed_normal_kmh: 10
+        speed_narrow_kmh: 10
+      - year: 1924
+        speed_normal_kmh: 13
+        speed_narrow_kmh: 13
+      - year: 1939
+        speed_normal_kmh: 16.1
+        speed_narrow_kmh: 16.1
+
+  plot_networks:
+    enabled: true
+    script: plots/plot_routable_network.py
+    years_from: defaults.years
+    network_path_template: "{output_root}/networks/network_{year}.geojson"
+
+  distance_matrices:
+    enabled: true
+    script: routing/compute_point_distance_matrix.py
+    years_from: defaults.years
+    network_path_template: "{output_root}/networks/network_{year}.geojson"
+    centroids: "{data_preprocessed_root}/districts_1934_10_1_centroids.geojson"
+    cities: "{data_root}/cities_coords.geojson"
+    out_points_template: "{output_root}/distance_matrices/points_index_{year}.csv"
+    out_matrix_template: "{output_root}/distance_matrices/distance_matrix_long_{year}.csv"
+    plot_out_template: "{output_root}/distance_matrices/network_with_point_connections_{year}.png"
+
+  isochrones:
+    enabled: true
+    script: plots/plot_isochrones.py
+    years_from: defaults.years
+    network_path_template: "{output_root}/networks/network_{year}.geojson"
+    boundary: "{data_preprocessed_root}/districts_1934_10_1_union.geojson"
+    lon_from: defaults.warsaw.lon
+    lat_from: defaults.warsaw.lat
+    hours_from: defaults.isochrones.hours
+    out_png_template: "{output_root}/check_plots/isochrones/warsaw_{year}.png"
+    out_geojson_template: "{output_root}/check_plots/isochrones/warsaw_{year}.geojson"
+
+  time_savings:
+    enabled: true
+    script: plots/plot_time_savings.py
+    pairs:
+      - [1913, 1924]
+      - [1913, 1939]
+      - [1918, 1939]
+      - [1924, 1939]
+    old_network_template: "{output_root}/networks/network_{year_1}.geojson"
+    new_network_template: "{output_root}/networks/network_{year_2}.geojson"
+    boundary: "{data_preprocessed_root}/districts_1934_10_1_union.geojson"
+    lon_from: defaults.warsaw.lon
+    lat_from: defaults.warsaw.lat
+    hours_from: defaults.time_savings.hours
+    step_minutes_from: defaults.time_savings.step_minutes
+    out_png_template: "{output_root}/check_plots/time_savings/warsaw_{year_1}_{year_2}.png"
+    out_geojson_template: "{output_root}/check_plots/time_savings/warsaw_{year_1}_{year_2}.geojson"
+
+  timeline:
+    enabled: true
+    script: plots/plot_timeline.py
+    runs:
+      - outdir: "{output_root}/history_plots"
+      - lines: "{data_preprocessed_root}/lines_cropped.csv"
+        outdir: "{output_root}/history_plots_II_RP_only"
+        bg_geojson: "{data_root}/districts_1934_10_1.geojson"
