@@ -1,0 +1,2208 @@
+line_id;station_1;station_2;opened;closed;electrified;gauge_mm;source;comment
+L_dcc4563b85;Jacinki;Nacław;1897-01-01;1898-01-01;false;;Lijewski;Według bazy kolejowej https://www.atlaskolejowy.net/pl/zachodniopomorskie/?id=linia&poz=996 wybudowany w 1898 roku odcinek doprowadzał aż do Jacinek.
+L_e5f59cf05a;Gryfice;Popiele;1896-01-01;1905-01-01;false;750.0;Semaforek;
+L_2e5316b79d;Popiele;Rewal;1896-01-01;1905-01-01;false;750.0;Semaforek;
+L_04e51fd9d2;Niechorze;Rewal;1896-01-01;1905-01-01;false;750.0;Semaforek;
+L_2e8a9de2d9;Niechorze;Pogorzelica Gryficka;1896-01-01;1905-01-01;false;750.0;Semaforek;
+L_6e80bf69da;Dobra Szczecińska;Stobno Szczecińskie;1897-01-01;1905-01-01;false;750.0;Semaforek;
+L_93af77eb2e;Dobra Szczecińska;Stolec;1897-01-01;1905-01-01;false;750.0;Semaforek;
+L_bfaab4f8f8;Stolec;Stolzenburger Glashütte;1897-01-01;1905-01-01;false;750.0;Semaforek;
+L_d7c8eeb9e0;Gryfice;Tąpadły;1898-01-01;1905-01-01;false;750.0;Semaforek;
+L_31dd7090a9;Dargosław;Tąpadły;1898-01-01;1905-01-01;false;750.0;Semaforek;
+L_6e80bf69da;Dobra Szczecińska;Stobno Szczecińskie;1905-01-01;1906-01-01;false;1435.0;Semaforek;
+L_9ded07269d;Dobra Szczecińska;Stolzenburger Glashütte;1906-01-01;1906-01-01;false;;Semaforek;
+L_e15cdd6428;Częstochowa Stradom;Herby Stare;1903-01-01;1911-01-01;false;600.0;;
+L_9f97c1b140;Siecie;Żelkowo;1902-01-01;1913-01-01;false;750.0;Atlas Kolejowy;
+L_06fb4d5edf;Siecie;Smołdzino;1902-01-01;1913-01-01;false;750.0;Atlas Kolejowy;
+L_5a33b00540;Smólsk;Włocławek;1907-01-01;1914-01-01;false;750.0;Semaforek;
+L_7bc83f5e1a;Brześć Kujawski;Smólsk;1907-01-01;1914-01-01;false;750.0;Semaforek;
+L_b8b190f63f;Dobre Kujawskie;Płowce;1908-01-01;1914-01-01;false;750.0;Semaforek;
+L_60e1bf3550;Jerzmanowo;Smólsk;1910-01-01;1914-01-01;false;750.0;Semaforek;
+L_b47c3716e0;Boniewo;Jerzmanowo;1910-01-01;1914-01-01;false;750.0;Semaforek;
+L_33040c69b4;Krośniewice;Ostrowy Wąskotorowe;1910-01-01;1914-01-01;false;750.0;Semaforek;
+L_0a36646298;Krośniewice;Most Krzewie;1910-01-01;1914-01-01;false;750.0;Semaforek;
+L_2ef41f998b;Koryta;Most Krzewie;1910-01-01;1914-01-01;false;750.0;Semaforek;
+L_67a10d9599;Szczawno Zdrój;Wałbrzych Szczawienko;1877-01-01;1914-01-01;false;;Semaforek;
+L_70d8ccf849;Boguszów Gorce Wschód;Mieroszów;1877-01-01;1914-01-01;false;;Semaforek;
+L_2b0607ec7b;Mezimesti;Mieroszów;1877-01-01;1914-01-01;false;;Semaforek;
+L_bce411dc57;Anastazewo;Jabłonka Słupecka;1912-01-01;1915-01-01;false;750.0;Semaforek;
+L_c56d88edcc;Gosławice;Jabłonka Słupecka;1912-01-01;1915-01-01;false;750.0;Semaforek;
+L_eeef3051fd;Jabłonka Słupecka;Sławoszewek;1912-01-01;1915-01-01;false;750.0;Semaforek;
+L_35ed8dd3d5;Sławoszewek;Wilczyn;1912-01-01;1915-01-01;false;750.0;Semaforek;
+L_63c9902bd5;Wałbrzych Szczawienko;Świebodzice;1853-01-01;1916-01-01;false;;Semaforek;
+L_f164867f6e;Jaworzyna Śląska;Świebodzice;1843-01-01;1917-01-01;false;;;
+L_ad64fc9674;Marciszów;Sędzisław;1867-01-01;1920-01-01;false;;;
+L_63cc4f4eda;Jelenia Góra;Marciszów;1867-01-01;1920-01-01;false;;;
+L_c91285c470;Chorzele;Wielbark;1915-01-01;1920-01-01;false;;Semaforek;
+L_4bae69e4d3;Międzychód;Wierzbno;1887-01-01;1920-01-01;false;;Semaforek;
+L_bb3f54e4b5;Bukowa Śląska;Rychtal;1912-01-01;1920-01-01;false;;Semaforek;
+L_0fae490cee;Praszka;Zawisna;1916-01-01;1920-01-01;false;750.0;Semaforek;
+L_4e608c08ff;Orzegów;Zabrze Biskupice;1899-01-01;1920-01-01;false;;Semaforek;
+L_d1ea9af302;Kamienna Góra;Sędzisław;1869-01-01;1921-01-01;false;;Semaforek;
+L_59bbfdb6f8;Kamienna Góra;Lubawka;1869-01-01;1921-01-01;false;;Semaforek;
+L_5c707c9e1b;Kwidzyn;Opalenie;1909-01-01;1921-01-01;false;;Semaforek;
+L_5a33b00540;Smólsk;Włocławek;1914-01-01;1922-01-01;false;600.0;Semaforek;
+L_7bc83f5e1a;Brześć Kujawski;Smólsk;1914-01-01;1922-01-01;false;600.0;Semaforek;
+L_b8b190f63f;Dobre Kujawskie;Płowce;1914-01-01;1922-01-01;false;600.0;Semaforek;
+L_60e1bf3550;Jerzmanowo;Smólsk;1914-01-01;1922-01-01;false;600.0;Semaforek;
+L_b47c3716e0;Boniewo;Jerzmanowo;1914-01-01;1922-01-01;false;600.0;Semaforek;
+L_57398fe095;Jerzmanowo;Płowce;1915-01-01;1922-01-01;false;600.0;Semaforek;
+L_df572d64db;Boniewo;Krośniewice;1915-01-01;1922-01-01;false;600.0;Semaforek;
+L_89e9480211;Boniewo;Przystronie;1915-01-01;1922-01-01;false;600.0;Semaforek;
+L_1314aaf0ec;Gryfów Śląski;Lubań Śląski;1865-01-01;1922-01-01;false;;Semaforek;
+L_70a0c0dace;Vievis;Zawiasy;1861-01-01;1922-01-01;false;;Semaforek;
+L_266ed36cc1;Alytus;Orany;1899-01-01;1922-01-01;false;;Semaforek;
+L_747799aaa3;Trakiszki;Šeštokai;1899-01-01;1922-01-01;false;;Semaforek;
+L_dab895b186;Myszyniec;Rozogi;1915-01-01;1922-01-01;false;600.0;Semaforek;
+L_32776f8f80;Piotrków Kujawski;Sompolno;1915-01-01;1923-01-01;false;600.0;Semaforek;
+L_7887e8c1ab;Przystronie;Sompolno;1915-01-01;1923-01-01;false;600.0;Semaforek;
+L_afc9071bc8;Koło;Przystronie;1915-01-01;1923-01-01;false;600.0;Semaforek;
+L_58aa8ff642;Dąbie;Koło;1915-01-01;1923-01-01;false;600.0;Semaforek;
+L_ef69c42aeb;Zgorzelec Ujazd;Zgorzelec Ujazd;1847-01-01;1923-01-01;false;;Semaforek;
+L_6624523c63;Lubań Śląski;Węgliniec;1865-01-01;1928-01-01;false;;Semaforek;
+L_3e1d4df1c3;Leśna;Lubań Śląski;1896-01-01;1928-01-01;false;;Semaforek;
+L_93f6b06ed3;Olesno;Zawisna;1896-01-01;1928-01-01;false;750.0;Semaforek;
+L_a1828cfd4d;Jelenia Góra;Mysłakowice;1882-01-01;1932-01-01;false;;Semaforek;
+L_811f71e938;Kowary;Mysłakowice;1882-01-01;1932-01-01;false;;Semaforek;
+L_375893d265;Kamienna Góra;Kowary;1905-01-01;1932-01-01;false;;Semaforek;
+L_ecb3ad9946;Cecenowo;Dargoleza;1902-01-01;1933-01-01;false;750.0;Semaforek;
+L_4a9ae2f58f;Jacinki;Sławno;1897-01-01;1934-01-01;false;750.0;Semaforek;
+L_8d334c5662;Jacinki;Polanów;1897-01-01;1934-01-01;false;750.0;Semaforek;
+L_ee6452564e;Gołogóra;Polanów;1897-01-01;1934-01-01;false;750.0;Semaforek;
+L_4a9ae2f58f;Jacinki;Sławno;1934-01-01;1934-01-01;false;1435.0;Semaforek;
+L_49e8b594f4;Kępno Słupskie;Słupsk;1897-01-01;1935-01-01;false;750.0;;
+L_e876ea4b6d;Kępno Słupskie;Żelkowo;1897-01-01;1935-01-01;false;750.0;;
+L_13724a012e;Dargoleza;Żelkowo;1897-01-01;1935-01-01;false;750.0;;
+L_49e8b594f4;Kępno Słupskie;Słupsk;1935-01-01;1935-01-01;false;1435.0;Semaforek;
+L_e876ea4b6d;Kępno Słupskie;Żelkowo;1935-01-01;1935-01-01;false;1435.0;Semaforek;
+L_13724a012e;Dargoleza;Żelkowo;1935-01-01;1935-01-01;false;1435.0;Semaforek;
+L_0427698196;Grodzisk Mazowiecki;Żyrardów;1845-01-01;1937-01-01;false;;Semaforek;
+L_081650951e;Sianki;Tűzhegy;1905-01-01;1939-01-01;false;;Semaforek;
+L_c0a76b58e7;Manowo;Świetlino;1905-01-01;1948-01-01;false;750.0;;
+L_453ea2b407;Bobolice;Świetlino;1905-01-01;1948-01-01;false;750.0;;
+L_ecbe3d798a;Koszalin;Manowo;1898-01-01;1950-01-01;false;750.0;Semaforek;
+L_f0b43ad557;Manowo;Nacław;1898-01-01;1950-01-01;false;750.0;Semaforek;
+L_dcc4563b85;Jacinki;Nacław;1898-01-01;1950-01-01;false;750.0;Semaforek;
+L_bd5852881d;Krzywiń;Stare Bojanowo;1900-01-01;1950-01-01;false;1000.0;Semaforek;
+L_c814111aa8;Stare Bojanowo;Śmigiel;1900-01-01;1950-01-01;false;1000.0;Semaforek;
+L_d719ae833f;Wielichowo;Śmigiel;1900-01-01;1950-01-01;false;1000.0;Semaforek;
+L_6bd06d0d17;Ujazd Wielkopolski;Wielichowo;1900-01-01;1950-01-01;false;1000.0;Semaforek;
+L_e85f7905ea;Białogard;Rarwino;1909-01-01;1950-01-01;false;750.0;Semaforek;
+L_d877baf54e;Rakoniewice;Wielichowo;1910-01-01;1950-01-01;false;1000.0;Semaforek;
+L_0f480155fd;Charsznica;Miechów;1916-01-01;1950-01-01;false;600.0;Semaforek;
+L_5ce3c381cd;Działoszyce;Miechów;1916-01-01;1950-01-01;false;600.0;Semaforek;
+L_1fa1da6d44;Bogoria;Staszów Wąskotorowy;1916-01-01;1950-01-01;false;600.0;Semaforek;
+L_2b24fc72fd;Kocmyrzów;Posądza;1920-01-01;1950-01-01;false;600.0;Semaforek;
+L_1f57d5f208;Rataje Wąskotorowe;Staszów Wąskotorowy;1923-01-01;1950-01-01;false;600.0;Semaforek;
+L_7971e60738;Rataje Wąskotorowe;Szczucin koło Tarnowa Wąskotorowy;1923-01-01;1950-01-01;false;600.0;Semaforek;
+L_aba339f92f;Działoszyce;Kazimierza Wielka;1925-01-01;1950-01-01;false;600.0;Semaforek;
+L_9c8a2fb1b2;Cudzynowice;Wiślica;1925-01-01;1950-01-01;false;600.0;Semaforek;
+L_dcf3f9c930;Pińczów;Wiślica;1925-01-01;1950-01-01;false;600.0;Semaforek;
+L_c8dfc59272;Rataje Wąskotorowe;Szczucin koło Tarnowa;1926-01-01;1950-01-01;false;600.0;Semaforek;
+L_9e8e69749b;Posądza;Proszowice;1926-01-01;1950-01-01;false;600.0;Semaforek;
+L_94168928e7;Kazimierza Wielka;Proszowice;1926-01-01;1950-01-01;false;600.0;Semaforek;
+L_db015b4af3;Marki;Warszawa Targowa;1899-01-01;1951-01-01;false;800.0;;
+L_c49168ddd2;Marki;Struga;1899-01-01;1951-01-01;false;800.0;;
+L_7dfe7c91a0;Radzymin Wąskotorowy;Struga;1899-01-01;1951-01-01;false;800.0;;
+L_5916d75fa4;Warszawa Stalowa;Warszawa Targówek;1901-01-01;1951-01-01;false;800.0;;
+L_bd5eb144f4;Kańczuga;Przeworsk;1904-01-01;1951-01-01;false;760.0;Semaforek;
+L_92a08f6209;Dynów;Kańczuga;1904-01-01;1951-01-01;false;760.0;Semaforek;
+L_33040c69b4;Krośniewice;Ostrowy Wąskotorowe;1914-01-01;1951-01-01;false;600.0;Semaforek;
+L_0a36646298;Krośniewice;Most Krzewie;1914-01-01;1951-01-01;false;600.0;Semaforek;
+L_2ef41f998b;Koryta;Most Krzewie;1914-01-01;1951-01-01;false;600.0;Semaforek;
+L_208acf864e;Ełk;Laski Małe;1913-01-01;1951-01-01;false;1000.0;Semaforek;
+L_c8c3e0eeaa;Borzymy;Laski Małe;1913-01-01;1951-01-01;false;1000.0;Semaforek;
+L_9a56bf9681;Laski Małe;Zawady Tworki;1913-01-01;1951-01-01;false;1000.0;Semaforek;
+L_da206b53e1;Koryta;Łęczyca Wąskotorowa;1915-01-01;1951-01-01;false;600.0;Semaforek;
+L_022b4799f3;Ozorków Wąskotorowy;Łęczyca Wąskotorowa;1915-01-01;1951-01-01;false;600.0;Semaforek;
+L_0e3fc00b36;Borzymy;Turowo;1915-01-01;1951-01-01;false;1000.0;Semaforek;
+L_50c0e39f52;Połażejewo;Środa Wielkopolska Miasto;1902-01-01;1953-01-01;false;1000.0;Semaforek;
+L_aaa9283736;Poznań Kobylepole;Połażejewo;1902-01-01;1953-01-01;false;1000.0;Semaforek;
+L_e68105b731;Zaniemyśl;Środa Wielkopolska Miasto;1909-01-01;1953-01-01;false;1000.0;Semaforek;
+L_919bd83f38;Rawa Mazowiecka;Rogów Towarowy Wąskotorowy;1915-01-01;1954-01-01;false;600.0;;
+L_1da66e92a1;Biała Rawska;Rawa Mazowiecka;1915-01-01;1954-01-01;false;600.0;;
+L_bfd915e8c2;Anastazewo;Powidz;1911-01-01;1955-01-01;false;600.0;Semaforek;
+L_bce411dc57;Anastazewo;Jabłonka Słupecka;1915-01-01;1955-01-01;false;600.0;Semaforek;
+L_c56d88edcc;Gosławice;Jabłonka Słupecka;1915-01-01;1955-01-01;false;600.0;Semaforek;
+L_eeef3051fd;Jabłonka Słupecka;Sławoszewek;1915-01-01;1955-01-01;false;600.0;Semaforek;
+L_35ed8dd3d5;Sławoszewek;Wilczyn;1915-01-01;1955-01-01;false;600.0;Semaforek;
+L_13e93d6232;Gosławice;Konin;1914-01-01;1955-01-01;false;600.0;Semaforek;
+L_c98918a7f7;Jędrzejów Wąskotorowy;Motkowice Wąskotorowe;1915-01-01;1955-01-01;false;600.0;Semaforek;
+L_9fda1a32a2;Sompolno;Ślesin;1921-01-01;1955-01-01;false;600.0;Semaforek;
+L_cc66536ccc;Sławoszewek;Ślesin;1921-01-01;1955-01-01;false;600.0;Semaforek;
+L_0e8b0b8e1d;Gniezno;Powidz;1897-01-01;1957-01-01;false;600.0;Semaforek;
+L_a8c735d88e;Grudusk;Mława;1916-01-01;1961-01-01;false;600.0;Semaforek;
+L_423530d27c;Grudusk;Przasnysz Miasto;1916-01-01;1961-01-01;false;600.0;Semaforek;
+L_d65f7cb43d;Maków Mazowiecki;Przasnysz Miasto;1915-01-01;1961-01-01;false;600.0;;
+L_52a1035459;Ciechanów;Grudusk;1925-01-01;1961-01-01;false;600.0;Semaforek;
+L_e12a5028fb;Ciechanów;Krasne Wąskotorowe;1930-01-01;1961-01-01;false;600.0;Semaforek;
+L_b630585b28;Biłgoraj;Zwierzyniec;1916-01-01;1964-01-01;false;600.0;Semaforek;
+L_9fc3b85b9e;Wrocław Brochów;Wrocław Główny;1842-01-01;;false;;Lijewski;
+L_b4388efb40;Oława;Wrocław Brochów;1842-01-01;;false;;Lijewski;
+L_481114a89b;Brzeg;Oława;1842-01-01;;false;;Lijewski;
+L_0a492cbc40;Berlin;Frankfurt (Oder);1842-01-01;;false;;;
+L_8ccaff39b1;Brzeg;Opole Zachodnie;1843-01-01;;false;;Lijewski;
+L_e5335099d2;Angermünde;Berlin;1843-01-01;;false;;Lijewski;
+L_5e7dfa5f28;Angermünde;Tantow;1843-01-01;;false;;Lijewski;
+L_f87a044a99;Szczecin;Tantow;1843-01-01;;false;;Lijewski;
+L_b2819b2867;Wrocław Muchobór;Wrocław Świebodzki;1843-01-01;;false;;Lijewski;
+L_7c4089bdf7;Jaworzyna Śląska;Wrocław Muchobór;1843-01-01;;false;;Lijewski;
+L_f164867f6e;Jaworzyna Śląska;Świebodzice;1917-01-01;;true;;;
+L_c346203faa;Jaworzyna Śląska;Świdnica;1844-01-01;;false;;Lijewski;
+L_779c6df6e9;Wrocław Muchobór;Środa Śląska;1844-01-01;;false;;Lijewski;
+L_ac955463eb;Malczyce;Środa Śląska;1844-01-01;;false;;Lijewski;
+L_599fbf07ea;Legnica;Malczyce;1844-01-01;;false;;Lijewski;
+L_9274ca4cdd;Warszawa Włochy;Warszawa Zachodnia;1845-01-01;;false;;Lijewski;
+L_449be9daa9;Pruszków;Warszawa Włochy;1845-01-01;;false;;Lijewski;
+L_a7507ab4a4;Milanówek;Pruszków;1845-01-01;;false;;Lijewski;
+L_ff13ad6c51;Grodzisk Mazowiecki;Milanówek;1845-01-01;;false;;Lijewski;
+L_a623545f8c;Chojnów;Legnica;1845-01-01;;false;;Lijewski;
+L_a3ab7d7dcb;Bolesławiec;Chojnów;1845-01-01;;false;;Lijewski;
+L_0427698196;Grodzisk Mazowiecki;Żyrardów;1937-01-01;;true;;Semaforek;
+L_d316a39286;Skierniewice;Żyrardów;1845-01-01;;false;;Lijewski;
+L_18f1a75c58;Skierniewice;Łowicz;1845-01-01;;false;;Lijewski;
+L_e68d05ca24;Opole Główne;Opole Zachodnie;1845-01-01;;false;;Lijewski;
+L_fd0eb76a49;Opole Groszowice;Opole Główne;1845-01-01;;false;;Lijewski;
+L_e676df0565;Gogolin;Opole Groszowice;1845-01-01;;false;;Lijewski;
+L_5f4d01003f;Gogolin;Kędzierzyn Koźle;1845-01-01;;false;;Lijewski;
+L_7df33aa28c;Gliwice Łabędy;Kędzierzyn Koźle;1845-01-01;;false;;Lijewski;
+L_05662570f7;Gliwice;Gliwice Łabędy;1845-01-01;;false;;Lijewski;
+L_9c43645134;Gliwice;Zabrze;1845-01-01;;false;;Lijewski;
+L_824971630c;Ruda Chebzie;Zabrze;1845-01-01;;false;;Lijewski;
+L_75281bf3fa;Ruda Chebzie;Świętochłowice;1845-01-01;;false;;Lijewski;
+L_48aa44e298;Kędzierzyn Koźle;Nędza;1846-01-01;;false;;Lijewski;
+L_b8a11b8621;Nędza;Racibórz Markowice;1846-01-01;;false;;Lijewski;
+L_0830f25907;Racibórz;Racibórz Markowice;1846-01-01;;false;;Lijewski;
+L_8c995d1894;Szczecin;Szczecin Dąbie;1846-01-01;;false;;Lijewski;
+L_f07f3b1dc4;Stargard Szczeciński;Szczecin Dąbie;1846-01-01;;false;;Lijewski;
+L_10ef61b5c8;Bolesławiec;Zebrzydowa;1846-01-01;;false;;Lijewski;
+L_be1dbee2ae;Węgliniec;Zebrzydowa;1846-01-01;;false;;Lijewski;
+L_e3a6dfee36;Ruszów;Węgliniec;1846-01-01;;false;;Lijewski;
+L_463b627f08;Jankowa Żagańska;Ruszów;1846-01-01;;false;;Lijewski;
+L_95e7a60e96;Jankowa Żagańska;Żary;1846-01-01;;false;;Lijewski;
+L_e5fb648096;Jasień;Żary;1846-01-01;;false;;Lijewski;
+L_06baea3a39;Jasień;Lubsko;1846-01-01;;false;;Lijewski;
+L_95c7e92d1e;Gubinek;Lubsko;1846-01-01;;false;;Lijewski;
+L_298f0a3ba8;Guben;Gubinek;1846-01-01;;false;;Lijewski;
+L_46d3394e75;Frankfurt (Oder);Guben;1846-01-01;;false;;Semaforek;
+L_026e5c3304;Chorzów Batory;Świętochłowice;1846-01-01;;false;;Lijewski;
+L_ab58a70912;Chorzów Batory;Katowice;1846-01-01;;false;;Lijewski;
+L_c3aca24ebb;Katowice;Katowice Szopienice Północne;1846-01-01;;false;;Lijewski;
+L_2e23768868;Katowice Szopienice Północne;Mysłowice;1846-01-01;;false;;Lijewski;
+L_4419b36aa3;Rogów;Skierniewice;1846-01-01;;false;;Lijewski;
+L_3c868213a6;Koluszki;Rogów;1846-01-01;;false;;Lijewski;
+L_ac032d92fd;Koluszki;Piotrków Trybunalski;1846-01-01;;false;;Lijewski;
+L_6463d9e70a;Jankowa Żagańska;Żagań;1846-01-01;;false;;Lijewski;
+L_009e3be622;Szprotawa;Żagań;1846-01-01;;false;;Lijewski;
+L_a81356672f;Niegosławice;Szprotawa;1846-01-01;;false;;Lijewski;
+L_caa5848841;Głogów;Niegosławice;1846-01-01;;false;;Lijewski;
+L_50e9d0bf0e;Jędrzychowice;Węgliniec;1846-01-01;;false;;Lijewski;
+L_f41acf9345;Piotrków Trybunalski;Radomsko;1846-01-01;;false;;Lijewski;
+L_f2690177f0;Częstochowa;Radomsko;1846-01-01;;false;;Lijewski;
+L_dcacf3c5ed;Chałupki;Racibórz;1847-01-01;;false;;Lijewski;
+L_d93d01f2a5;Přerov;Wien;1847-01-01;;false;;;
+L_18bd99576f;Ostrava;Přerov;1847-01-01;;false;;;
+L_2a68c71708;Bogumin;Ostrava;1847-01-01;;false;;;
+L_d62f25b5ae;Brzeg;Lipowa Śląska;1847-01-01;;false;;Lijewski;
+L_b25a3839c3;Grodków Śląski;Lipowa Śląska;1847-01-01;;false;;Lijewski;
+L_0cfd600a60;Grodków Śląski;Pakosławice;1847-01-01;;false;;Lijewski;
+L_951c7c1b9e;Choszczno;Stargard Szczeciński;1847-01-01;;false;;Lijewski;
+L_b599dfaf6f;Choszczno;Dobiegniew;1847-01-01;;false;;Lijewski;
+L_ee3b15c19e;Jędrzychowice;Zgorzelec Ujazd;1847-01-01;;false;;Lijewski;
+L_ef69c42aeb;Zgorzelec Ujazd;Zgorzelec Ujazd;1923-01-01;;true;;Semaforek;
+L_3bae1f8621;Löbau;Zgorzelec Ujazd;1847-01-01;;false;;Semaforek;
+L_7d5ce3f652;Dresden;Löbau;1847-01-01;;false;;Semaforek;
+L_c1b3ade4ff;Mysłowice;Szczakowa;1847-01-01;;false;;Lijewski;
+L_874ab21b22;Szczakowa;Trzebinia;1847-01-01;;false;;Lijewski;
+L_9fa2d6572c;Kraków Mydlinki;Trzebinia;1847-01-01;;false;;Lijewski;
+L_0f2997baed;Kraków Główny;Kraków Mydlinki;1847-01-01;;false;;Lijewski;
+L_5374deb94e;Częstochowa;Zawiercie;1847-01-01;;false;;Lijewski;
+L_7d50548652;Zawiercie;Ząbkowice Będzińskie;1847-01-01;;false;;Lijewski;
+L_2720fa2d75;Strzemieszyce Południowe;Ząbkowice Będzińskie;1848-01-01;;false;;Lijewski;
+L_e673e893f8;Maczki;Strzemieszyce Południowe;1848-01-01;;false;;Lijewski;
+L_347d29f40f;Maczki;Szczakowa;1848-01-01;;false;;Lijewski;
+L_c7538b04b3;Dobiegniew;Krzyż;1848-01-01;;false;;Lijewski;
+L_b8f8e98664;Löbau;Zittau;1848-01-01;;false;;Semaforek;
+L_650c919d2c;Krzyż;Wronki;1848-01-01;;false;;Lijewski;
+L_ca17f34171;Szamotuły;Wronki;1848-01-01;;false;;Lijewski;
+L_8dc095ee6e;Rokietnica;Szamotuły;1848-01-01;;false;;Lijewski;
+L_702a23a167;Poznań (Dawny Dworzec);Rokietnica;1848-01-01;;false;;Lijewski;
+L_b5dc639b51;Bogumin;Chałupki;1848-01-01;;false;;Lijewski;
+L_5a8649e952;Nysa;Pakosławice;1848-01-01;;false;;Lijewski;
+L_f37737532c;Krzyż;Trzcianka;1851-01-01;;false;;Lijewski;
+L_7ecc1dfb49;Piła;Trzcianka;1851-01-01;;false;;Lijewski;
+L_b6d3d28c94;Białośliwie;Piła;1851-01-01;;false;;Lijewski;
+L_72cc4ce10a;Białośliwie;Nakło nad Notecią;1851-01-01;;false;;Lijewski;
+L_fdec20490c;Bydgoszcz;Nakło nad Notecią;1851-01-01;;false;;Lijewski;
+L_91750e943b;Bydgoszcz;Maksymilianowo;1852-01-01;;false;;Lijewski;
+L_3bd0e83543;Maksymilianowo;Terespol Pomorski;1852-01-01;;false;;Lijewski;
+L_e325436f11;Laskowice Pomorskie;Terespol Pomorski;1852-01-01;;false;;Lijewski;
+L_1d75ce9765;Laskowice Pomorskie;Twarda Góra;1852-01-01;;false;;Lijewski;
+L_2e2536a146;Smętowo;Twarda Góra;1852-01-01;;false;;Lijewski;
+L_d21ef88069;Morzeszczyn;Smętowo;1852-01-01;;false;;Lijewski;
+L_c5d3d13302;Morzeszczyn;Tczew;1852-01-01;;false;;Lijewski;
+L_4ba83fafc8;Pszczółki;Tczew;1852-01-01;;false;;Lijewski;
+L_2ed91c1c83;Gdańsk Brama Wyżynna;Pszczółki;1852-01-01;;false;;Lijewski;
+L_d48b9593a2;Malbork;Stare Pole;1852-01-01;;false;;Lijewski;
+L_a704f1e8f6;Elbląg;Stare Pole;1852-01-01;;false;;Lijewski;
+L_d876653a17;Bogaczewo;Elbląg;1852-01-01;;false;;Lijewski;
+L_306551e95a;Bogaczewo;Słobity;1852-01-01;;false;;Lijewski;
+L_7c22675798;Braniewo;Słobity;1852-01-01;;false;;Lijewski;
+L_0c98d601fb;Katowice;Katowice Ligota;1852-01-01;;false;;Lijewski;
+L_2db3655d4c;Katowice Ligota;Katowice Murcki;1852-01-01;;false;;Lijewski;
+L_63c9902bd5;Wałbrzych Szczawienko;Świebodzice;1916-01-01;;true;;Semaforek;
+L_fabf6de6de;Wałbrzych Miasto;Wałbrzych Szczawienko;1853-01-01;;false;;Lijewski;
+L_a5eba54120;Braniewo;Kobbelbude;1853-01-01;;false;;Lijewski;
+L_eade3959b0;Kobbelbude;Königsberg;1853-01-01;;false;;Lijewski;
+L_212b75771c;Pietrowice Wielkie;Racibórz;1855-01-01;;false;;Lijewski;
+L_56d221716a;Baborów;Pietrowice Wielkie;1855-01-01;;false;;Lijewski;
+L_f15dc6ffd5;Baborów;Głubczyce;1855-01-01;;false;;Lijewski;
+L_987ac58c2b;Nędza;Sumina;1855-01-01;;false;;Lijewski;
+L_b20c95e73d;Rydułtowy;Sumina;1855-01-01;;false;;Lijewski;
+L_2db39361f8;Gliwice;Zabrze Wschód;1855-01-01;;false;;Lijewski;
+L_0c084f606b;Nowy Bytom;Zabrze Wschód;1855-01-01;;false;;Lijewski;
+L_27c769c085;Nowy Bytom;Ruda Chebzie;1855-01-01;;false;;Lijewski;
+L_5b8b128098;Dzierżoniów;Świdnica;1855-01-01;;false;;Lijewski;
+L_1ec173246d;Opava Vychod;Ostrava Svinov;1855-01-01;;false;;Semaforek;
+L_a6b0fbf4c7;Bogumin;Zebrzydowice;1855-01-01;;false;;Lijewski;
+L_a0790e108f;Chybie;Zebrzydowice;1855-01-01;;false;;Lijewski;
+L_13483bf87e;Chybie;Czechowice Dziedzice;1855-01-01;;false;;Lijewski;
+L_772c7c882e;Bielsko Biała;Czechowice Dziedzice;1855-01-01;;false;;Lijewski;
+L_dcfcb57649;Kraków Bieżanów;Kraków Główny;1856-01-01;;false;;Lijewski;
+L_57e3ccd081;Kraków Bieżanów;Podłęże;1856-01-01;;false;;Lijewski;
+L_eaaece0e94;Bochnia;Podłęże;1856-01-01;;false;;Lijewski;
+L_b89a6d6389;Bochnia;Tarnów;1856-01-01;;false;;Lijewski;
+L_ebb19c21a8;Dębica;Tarnów;1856-01-01;;false;;Lijewski;
+L_b45f815b86;Czechowice Dziedzice;Oświęcim;1856-01-01;;false;;Lijewski;
+L_52df79438a;Chrzanów;Oświęcim;1856-01-01;;false;;Lijewski;
+L_19d12fc411;Chrzanów;Trzebinia;1856-01-01;;false;;Lijewski;
+L_b6f7aee4ca;Niedobczyce;Rydułtowy;1856-01-01;;false;;Lijewski;
+L_fd8906425b;Niedobczyce;Rybnik;1856-01-01;;false;;Lijewski;
+L_a825df2478;Leszczyny;Rybnik;1856-01-01;;false;;Lijewski;
+L_bc8587c814;Leszczyny;Orzesze Jaśkowice;1856-01-01;;false;;Lijewski;
+L_14ce38810e;Orzesze;Orzesze Jaśkowice;1856-01-01;;false;;Lijewski;
+L_556b0fc9c3;Oborniki Śląskie;Wrocław Główny;1856-01-01;;false;;Lijewski;
+L_dae3059dfa;Oborniki Śląskie;Żmigród;1856-01-01;;false;;Lijewski;
+L_d45ff0064a;Rawicz;Żmigród;1856-01-01;;false;;Lijewski;
+L_108e84f5f2;Bojanowo;Rawicz;1856-01-01;;false;;Lijewski;
+L_a142104b36;Bojanowo;Leszno;1856-01-01;;false;;Lijewski;
+L_59bd22c779;Leszno;Stare Bojanowo;1856-01-01;;false;;Lijewski;
+L_c34cfe6f24;Kościan;Stare Bojanowo;1856-01-01;;false;;Lijewski;
+L_f1fdc43f90;Czempiń;Kościan;1856-01-01;;false;;Lijewski;
+L_db0c83d0db;Czempiń;Puszczykówko;1856-01-01;;false;;Lijewski;
+L_a2c8fe6e9b;Luboń koło Poznania;Puszczykówko;1856-01-01;;false;;Lijewski;
+L_aa41599064;Luboń koło Poznania;Poznań (Dawny Dworzec);1856-01-01;;false;;Lijewski;
+L_415bc0651f;Jawor;Legnica;1856-01-01;;false;;Lijewski;
+L_3397519f64;Jawor;Strzegom;1856-01-01;;false;;Lijewski;
+L_d404f72fad;Jaworzyna Śląska;Strzegom;1856-01-01;;false;;Lijewski;
+L_5bead40aa7;Mikołajów;Orzesze;1856-01-01;;false;;Lijewski;
+L_56ba78c3d8;Kraków Bieżanów;Wieliczka;1857-01-01;;false;;Lijewski;
+L_071ed5e442;Tarnowskie Góry;Tarnowskie Góry Strzybnica;1857-01-01;;false;;Lijewski;
+L_81339e7c68;Tarnowskie Góry Strzybnica;Tworóg Brynek;1857-01-01;;false;;Lijewski;
+L_9b674ccf47;Tworóg Brynek;Zawadzkie;1857-01-01;;false;;Lijewski;
+L_4ffc4bdb25;Kostrzyn;Küstrin Kietz;1857-01-01;;false;;Lijewski;
+L_56dfb8e563;Gorzów Wielkopolski;Kostrzyn;1857-01-01;;false;;Lijewski;
+L_57866e2340;Gorzów Wielkopolski;Strzelce Krajeńskie Wschód;1857-01-01;;false;;Lijewski;
+L_6b3ee21640;Krzyż;Strzelce Krajeńskie Wschód;1857-01-01;;false;;Lijewski;
+L_5f92a42a9f;Lisewo Malborskie;Tczew;1857-01-01;;false;;Lijewski;
+L_6a1b6cedcc;Lisewo Malborskie;Szymankowo;1857-01-01;;false;;Lijewski;
+L_52d6545ab2;Malbork Kałdowo;Szymankowo;1857-01-01;;false;;Lijewski;
+L_169fceb5f7;Malbork;Malbork Kałdowo;1857-01-01;;false;;Lijewski;
+L_e8fa1abb2e;Leszno;Wschowa;1857-01-01;;false;;Lijewski;
+L_6f72c990ea;Grodziec Mały;Wschowa;1857-01-01;;false;;Lijewski;
+L_84260b4512;Bytom Karb;Tarnowskie Góry Wąskotorowe;1857-01-01;;false;narrow-gauge;Lijewski;
+L_5bb6e3e10b;Tarnowskie Góry Lasowice;Tarnowskie Góry Wąskotorowe;1857-01-01;;false;narrow-gauge;Lijewski;
+L_d70ead339f;Bytom;Bytom Karb;1857-01-01;;false;narrow-gauge;Lijewski;
+L_f3c57fac8c;Bytom;Chorzów Maciejkowice Wąskotorowe;1857-01-01;;false;narrow-gauge;Lijewski;
+L_88fcd04a12;Chorzów Maciejkowice Wąskotorowe;Siemianowice Śląskie Wąskotorowe;1857-01-01;;false;narrow-gauge;Lijewski;
+L_c69d9ffdce;Katowice Bogucice Wąskotorowe;Siemianowice Śląskie Wąskotorowe;1857-01-01;;false;narrow-gauge;Lijewski;
+L_caf421d3c6;Katowice Bogucice Wąskotorowe;Katowice Szopienice Wąskotorowe;1857-01-01;;false;narrow-gauge;Lijewski;
+L_fd1577b3c8;Bytom Karb;Orzegów;1857-01-01;;false;narrow-gauge;Lijewski;
+L_d6f65801aa;Nowy Bytom;Orzegów;1857-01-01;;false;narrow-gauge;Lijewski;
+L_66e3f987c7;Nowy Bytom;Poręba;1857-01-01;;false;narrow-gauge;Lijewski;
+L_742f5823af;Bytom Rozbark;Piekary Śląskie Szarlej;1857-01-01;;false;narrow-gauge;Lijewski;
+L_55e5d99869;Brzeziny Śląskie;Chorzów Maciejkowice Wąskotorowe;1857-01-01;;false;narrow-gauge;Lijewski;
+L_a1971853ec;Fosowskie;Opole Główne;1858-01-01;;false;;Lijewski;
+L_8f9e47c5f7;Fosowskie;Zawadzkie;1858-01-01;;false;;Lijewski;
+L_05e9ff7983;Grodziec Mały;Głogów;1858-01-01;;false;;Lijewski;
+L_27c593f912;Niepołomice;Podłęże;1858-01-01;;false;;Lijewski;
+L_baf6b94452;Dzierżoniów;Piława Górna;1858-01-01;;false;;Lijewski;
+L_ac10348f37;Piława Górna;Ząbkowice Śląskie;1858-01-01;;false;;Lijewski;
+L_123fc216d7;Dębica;Rzeszów;1858-01-01;;false;;Lijewski;
+L_d2a5e74326;Katowice Ligota;Mikołów;1858-01-01;;false;;Lijewski;
+L_1b09091554;Hradec Kralove;Jaromeř;1858-01-01;;false;;Semaforek;
+L_2f63d0d61f;Jaromeř;Stara Paka;1858-01-01;;false;;Semaforek;
+L_4bc0a1c23a;Stara Paka;Železny Brod;1858-01-01;;false;;Semaforek;
+L_cf97a0b59a;Turnov;Železny Brod;1858-01-01;;false;;Semaforek;
+L_28a49f5f5b;Liberec;Turnov;1859-01-01;;false;;Semaforek;
+L_3d867daf11;Stargard Szczeciński;Trąbki;1859-01-01;;false;;Lijewski;
+L_2e03ae939b;Runowo;Trąbki;1859-01-01;;false;;Lijewski;
+L_96c813ffa8;Runowo;Łobez;1859-01-01;;false;;Lijewski;
+L_78a9ad394a;Worowo;Łobez;1859-01-01;;false;;Lijewski;
+L_b121809fbb;Worowo;Świdwin;1859-01-01;;false;;Lijewski;
+L_8da25c4a19;Białogard;Świdwin;1859-01-01;;false;;Lijewski;
+L_12cbac7a3e;Białogard;Koszalin;1859-01-01;;false;;Lijewski;
+L_e87d56781c;Białogard;Karlino;1859-01-01;;false;;Lijewski;
+L_31465cca6d;Karlino;Kołobrzeg;1859-01-01;;false;;Lijewski;
+L_ebcdd7186e;Mysłowice;Mysłowice Brzezinka;1859-01-01;;false;;Lijewski;
+L_7aa9911e93;Mysłowice Brzezinka;Nowy Bieruń;1859-01-01;;false;;Lijewski;
+L_f44dab12a5;Katowice Szopienice Północne;Sosnowiec Główny;1859-01-01;;false;;Lijewski;
+L_26ff971cf6;Będzin;Sosnowiec Główny;1859-01-01;;false;;Lijewski;
+L_a5028234c1;Będzin;Dąbrowa Górnicza;1859-01-01;;false;;Lijewski;
+L_d6c5f072d9;Dąbrowa Górnicza;Gołonóg;1859-01-01;;false;;Lijewski;
+L_e5356973a4;Gołonóg;Ząbkowice Będzińskie;1859-01-01;;false;;Lijewski;
+L_b4f7affab9;Bytom;Ruda Chebzie;1859-01-01;;false;;Lijewski;
+L_834f72f618;Bytom;Piekary Śląskie Szarlej;1859-01-01;;false;;Lijewski;
+L_1b16b21a7e;Piekary Śląskie Szarlej;Radzionków;1859-01-01;;false;;Lijewski;
+L_a9ec1b2dab;Radzionków;Tarnowskie Góry;1859-01-01;;false;;Lijewski;
+L_b3d9c969d9;Rzeszów;Łańcut;1859-01-01;;false;;Lijewski;
+L_c416710ef3;Przeworsk;Łańcut;1859-01-01;;false;;Lijewski;
+L_b8f2aeda5c;Kopaczów;Zittau;1859-01-01;;false;;Lijewski;
+L_daa9eadc15;Kopaczów;Liberec;1859-01-01;;false;;Lijewski;
+L_42105ebd6d;Pskov;Sankt Petersburg;1859-01-01;;false;;CHECK_AFONINA;
+L_5b088cf78b;Pskov;Rezekne;1859-01-01;;false;;CHECK_AFONINA;
+L_dd40364459;Daugavpils;Rezekne;1859-01-01;;false;;CHECK_AFONINA;
+L_fa500888e8;Insterburg;Königsberg;1860-01-01;;false;;Semaforek;
+L_2233c668c3;Insterburg;Stallupönen;1860-01-01;;false;;Semaforek;
+L_ae6aa3c9ff;Chorzów Batory;Chorzów Miasto;1860-01-01;;false;;Lijewski;
+L_e51352251f;Eydtkuhnen;Stallupönen;1860-01-01;;false;;Semaforek;
+L_c7feeabaa2;Jarosław;Przeworsk;1860-01-01;;false;;Lijewski;
+L_7da5ed862a;Jarosław;Żurawica;1860-01-01;;false;;Lijewski;
+L_5e5eaf007c;Przemyśl;Żurawica;1860-01-01;;false;;Lijewski;
+L_faf9d0e87a;Bydgoszcz;Toruń;1861-01-01;;false;;Lijewski;
+L_4c2c387634;Medyka;Przemyśl;1861-01-01;;false;;Lijewski;
+L_9e182c7d13;Gródek Jagielloński;Medyka;1861-01-01;;false;;Lijewski;
+L_8e83cf5b2f;Gródek Jagielloński;Lwów;1861-01-01;;false;;Lijewski;
+L_5ca1a6fe4f;Kutno;Łowicz;1861-01-01;;false;;Lijewski;
+L_ca9388dab2;Daugavpils;Riga;1861-01-01;;false;;Semaforek;
+L_300ecdd6c6;Daugavpils;Turmont;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_21815e5083;Turmont;Święciany;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_228a70a334;Dukszty;Święciany;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_2ea0b0a296;Dukszty;Ignalin;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_46bd5c846a;Ignalin;Podbrodzie;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_6b60dd0ef8;Bezdany;Podbrodzie;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_48580e87d0;Bezdany;Wilno;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_1ca09f8ada;Landwarów;Wilno;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_6a0f7358b3;Landwarów;Troki;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_29cbd993da;Rudziszki Trockie;Troki;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_94f359f8e7;Orany;Rudziszki Trockie;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_fda7486910;Orany;Porzecze;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_d23908c8e0;Grodno;Porzecze;1861-01-01;;false;;Semaforek;"Stacje pośrednie dodane na podstawie mapy Adama Honorego Kirkora ""Mappa Kolei Żelaznych Rozchodzących się z Wilna""."
+L_52bcfe0772;Landwarów;Zawiasy;1861-01-01;;false;;Semaforek;
+L_682c9734f2;Kaunas;Vievis;1861-01-01;;false;;Semaforek;
+L_2e1cc3f799;Kaunas;Virbalis;1861-01-01;;false;;Semaforek;
+L_de13185755;Eydtkuhnen;Virbalis;1861-01-01;;false;;Semaforek;
+L_4a850075ae;Krośniewice;Kutno;1862-01-01;;false;;Lijewski;
+L_e65f12b30d;Krośniewice;Włocławek;1862-01-01;;false;;Lijewski;
+L_0a538c894f;Nieszawa Waganiec;Włocławek;1862-01-01;;false;;Lijewski;
+L_bb2712361b;Aleksandrów Kujawski;Nieszawa Waganiec;1862-01-01;;false;;Lijewski;
+L_3ab8248a77;Aleksandrów Kujawski;Toruń;1862-01-01;;false;;Lijewski;
+L_aac12a8b71;Warszawa Wileńska;Zielonka;1862-01-01;;false;;Lijewski;
+L_ad3773f253;Wołomin;Zielonka;1862-01-01;;false;;Lijewski;
+L_b2385a3847;Tłuszcz;Wołomin;1862-01-01;;false;;Lijewski;
+L_ee5ff33d03;Małkinia;Tłuszcz;1862-01-01;;false;;Lijewski;
+L_5586b819ab;Małkinia;Łapy;1862-01-01;;false;;Lijewski;
+L_d388772ed9;Białystok;Łapy;1862-01-01;;false;;Lijewski;
+L_3fb0debc94;Białystok;Sokółka;1862-01-01;;false;;Lijewski;
+L_0f47962e92;Kuźnica Białostocka;Sokółka;1862-01-01;;false;;Lijewski;
+L_42ece77db1;Grodno;Kuźnica Białostocka;1862-01-01;;false;;Lijewski;
+L_c305e203fe;Grambow;Szczecin Gumieńce;1863-01-01;;false;;Lijewski;Stacja Stobno Szczecińskie poprawiona na Grambow
+L_c0da2a90f0;Grambow;Pasewalk;1863-01-01;;false;;Lijewski;Stacja Stobno Szczecińskie poprawiona na Grambow
+L_af68f8fec6;Nowy Bieruń;Oświęcim;1863-01-01;;false;;Lijewski;
+L_28b265e3ec;Insterburg;Tilsit;1865-01-01;;false;;Semaforek;
+L_9f4587ddba;Orzesze Jaśkowice;Łaziska;1865-01-01;;false;;Lijewski;
+L_ddf97f69f6;Mikułowa;Zgorzelec Ujazd;1865-01-01;;false;;Lijewski;
+L_48387835f2;Lubań Śląski;Mikułowa;1865-01-01;;false;;Lijewski;
+L_1314aaf0ec;Gryfów Śląski;Lubań Śląski;1922-01-01;;true;;Semaforek;
+L_dfc4458646;Gryfów Śląski;Rybnica;1865-01-01;;false;;Lijewski;
+L_6624523c63;Lubań Śląski;Węgliniec;1928-01-01;;true;;Semaforek;
+L_3a3ff59f1f;Königsberg;Pillau;1865-01-01;;false;;Semaforek;
+L_96a7c42e81;Mlada Boleslav;Praha;1865-01-01;;false;;Semaforek;
+L_46ac5ea476;Mlada Boleslav;Turnov;1865-01-01;;false;;Semaforek;
+L_6af4ac1691;Bedoń;Koluszki;1866-01-01;;false;;Lijewski;
+L_f5011b1896;Bedoń;Łódź Widzew;1866-01-01;;false;;Lijewski;
+L_d38f0a0fa2;Łódź Fabryczna;Łódź Widzew;1866-01-01;;false;;Lijewski;
+L_04881e95e0;Warszawa Rembertów;Warszawa Wschodnia;1866-01-01;;false;;Lijewski;
+L_79d8a74ca6;Mińsk Mazowiecki;Warszawa Rembertów;1866-01-01;;false;;Lijewski;
+L_36943e6617;Mińsk Mazowiecki;Siedlce;1866-01-01;;false;;Lijewski;
+L_40ee7367ad;Siedlce;Łuków;1866-01-01;;false;;Lijewski;
+L_808c10dd5f;Jelenia Góra;Rybnica;1866-01-01;;false;;Lijewski;
+L_643a6be38d;Königsberg;Preußisch Eylau;1866-01-01;;false;;Semaforek;
+L_d849068eb2;Bartoszyce;Preußisch Eylau;1866-01-01;;false;;Semaforek;
+L_83de762f74;Chodorów;Lwów;1866-01-01;;false;;Semaforek;
+L_e5ac0bf5be;Chodorów;Halicz;1866-01-01;;false;;Semaforek;
+L_b0c0fa5447;Halicz;Stanisławów;1866-01-01;;false;;Semaforek;
+L_8a84defac8;Chryplin;Stanisławów;1866-01-01;;false;;Semaforek;
+L_4f4cbc4247;Chryplin;Kołomyja;1866-01-01;;false;;Semaforek;
+L_d7d04432ea;Kołomyja;Śniatyn;1866-01-01;;false;;Semaforek;
+L_c73ffd4936;Cernauti;Śniatyn;1866-01-01;;false;;Semaforek;
+L_bff990b861;Berlin;Cottbus;1866-01-01;;false;;Semaforek;
+L_b9c0bfaff7;Daugavpils;Druja;1866-01-01;;false;;Semaforek;
+L_67af4f5745;Druja;Polock;1866-01-01;;false;;Semaforek;
+L_baad907a78;Polock;Vitebsk;1866-01-01;;false;;Semaforek;
+L_63cc4f4eda;Jelenia Góra;Marciszów;1920-01-01;;true;;;
+L_ad64fc9674;Marciszów;Sędzisław;1920-01-01;;true;;;
+L_8f8bbbb08f;Kuźnice Świdnickie;Sędzisław;1867-01-01;;false;;Lijewski;
+L_275009041f;Kuźnice Świdnickie;Wałbrzych Fabryczny;1867-01-01;;false;;Lijewski;
+L_34327df428;Biała Podlaska;Łuków;1867-01-01;;false;;Lijewski;
+L_bc3830e5f6;Biała Podlaska;Terespol;1867-01-01;;false;;Lijewski;
+L_3f1791c10b;Berlin;Küstrin Kietz;1867-01-01;;false;;Semaforek;
+L_edaef85263;Gdańsk;Gdańsk Nowy Port;1867-01-01;;false;;Lijewski;
+L_59ecdbd18f;Bartoszyce;Wiatrowiec Warmiński;1867-01-01;;false;;;
+L_fd21e1ed85;Korsze;Wiatrowiec Warmiński;1867-01-01;;false;;;
+L_8db5ffdb0f;Korsze;Kętrzyn;1867-01-01;;false;;;
+L_b9726c6374;Cottbus;Horka;1867-01-01;;false;;Semaforek;
+L_1f32a92721;Horka;Zgorzelec Ujazd;1867-01-01;;false;;Semaforek;
+L_9932a978e0;Aleksandrów Kujawski;Ciechocinek;1867-01-01;;false;;Lijewski;
+L_cf664430ad;Wałbrzych Fabryczny;Wałbrzych Miasto;1868-01-01;;false;;Lijewski;
+L_a5ef69f1b2;Wrocław Nadodrze;Wrocław Psie Pole;1868-01-01;;false;;Lijewski;
+L_c0789c5b6a;Oleśnica;Wrocław Psie Pole;1868-01-01;;false;;Lijewski;
+L_3aab3234e4;Jaromeř;Starkoč;1868-01-01;;false;;Semaforek;
+L_29ec490f9a;Starkoč;Trutnov;1868-01-01;;false;;Semaforek;
+L_8bfbfad5b8;Kralovec;Trutnov;1868-01-01;;false;;Semaforek;
+L_08295256b4;Namysłów;Oleśnica;1868-01-01;;false;;Lijewski;
+L_7382aec070;Kluczbork;Namysłów;1868-01-01;;false;;Lijewski;
+L_78602136e5;Fosowskie;Kluczbork;1868-01-01;;false;;Lijewski;
+L_12b5365f03;Bytom;Radzionków;1868-01-01;;false;;Lijewski;
+L_d243f3ae45;Bytom;Chorzów Stary;1868-01-01;;false;;Lijewski;
+L_6b8e47fd46;Chorzów Stary;Siemianowice Śląskie;1868-01-01;;false;;Lijewski;
+L_91f525bff6;Katowice Szopienice Północne;Siemianowice Śląskie;1868-01-01;;false;;Lijewski;
+L_5954317423;Katowice Janów;Katowice Szopienice Północne;1868-01-01;;false;;Lijewski;
+L_1e8bfd6af5;Katowice Janów;Katowice Murcki;1868-01-01;;false;;Lijewski;
+L_23ae886ece;Katowice Murcki;Tychy;1868-01-01;;false;;Lijewski;
+L_a891d1f9c3;Pszczyna;Tychy;1868-01-01;;false;;Lijewski;
+L_c6f9904b2e;Czechowice Dziedzice;Pszczyna;1868-01-01;;false;;Lijewski;
+L_71d720ddaf;Giżycko;Kętrzyn;1868-01-01;;false;;Lijewski;
+L_8a46c8dca2;Ełk;Giżycko;1868-01-01;;false;;Lijewski;
+L_f8709ab9e4;Bytom Zachodni;Chorzów Stary;1868-01-01;;false;;Semaforek;
+L_3423ff4344;Bytom Zachodni;Piekary Śląskie Szarlej;1868-01-01;;false;;Semaforek;
+L_46d203ff36;Bogumin;Orłowa;1869-01-01;;false;;Semaforek;
+L_f93a1ad051;Karwina;Orłowa;1869-01-01;;false;;Semaforek;
+L_9a4bdbf369;Cieszyn Zachodni;Karwina;1869-01-01;;false;;Semaforek;
+L_8af8a3a3e2;Koszalin;Sławno;1869-01-01;;false;;Lijewski;
+L_e65952e80c;Sławno;Słupsk;1869-01-01;;false;;Lijewski;
+L_6cfa31faed;Krasne;Lwów;1869-01-01;;false;;Semaforek;
+L_64ef0bcab2;Krasne;Złoczów;1869-01-01;;false;;Semaforek;
+L_f9a241f800;Brody;Krasne;1869-01-01;;false;;Semaforek;
+L_08af343efe;Cernauti;Radauti;1869-01-01;;false;;Semaforek;
+L_a43ab18852;Radauti;Suceava;1869-01-01;;false;;Semaforek;
+L_d1ea9af302;Kamienna Góra;Sędzisław;1921-01-01;;true;;Semaforek;
+L_59bbfdb6f8;Kamienna Góra;Lubawka;1921-01-01;;true;;Semaforek;
+L_7def3c8f8c;Lubawka;Trutnov;1869-01-01;;false;;Lijewski;
+L_47d0b54768;Roman;Suceava;1869-01-01;;false;;Semaforek;
+L_77bb6b3c9b;Wrocław Mikołajów;Wrocław Nadodrze;1870-01-01;;false;;Lijewski;
+L_f23339a70b;Tychy;Łaziska;1870-01-01;;false;;Lijewski;
+L_f737080ab0;Frankfurt (Oder);Kunowice;1870-01-01;;false;;Lijewski;
+L_433028e474;Kunowice;Rzepin;1870-01-01;;false;;Lijewski;
+L_fe7c4e70ac;Rzepin;Toporów;1870-01-01;;false;;Lijewski;
+L_22de75cf78;Toporów;Świebodzin;1870-01-01;;false;;Lijewski;
+L_62c4f99713;Zbąszyń;Świebodzin;1870-01-01;;false;;Lijewski;
+L_c68337d26d;Nowy Tomyśl;Zbąszyń;1870-01-01;;false;;Lijewski;
+L_c452d375e3;Nowy Tomyśl;Opalenica;1870-01-01;;false;;Lijewski;
+L_1c6e9302e2;Opalenica;Poznań;1870-01-01;;false;;Lijewski;
+L_b3a8c95909;Guben;Gubin;1870-01-01;;false;;Lijewski;
+L_cc7997accc;Gubin;Krosno Odrzańskie;1870-01-01;;false;;Lijewski;
+L_2db7a11334;Czerwieńsk;Krosno Odrzańskie;1870-01-01;;false;;Lijewski;
+L_6ecc07dd36;Czerwieńsk;Sulechów;1870-01-01;;false;;Lijewski;
+L_bb0ddafd5b;Sulechów;Zbąszyń;1870-01-01;;false;;Lijewski;
+L_454ddec5b8;Gdańsk;Sopot;1870-01-01;;false;;Lijewski;
+L_33b4b04a3e;Gdynia Główna;Sopot;1870-01-01;;false;;Lijewski;
+L_ac162dfab6;Gdynia Główna;Reda;1870-01-01;;false;;Lijewski;
+L_fa2e35a7dd;Reda;Wejherowo;1870-01-01;;false;;Lijewski;
+L_c17ea9d6c6;Lębork;Wejherowo;1870-01-01;;false;;Lijewski;
+L_7382305591;Lębork;Słupsk;1870-01-01;;false;;Lijewski;
+L_17104eaa9c;Kunčice nad Labem;Trutnov;1870-01-01;;false;;Semaforek;
+L_ffe56a6232;Moskva;Smolensk;1870-01-01;;false;;Semaforek;
+L_f03c7b2b2a;Brześć nad Bugiem;Terespol;1870-01-01;;false;;Lijewski;
+L_fc83963ccf;Piła;Złotów;1871-01-01;;false;;Lijewski;
+L_6213531652;Starogard Gdański;Tczew;1871-01-01;;false;;Lijewski;
+L_6ea5ace95e;Cieszyn Zachodni;Čadca;1871-01-01;;false;;Semaforek;
+L_e856d573d6;Čadca;Žilina;1871-01-01;;false;;Semaforek;
+L_52a7e3d7a0;Frydek Mistek;Ostrava;1871-01-01;;false;;Semaforek;
+L_331d7f21a5;Gerdauen;Insterburg;1871-01-01;;false;;Semaforek;
+L_862124f67b;Chlumec nad Cidlinou;Ostromeř;1871-01-01;;false;;Semaforek;
+L_c2522b8511;Ostromeř;Stara Paka;1871-01-01;;false;;Semaforek;
+L_ceb995e75f;Martinice v Krkonošich;Stara Paka;1871-01-01;;false;;Semaforek;
+L_c3ffc9de0c;Kunčice nad Labem;Martinice v Krkonošich;1871-01-01;;false;;Semaforek;
+L_fbbd5495fd;Tarnopol;Złoczów;1871-01-01;;false;;Semaforek;
+L_db6f0ba9f0;Cottbus;Halle;1871-01-01;;false;;Semaforek;
+L_60948065d0;Cottbus;Guben;1871-01-01;;false;;Semaforek;
+L_7e4959c8b4;Legnica;Lubin;1871-01-01;;false;;Lijewski;
+L_8586788bd5;Lubin;Rudna Gwizdanów;1871-01-01;;false;;Lijewski;
+L_45554ac285;Głogów;Rudna Gwizdanów;1871-01-01;;false;;Lijewski;
+L_50f247ebe4;Głogów;Nowa Sól;1871-01-01;;false;;Lijewski;
+L_d584e80e2c;Nowa Sól;Zielona Góra;1871-01-01;;false;;Lijewski;
+L_050bed43d5;Czerwieńsk;Zielona Góra;1871-01-01;;false;;Lijewski;
+L_0e30da5ac4;Boreczek;Wrocław Główny;1871-01-01;;false;;Lijewski;
+L_3e2dd9a256;Boreczek;Strzelin;1871-01-01;;false;;Lijewski;
+L_ff883fbd54;Borki Wielkie;Tarnopol;1871-01-01;;false;;Semaforek;
+L_63f8cb0392;Borki Wielkie;Podwołoczyska;1871-01-01;;false;;Semaforek;
+L_e3decd6b7c;Ełk;Prostki;1871-01-01;;false;;Lijewski;
+L_e2a862132a;Oleśnica;Syców;1871-01-01;;false;;Lijewski;
+L_fc9621d187;Wierzchowo Człuchowskie;Złotów;1871-01-01;;false;;Lijewski;
+L_3ed765f815;Chojnice;Wierzchowo Człuchowskie;1871-01-01;;false;;Lijewski;
+L_d0bca455c4;Kowalewo Pomorskie;Toruń Mokre;1871-01-01;;false;;Lijewski;
+L_02f4e3dbec;Kowalewo Pomorskie;Wąbrzeźno;1871-01-01;;false;;Lijewski;
+L_d8f5a3e1d5;Jabłonowo Pomorskie;Wąbrzeźno;1871-01-01;;false;;Lijewski;
+L_fa106d1292;Kunčice nad Labem;Vrchlabi;1871-01-01;;false;;Semaforek;
+L_cd45a9de28;Gerdauen;Skandawa;1871-01-01;;false;;Lijewski;
+L_5cfb134b7e;Korsze;Skandawa;1871-01-01;;false;;Lijewski;
+L_8f13027fb0;Korsze;Sątopy Samulewo;1871-01-01;;false;;Lijewski;
+L_2c4fd1333c;Czerwonka;Sątopy Samulewo;1871-01-01;;false;;Lijewski;
+L_f80dd86ff5;Żagań;Żary;1871-01-01;;false;;Lijewski;
+L_062af0f574;Svoboda nad Upou;Trutnov;1871-01-01;;false;;Semaforek;
+L_15082eac58;Brześć nad Bugiem;Żabinka;1871-01-01;;false;;Semaforek;
+L_aeaf292685;Las;Żabinka;1871-01-01;;false;;Semaforek;
+L_d1a8f5f129;Las;Orańczyce;1871-01-01;;false;;Semaforek;
+L_f245a56b28;Orańczyce;Tkacze Repichy;1871-01-01;;false;;Semaforek;
+L_b27a78e397;Bereza Kartuska;Tkacze Repichy;1871-01-01;;false;;Semaforek;
+L_a829548a39;Bereza Kartuska;Kosów Poleski;1871-01-01;;false;;Semaforek;
+L_c48f5d5283;Iwacewicze;Kosów Poleski;1871-01-01;;false;;Semaforek;
+L_d2b3cdf7fd;Baranowicze;Iwacewicze;1871-01-01;;false;;Semaforek;
+L_2f8b8f7162;Baranowicze;Stołpce;1871-01-01;;false;;Semaforek;
+L_8a683e06de;Minsk;Stołpce;1871-01-01;;false;;Semaforek;
+L_cfb70d17c1;Minsk;Orša;1871-01-01;;false;;Semaforek;
+L_a39f5412bb;Orša;Smolensk;1871-01-01;;false;;Semaforek;
+L_ea856bb6af;Kaišiadorys;Radiviliškis;1871-01-01;;false;;Semaforek;
+L_0307844fbe;Radiviliškis;Šiauliai;1871-01-01;;false;;Semaforek;
+L_c5f61cb122;Liepaja;Šiauliai;1871-01-01;;false;;Semaforek;
+L_32bb26df66;Kępno;Syców;1872-01-01;;false;;Lijewski;
+L_b9d86a5dc9;Malhowice;Przemyśl;1872-01-01;;false;;Lijewski;
+L_404754eb38;Chyrów;Malhowice;1872-01-01;;false;;Lijewski;
+L_ed2b6ecf27;Gniezno;Poznań;1872-01-01;;false;;Lijewski;
+L_df6f232e8a;Gniezno;Mogilno;1872-01-01;;false;;Lijewski;
+L_0cb7fc823d;Inowrocław;Mogilno;1872-01-01;;false;;Lijewski;
+L_79504b56d9;Inowrocław;Nowa Wieś Wielka;1872-01-01;;false;;Lijewski;
+L_62d94c88c5;Bydgoszcz;Nowa Wieś Wielka;1872-01-01;;false;;Lijewski;
+L_01a040626f;Kępno;Wieruszów;1872-01-01;;false;;Lijewski;
+L_5a86832f26;Tuplice;Żary;1872-01-01;;false;;Lijewski;
+L_a6231de0ff;Tuplice;Zasieki;1872-01-01;;false;;Lijewski;
+L_0ea5e4f703;Forst;Zasieki;1872-01-01;;false;;Lijewski;
+L_8d0ae7dc5d;Cottbus;Forst;1872-01-01;;false;;Semaforek;
+L_81bfd50bb9;Chyrów;Krościenko;1872-01-01;;false;;Lijewski;
+L_5c8f00756d;Krościenko;Ustrzyki Dolne;1872-01-01;;false;;Lijewski;
+L_53922a03c5;Henryków;Strzelin;1872-01-01;;false;;Lijewski;
+L_e1d561b69f;Henryków;Ziębice;1872-01-01;;false;;Lijewski;
+L_98a6ee1472;Gliwice;Zabrze Biskupice;1872-01-01;;false;;Lijewski;
+L_6d2561a8da;Bytom;Zabrze Biskupice;1872-01-01;;false;;Lijewski;
+L_476dcef999;Chorzów Miasto;Chorzów Stary;1872-01-01;;false;;Lijewski;
+L_c4b79aa5d9;Ustrzyki Dolne;Zagórz;1872-01-01;;false;;Lijewski;
+L_3193923e9c;Komańcza;Zagórz;1872-01-01;;false;;Lijewski;
+L_553cde915e;Bad Muskau;Weißwasser;1872-01-01;;false;;Semaforek;
+L_c83f574814;Biskupiec Pomorski;Jabłonowo Pomorskie;1872-01-01;;false;;Lijewski;
+L_39342987d6;Biskupiec Pomorski;Iława;1872-01-01;;false;;Lijewski;
+L_8b011acc93;Iława;Ostróda;1872-01-01;;false;;Lijewski;
+L_129967903e;Czerwonka;Olsztyn;1872-01-01;;false;;Lijewski;
+L_3b2898b21f;Chyrów;Sambor;1872-01-01;;false;;Semaforek;
+L_5f5b2c0e38;Drohobycz;Sambor;1872-01-01;;false;;Semaforek;
+L_0441d29f6a;Drohobycz;Stryj;1872-01-01;;false;;Semaforek;
+L_40d329607d;Borysław;Drohobycz;1872-01-01;;false;;Semaforek;
+L_a62da57a55;Komańcza;Nowy Łupków;1872-01-01;;false;;Lijewski;
+L_19c9c01876;Nowy Łupków;Łupków;1872-01-01;;false;;Lijewski;
+L_a622f8c9af;Humenne;Medzilaborce;1872-01-01;;false;;Semaforek;
+L_a39f7bedb2;Humenne;Satoraljaujhely;1872-01-01;;false;;Semaforek;
+L_226c86472b;Milotice nad Opavou;Olomouc;1872-01-01;;false;;Semaforek;
+L_d8b216419d;Křnov;Milotice nad Opavou;1872-01-01;;false;;Semaforek;
+L_31fbf81eca;Křnov;Opava Vychod;1872-01-01;;false;;Semaforek;
+L_6978e41162;Nowa Wilejka;Oszmiana;1872-01-01;;false;;Semaforek;Stacje pośrednie Oszmiana i Smorgonie dodane na podstawie mapy Zakładów Graficznych 1939.
+L_d5f78f2585;Oszmiana;Smorgonie;1872-01-01;;false;;Semaforek;Stacje pośrednie Oszmiana i Smorgonie dodane na podstawie mapy Zakładów Graficznych 1939.
+L_07a94fe1f5;Mołodeczno;Smorgonie;1872-01-01;;false;;Semaforek;Stacje pośrednie Oszmiana i Smorgonie dodane na podstawie mapy Zakładów Graficznych 1939.
+L_2e273a4240;Mołodeczno;Olechnowicze;1872-01-01;;false;;Semaforek;Stacje pośrednie Oszmiana i Smorgonie dodane na podstawie mapy Zakładów Graficznych 1939.
+L_64b0fcd9f2;Minsk;Olechnowicze;1872-01-01;;false;;Semaforek;Stacje pośrednie Oszmiana i Smorgonie dodane na podstawie mapy Zakładów Graficznych 1939.
+L_ea3359b9ec;Bobrujsk;Minsk;1872-01-01;;false;;Semaforek;
+L_d27732fb4d;Bobrujsk;Homel;1872-01-01;;false;;Semaforek;
+L_408f27c422;Podwołoczyska;Voločiska;1872-01-01;;false;;Semaforek;
+L_2213d9a8a5;Ploskiriv;Voločiska;1872-01-01;;false;;Semaforek;
+L_bfe6272fd7;Ploskiriv;Žmerinka;1872-01-01;;false;;Semaforek;
+L_4eb28745dd;Inowrocław;Toruń;1873-01-01;;false;;Lijewski;
+L_bd7e53f9f4;Starogard Gdański;Zblewo;1873-01-01;;false;;Lijewski;
+L_a4e4191263;Kamieniec Ząbkowicki;Ziębice;1873-01-01;;false;;Lijewski;
+L_95052dc4dd;Bardo;Kamieniec Ząbkowicki;1873-01-01;;false;;Lijewski;
+L_3e68bf87f7;Chojnice;Czersk;1873-01-01;;false;;Lijewski;
+L_9a8c60ff3c;Czersk;Zblewo;1873-01-01;;false;;Lijewski;
+L_d6315ae802;Olsztyn;Ostróda;1873-01-01;;false;;Lijewski;
+L_f5eb48e9ac;Toruń;Toruń Mokre;1873-01-01;;false;;Lijewski;
+L_2a29b73786;Brody;Radziwiłłów;1873-01-01;;false;;Semaforek;
+L_b63077335f;Głubczyce;Pietrowice Głubczyckie;1873-01-01;;false;;Lijewski;
+L_98fcafe7dd;Křnov;Pietrowice Głubczyckie;1873-01-01;;false;;Lijewski;
+L_85632d5d3e;Lwów;Stryj;1873-01-01;;false;;Semaforek;
+L_64ce02968d;Hanušovice;Šumperk;1873-01-01;;false;;Semaforek;
+L_3e8564a82f;Dolni Lipka;Hanušovice;1873-01-01;;false;;Semaforek;
+L_15087a5dd3;Dolni Lipka;Lichkov;1873-01-01;;false;;Semaforek;
+L_ac64cd358e;Angermünde;Schwedt (Oder);1873-01-01;;false;;Semaforek;
+L_e880beba0f;Brześć nad Bugiem;Czeremcha;1873-01-01;;false;;Lijewski;
+L_3f95598348;Bielsk Podlaski;Czeremcha;1873-01-01;;false;;Lijewski;
+L_646e983896;Białystok;Bielsk Podlaski;1873-01-01;;false;;Lijewski;
+L_b29004d1a1;Białystok;Grajewo;1873-01-01;;false;;Lijewski;
+L_0f3d0220de;Grajewo;Prostki;1873-01-01;;false;;Lijewski;
+L_0dd974e42b;Brześć nad Bugiem;Zakrucin;1873-01-01;;false;;Semaforek;
+L_2699caa3d3;Krymno;Zakrucin;1873-01-01;;false;;Semaforek;
+L_4cee884fe6;Kowel;Krymno;1873-01-01;;false;;Semaforek;
+L_9caa96fee8;Kiwierce;Kowel;1873-01-01;;false;;Semaforek;
+L_36c62b4b19;Kiwierce;Równe;1873-01-01;;false;;Semaforek;
+L_8ccf63aef1;Równe;Zdołbunów;1873-01-01;;false;;Semaforek;
+L_f7d086477a;Mohylany;Zdołbunów;1873-01-01;;false;;Semaforek;
+L_7a6c0509fa;Mohylany;Šhepetovka;1873-01-01;;false;;Semaforek;
+L_a9c8c71c0a;Kiev;Šhepetovka;1873-01-01;;false;;Semaforek;
+L_347176b4f5;Daugavpils;Panevežys;1873-01-01;;false;;Semaforek;
+L_7a27339e2c;Panevežys;Radiviliškis;1873-01-01;;false;;Semaforek;
+L_2e3f2b91a6;Hradec Kralove;Tynište nad Orlici;1874-01-01;;false;;Semaforek;
+L_a73c19682d;Doudleby nad Orlici;Tynište nad Orlici;1874-01-01;;false;;Semaforek;
+L_27fc9ea140;Doudleby nad Orlici;Letohrad;1874-01-01;;false;;Semaforek;
+L_4b975d54e1;Letohrad;Lichkov;1874-01-01;;false;;Semaforek;
+L_fe00fa80d3;Kamieniec Ząbkowicki;Ząbkowice Śląskie;1874-01-01;;false;;Lijewski;
+L_21498a4a6e;Czerwieńsk;Rzepin;1874-01-01;;false;;Lijewski;
+L_911d13c3f4;Medzilaborce;Łupków;1874-01-01;;false;;Lijewski;
+L_a7c8619845;Bielawa Dolna;Węgliniec;1874-01-01;;false;;Lijewski;
+L_8ecbc14135;Bielawa Dolna;Horka;1874-01-01;;false;;Lijewski;
+L_190dca3d2b;Wołów;Wrocław Główny;1874-01-01;;false;;Lijewski;
+L_98e5a2caf9;Wołów;Ścinawa;1874-01-01;;false;;Lijewski;
+L_a918ac310c;Rudna Gwizdanów;Ścinawa;1874-01-01;;false;;Lijewski;
+L_2c4bcd62bc;Bardo;Kłodzko;1874-01-01;;false;;Lijewski;
+L_047988f494;Letohrad;Usti nad Orlici;1874-01-01;;false;;Semaforek;
+L_763fdab7e5;Kamieniec Ząbkowicki;Otmuchów;1874-01-01;;false;;Lijewski;
+L_a95870056d;Goświnowice;Otmuchów;1874-01-01;;false;;Lijewski;
+L_94a5ad9aef;Kamienica Wołyńska;Radziwiłłów;1874-01-01;;false;;Semaforek;
+L_7c01e6fbe4;Kamienica Wołyńska;Zdołbunów;1874-01-01;;false;;Semaforek;
+L_40490ad678;Dolina;Stryj;1875-01-01;;false;;Semaforek;
+L_4014f6933f;Dolina;Stanisławów;1875-01-01;;false;;Semaforek;
+L_930c3aed14;Kostrzyn;Rzepin;1875-01-01;;false;;Lijewski;
+L_86a47f3ed2;Legnica;Rokitki;1875-01-01;;false;;Lijewski;
+L_256ce7c1bd;Modła;Rokitki;1875-01-01;;false;;Lijewski;
+L_278ba153ae;Modła;Żagań;1875-01-01;;false;;Lijewski;
+L_aad24d985a;Bieniów;Żagań;1875-01-01;;false;;Lijewski;
+L_151669df19;Bieniów;Jasień;1875-01-01;;false;;Lijewski;
+L_b683a7fa72;Grabowno Wielkie;Oleśnica;1875-01-01;;false;;Lijewski;
+L_12f3b29ee5;Grabowno Wielkie;Milicz;1875-01-01;;false;;Lijewski;
+L_db842a8997;Krotoszyn;Milicz;1875-01-01;;false;;Lijewski;
+L_fffd97884e;Koźmin Wielkopolski;Krotoszyn;1875-01-01;;false;;Lijewski;
+L_cf4f5c5fdf;Jarocin;Koźmin Wielkopolski;1875-01-01;;false;;Lijewski;
+L_64a6e00877;Jarocin;Września;1875-01-01;;false;;Lijewski;
+L_c838b59ba6;Gniezno;Września;1875-01-01;;false;;Lijewski;
+L_0c007b5eec;Heydekrug;Pogegen;1875-01-01;;false;;Semaforek;
+L_000d58137f;Heydekrug;Memel;1875-01-01;;false;;Semaforek;
+L_2328f8edc6;Hagenwerder;Zgorzelec Ujazd;1875-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_7cd83399a4;Hagenwerder;Zawidów;1875-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_90d5134ced;Frydlant;Zawidów;1875-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_6aa22c2dc5;Frydlant;Raspenava;1875-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_078fa80dec;Liberec;Raspenava;1875-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_65483bae8a;Choceň;Tynište nad Orlici;1875-01-01;;false;;Semaforek;
+L_fd2ce8c0c5;Nachod;Tynište nad Orlici;1875-01-01;;false;;Semaforek;
+L_5a00265d53;Mezimesti;Nachod;1875-01-01;;false;;Semaforek;
+L_106eb79173;Broumov;Mezimesti;1875-01-01;;false;;Semaforek;
+L_cb14c0e33d;Bystrzyca Kłodzka;Kłodzko;1875-01-01;;false;;Lijewski;
+L_8671aafc32;Bystrzyca Kłodzka;Międzylesie;1875-01-01;;false;;Lijewski;
+L_344b9629c8;Lichkov;Międzylesie;1875-01-01;;false;;Lijewski;
+L_40c671579f;Hagenwerder;Krzewina Zgorzelecka;1875-01-01;;false;;;
+L_79dbf5a0bc;Krzewina Zgorzelecka;Trzciniec Zgorzelecki;1875-01-01;;false;;;
+L_e5776813e2;Trzciniec Zgorzelecki;Zittau;1875-01-01;;false;;;
+L_6bb11a6f52;Pogegen;Tilsit;1875-01-01;;false;;Semaforek;
+L_20fb0a0afb;Nowy Świętów;Nysa;1875-01-01;;false;;Lijewski;
+L_18d996e795;Głuchołazy;Nowy Świętów;1875-01-01;;false;;Lijewski;
+L_d0a17372a0;Głuchołazy;Jindřichov ve Slezsku;1875-01-01;;false;;Semaforek;
+L_8440d05d63;Jindřichov ve Slezsku;Třemešna ve Slezsku;1875-01-01;;false;;Semaforek;
+L_47d9895904;Křnov;Třemešna ve Slezsku;1875-01-01;;false;;Semaforek;
+L_a2d3fbfefe;Poznań;Środa Wielkopolska Miasto;1875-01-01;;false;;Lijewski;
+L_d6490e8cdf;Jarocin;Środa Wielkopolska Miasto;1875-01-01;;false;;Lijewski;
+L_93daf8f330;Jarocin;Witaszyce;1875-01-01;;false;;Lijewski;
+L_5d2c263c12;Pleszew;Witaszyce;1875-01-01;;false;;Lijewski;
+L_320359830e;Ostrów Wielkopolski;Pleszew;1875-01-01;;false;;Lijewski;
+L_c494054d43;Ostrzeszów;Ostrów Wielkopolski;1875-01-01;;false;;Lijewski;
+L_8dca134a44;Kępno;Ostrzeszów;1875-01-01;;false;;Lijewski;
+L_f6b872ee08;Kluczbork;Kępno;1875-01-01;;false;;Lijewski;
+L_34ddf660ae;Starkoč;Vaclavice;1876-01-01;;false;;Semaforek;
+L_8ca2d93847;Ducherow;Usedom;1876-01-01;;false;;Lijewski;
+L_852b0882c9;Usedom;Świnoujście;1876-01-01;;false;;Lijewski;
+L_6485492611;Goświnowice;Nysa;1876-01-01;;false;;Lijewski;
+L_fca86ec885;Nowy Świętów;Prudnik;1876-01-01;;false;;Lijewski;
+L_32affd2493;Prudnik;Racławice Śląskie;1876-01-01;;false;;Lijewski;
+L_7b6cc9f663;Głubczyce;Racławice Śląskie;1876-01-01;;false;;Lijewski;
+L_023ddc0e8f;Stróże;Tarnów;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_b0606393be;Nowy Sącz;Stróże;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_62100ccda8;Muszyna;Nowy Sącz;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_b25fc0b1ad;Leluchów;Muszyna;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_cbf81acd89;Leluchów;Plaveč;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_aef70a7bb9;Plaveč;Prešov;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_2fa4c1e6ed;Malbork;Prabuty;1876-01-01;;false;;Lijewski;
+L_7450bb8370;Iława;Prabuty;1876-01-01;;false;;Lijewski;
+L_96229b49a0;Iława;Zajączkowo Lubawskie;1876-01-01;;false;;Lijewski;
+L_4983cf83ff;Montowo;Zajączkowo Lubawskie;1876-01-01;;false;;Lijewski;
+L_4ee5311f39;Godków;Kostrzyn;1876-01-01;;false;;Lijewski;
+L_01c85a0057;Chojna;Godków;1876-01-01;;false;;Lijewski;
+L_d0c018a16a;Kędzierzyn Koźle;Racławice Śląskie;1876-01-01;;false;;Lijewski;
+L_ef9786ce83;Dęblin;Łuków;1876-01-01;;false;;Lijewski;
+L_ae53d4e36c;Warszawa Gdańska;Warszawa Główna;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_2236b64fa1;Warszawa Gdańska;Warszawa Praga;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_c3cf1bd2c7;Warszawa Praga;Warszawa Wschodnia;1876-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_17443ce006;Chojna;Gryfino;1877-01-01;;false;;Lijewski;
+L_5e3e4cb864;Gryfino;Szczecin;1877-01-01;;false;;Lijewski;
+L_5001098dd6;Działdowo;Montowo;1877-01-01;;false;;Lijewski;
+L_67a10d9599;Szczawno Zdrój;Wałbrzych Szczawienko;1914-01-01;;true;;Semaforek;
+L_e18a6e9749;Kuźnice Świdnickie;Szczawno Zdrój;1877-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_d732ea6b31;Boguszów Gorce Wschód;Kuźnice Świdnickie;1877-01-01;;false;;Lijewski;Poprawione wg. Pod-Semaforkiem
+L_70d8ccf849;Boguszów Gorce Wschód;Mieroszów;1914-01-01;;true;;Semaforek;
+L_2b0607ec7b;Mezimesti;Mieroszów;1914-01-01;;true;;Semaforek;
+L_638cff58a1;Ciechanów;Mława;1877-01-01;;false;;Bissaga;
+L_b07a15cc96;Ciechanów;Nasielsk;1877-01-01;;false;;Bissaga;
+L_6cdcc9152e;Nasielsk;Nowy Dwór Mazowiecki;1877-01-01;;false;;Bissaga;
+L_3b9ad02c6e;Legionowo;Nowy Dwór Mazowiecki;1877-01-01;;false;;Bissaga;
+L_c6229dec65;Legionowo;Warszawa Gdańska;1877-01-01;;false;;Bissaga;
+L_0b42039003;Warszawa Gdańska;Wawer Wąskotorowy;1877-01-01;;false;;Bissaga;
+L_aa75c1f665;Otwock;Wawer Wąskotorowy;1877-01-01;;false;;Bissaga;
+L_4d3fcbb8b3;Otwock;Pilawa;1877-01-01;;false;;Bissaga;
+L_665c8cad0b;Garwolin;Pilawa;1877-01-01;;false;;Bissaga;
+L_69d56f0147;Dęblin;Garwolin;1877-01-01;;false;;Bissaga;
+L_c7e88f45ca;Dęblin;Puławy;1877-01-01;;false;;Bissaga;
+L_e679660b4e;Nałęczów;Puławy;1877-01-01;;false;;Bissaga;
+L_ad971d16f3;Lublin;Nałęczów;1877-01-01;;false;;Bissaga;
+L_0329d65459;Lublin;Rejowiec;1877-01-01;;false;;Bissaga;
+L_51295fbb3d;Chełm;Rejowiec;1877-01-01;;false;;Bissaga;
+L_9e2ff4a2ef;Chełm;Dorohusk;1877-01-01;;false;;Bissaga;
+L_3d13bf297d;Dorohusk;Luboml;1877-01-01;;false;;Bissaga;
+L_5721dde83a;Kowel;Luboml;1877-01-01;;false;;Bissaga;
+L_af0852c146;Działdowo;Mława;1877-01-01;;false;;Lijewski;
+L_857c21f4e7;Jankowo Pomorskie;Runowo;1877-01-01;;false;;Lijewski;
+L_b77b052185;Drawsko Pomorskie;Jankowo Pomorskie;1877-01-01;;false;;Lijewski;
+L_28ab5542af;Brzeźno Człuchowskie;Chojnice;1877-01-01;;false;;Lijewski;Stacja pośrednia Brzeźno Człuchowskie dodana na podstawie Atlasu Kolejowego (https://www.atlaskolejowy.net/pl/pomorskie/?id=linia&poz=764).
+L_6d639bbf74;Brzeźno Człuchowskie;Człuchów;1877-01-01;;false;;Lijewski;Stacja pośrednia Brzeźno Człuchowskie dodana na podstawie Atlasu Kolejowego (https://www.atlaskolejowy.net/pl/pomorskie/?id=linia&poz=764).
+L_d67119e65a;Drawsko Pomorskie;Złocieniec;1877-01-01;;false;;Lijewski;
+L_7e1b47780a;Czaplinek;Złocieniec;1877-01-01;;false;;Lijewski;
+L_529e39d880;Czarne;Człuchów;1878-01-01;;false;;Lijewski;
+L_aa6d23dd15;Czarne;Szczecinek;1878-01-01;;false;;Lijewski;
+L_2c6c2a6789;Szczecinek;Łubowo;1878-01-01;;false;;Lijewski;
+L_e81760f70e;Czaplinek;Łubowo;1878-01-01;;false;;Lijewski;
+L_ea47a575b9;Bielsko Biała;Żywiec;1878-01-01;;false;;Lijewski;
+L_38885db4ec;Opole Groszowice;Strzelce Opolskie;1878-01-01;;false;;Lijewski;
+L_03b5fb757e;Szczecinek;Słosinko;1878-01-01;;false;;Lijewski;Słosinko dodane na podstawie Pod-Semaforkiem
+L_d30e3d4058;Miastko;Słosinko;1878-01-01;;false;;Lijewski;Słosinko dodane na podstawie Pod-Semaforkiem
+L_888511ab2f;Korzybie;Miastko;1878-01-01;;false;;Lijewski;Słosinko dodane na podstawie Pod-Semaforkiem
+L_9e034ca13c;Korzybie;Słupsk;1878-01-01;;false;;Lijewski;Słosinko dodane na podstawie Pod-Semaforkiem
+L_78afdce889;Słupsk;Ustka;1878-01-01;;false;;Lijewski;Słosinko dodane na podstawie Pod-Semaforkiem
+L_53d6353e13;Korzybie;Sławno;1878-01-01;;false;;Lijewski;
+L_954ae04ac9;Darłowo;Sławno;1878-01-01;;false;;Lijewski;
+L_116c8aeaaa;Grzmiąca;Szczecinek;1878-01-01;;false;;Lijewski;
+L_0d0738640c;Białogard;Grzmiąca;1878-01-01;;false;;Lijewski;
+L_582eae1618;Jabłonowo Pomorskie;Mełno;1878-01-01;;false;;Lijewski;
+L_90f4be4fb9;Grudziądz;Mełno;1878-01-01;;false;;Lijewski;
+L_d2d87548a1;Darkehmen;Insterburg;1878-01-01;;false;;Semaforek;
+L_1edb445adb;Darkehmen;Gołdap;1878-01-01;;false;;Lijewski;Derkehmen to dzisiaj Oziersk
+L_86c79d9bc7;Oborniki Wielkopolskie;Poznań;1879-01-01;;false;;Lijewski;
+L_5746cebb68;Oborniki Wielkopolskie;Rogoźno;1879-01-01;;false;;Lijewski;
+L_29a2c241a2;Chodzież;Rogoźno;1879-01-01;;false;;Lijewski;
+L_e5e42a108f;Chodzież;Piła;1879-01-01;;false;;Lijewski;
+L_35b699af8d;Piła;Płytnica;1879-01-01;;false;;Lijewski;
+L_96b50d8342;Jastrowie;Płytnica;1879-01-01;;false;;Lijewski;
+L_edca7ee2a2;Jastrowie;Szczecinek;1879-01-01;;false;;Lijewski;
+L_fd2b5ea18c;Strzelce Opolskie;Toszek;1879-01-01;;false;;Lijewski;
+L_73fd9491b6;Gołdap;Olecko;1879-01-01;;false;;Lijewski;
+L_e57d8001b8;Ełk;Olecko;1879-01-01;;false;;Lijewski;
+L_79d8a64faf;Pyskowice;Toszek;1879-01-01;;false;;Lijewski;
+L_0aa8cd43b0;Kłodzko;Ścinawka Średnia;1879-01-01;;false;;Lijewski;
+L_07f37a5612;Nowa Ruda;Ścinawka Średnia;1879-01-01;;false;;Lijewski;
+L_f5b9753d63;Grudziądz;Laskowice Pomorskie;1879-01-01;;false;;Lijewski;
+L_8bf3d6fcab;Tanvald;Železny Brod;1879-01-01;;false;;Semaforek;
+L_4041d2efac;Gliwice Łabędy;Pyskowice;1880-01-01;;false;;Lijewski;
+L_88a636f815;Pyskowice;Zabrze Biskupice;1880-01-01;;false;;Lijewski;
+L_d1b2927bd3;Jedlina Zdrój;Wałbrzych;1880-01-01;;false;;Lijewski;
+L_66a3e69fd7;Jedlina Zdrój;Nowa Ruda;1880-01-01;;false;;Lijewski;
+L_29d7f536c3;Milotice nad Opavou;Vrbno pod Pradedem;1880-01-01;;false;;Semaforek;
+L_d9a4d587bc;Piła;Wałcz;1881-01-01;;false;;;
+L_ad8b87aaeb;Grodzisk Wielkopolski;Opalenica;1881-01-01;;false;;Lijewski;
+L_c15431efb7;Goleniów;Szczecin Dąbie;1882-01-01;;false;;Lijewski;
+L_b21dd9fa26;Goleniów;Nowogard;1882-01-01;;false;;Lijewski;
+L_96a52c48f9;Nowogard;Wyszogóra;1882-01-01;;false;;Lijewski;
+L_a8d9fb3b8d;Płoty;Wyszogóra;1882-01-01;;false;;Lijewski;
+L_fa85ecebc4;Gryfice;Płoty;1882-01-01;;false;;Lijewski;
+L_a1828cfd4d;Jelenia Góra;Mysłakowice;1932-01-01;;true;;Semaforek;
+L_811f71e938;Kowary;Mysłakowice;1932-01-01;;true;;Semaforek;
+L_df3c10236a;Gryfice;Trzebiatów;1882-01-01;;false;;Lijewski;
+L_ee5c27e8c1;Kołobrzeg;Trzebiatów;1882-01-01;;false;;Lijewski;
+L_239ddfa7ff;Chełmża;Toruń Mokre;1882-01-01;;false;;Lijewski;
+L_a4eaf95a40;Pyrzyce;Stargard Szczeciński;1882-01-01;;false;;Lijewski;
+L_71e5266d07;Myślibórz;Pyrzyce;1882-01-01;;false;;Lijewski;
+L_e1164f4389;Dębno Lubuskie;Myślibórz;1882-01-01;;false;;Lijewski;
+L_072022bd83;Dębno Lubuskie;Kostrzyn;1882-01-01;;false;;Lijewski;
+L_49c3448ab8;Inowrocław;Inowrocław Mątwy;1882-01-01;;false;;Lijewski;
+L_930e04f653;Chełmża;Kornatowo;1882-01-01;;false;;Lijewski;
+L_df5fa6ff22;Grudziądz;Kornatowo;1882-01-01;;false;;Lijewski;
+L_276593aa17;Bogaczewo;Pasłęk;1882-01-01;;false;;Lijewski;
+L_e13530fc99;Małdyty;Pasłęk;1882-01-01;;false;;Lijewski;
+L_4ffe20329e;Małdyty;Morąg;1882-01-01;;false;;Lijewski;
+L_9bfbca394a;Kralovec;Žacléř;1882-01-01;;false;;Semaforek;
+L_4c66cfc282;Niedobczyce;Radlin;1882-01-01;;false;;Lijewski;
+L_94f2e54d4b;Radlin;Wodzisław Śląski;1882-01-01;;false;;Lijewski;
+L_aeb35c2daa;Olza;Wodzisław Śląski;1882-01-01;;false;;Lijewski;
+L_89a51c12b5;Chałupki;Olza;1882-01-01;;false;;Lijewski;
+L_111ff10a4e;Kobryń;Żabinka;1882-01-01;;false;;Semaforek;
+L_864d884ce0;Kamień Poleski;Kobryń;1882-01-01;;false;;Semaforek;
+L_3739056f8e;Drohiczyn;Kamień Poleski;1882-01-01;;false;;Semaforek;
+L_499b5d39eb;Drohiczyn;Janów Poleski;1882-01-01;;false;;Semaforek;
+L_c3402b9fb6;Janów Poleski;Pińsk;1882-01-01;;false;;Semaforek;
+L_0810e3b664;Kluczbork;Olesno;1883-01-01;;false;;Lijewski;
+L_030176ec0c;Dolina;Wygoda;1883-01-01;;false;;;
+L_bf46cacf04;Kondratowice;Strzelin;1883-01-01;;false;;Lijewski;
+L_5bcd54c4f5;Gardeja;Grudziądz;1883-01-01;;false;;Lijewski;
+L_50a713a19c;Gardeja;Kwidzyn;1883-01-01;;false;;Lijewski;
+L_8060a540d0;Kwidzyn;Sztum;1883-01-01;;false;;Lijewski;
+L_f81b0adebe;Malbork;Sztum;1883-01-01;;false;;Lijewski;
+L_fb43c79eca;Laskowice Pomorskie;Wierzchucin;1883-01-01;;false;;Lijewski;
+L_a8800ebee9;Tuchola;Wierzchucin;1883-01-01;;false;;Lijewski;
+L_5c99930fe8;Chojnice;Tuchola;1883-01-01;;false;;Lijewski;
+L_460988fa77;Morąg;Olsztyn;1883-01-01;;false;;Lijewski;
+L_b949a1bc88;Chełmno;Kornatowo;1883-01-01;;false;;Lijewski;
+L_e948ba0882;Głazów;Myślibórz;1883-01-01;;false;;Lijewski;
+L_f72ad56ccd;Barlinek;Głazów;1883-01-01;;false;;Lijewski;
+L_55196211c3;Olsztyn;Szczytno;1883-01-01;;false;;Lijewski;
+L_03c6eaa5e1;Kondratowice;Łagiewniki Dzierżoniowskie;1883-01-01;;false;;Lijewski;
+L_db18858eb5;Barnowo;Korzybie;1883-01-01;;false;;Lijewski;
+L_b98759a4bf;Kalety;Tarnowskie Góry;1884-01-01;;false;;Lijewski;
+L_d0c66d1583;Lubliniec;Olesno;1884-01-01;;false;;Lijewski;
+L_c28037d9a4;Kobierzyce;Wrocław Główny;1884-01-01;;false;;Lijewski;
+L_73cd660864;Lubaczów;Munina;1884-01-01;;false;;Semaforek;
+L_2379870eb3;Lubaczów;Werchrata;1884-01-01;;false;;Lijewski;
+L_93c0a4230d;Rawa Ruska;Werchrata;1884-01-01;;false;;Lijewski;
+L_68a0f22e14;Krystynopol;Sokal;1884-01-01;;false;;Semaforek;
+L_1bd7df9b08;Oświęcim;Spytkowice;1884-01-01;;false;;Lijewski;
+L_91f2bfc523;Skawina;Spytkowice;1884-01-01;;false;;Lijewski;
+L_f04672ec7a;Kraków Płaszów;Skawina;1884-01-01;;false;;Lijewski;
+L_14fa463e0c;Lubawa;Zajączkowo Lubawskie;1884-01-01;;false;;Lijewski;
+L_9da494f754;Pupy;Szczytno;1884-01-01;;false;;Lijewski;
+L_fd7ba2f3da;Pupy;Ruciane Nida;1884-01-01;;false;;Lijewski;
+L_08476ea6e4;Pisz;Ruciane Nida;1884-01-01;;false;;Lijewski;
+L_667a2675ca;Barnowo;Bytów;1884-01-01;;false;;Lijewski;
+L_e47f86a569;Gorlice Zagórzany;Stróże;1884-01-01;;false;;Lijewski;
+L_a4677b1902;Gorlice Zagórzany;Jasło;1884-01-01;;false;;Lijewski;
+L_6043750a37;Jasło;Krosno;1884-01-01;;false;;Lijewski;
+L_0c75829c02;Krosno;Sanok;1884-01-01;;false;;Lijewski;
+L_ea02cf7f87;Sanok;Zagórz;1884-01-01;;false;;Lijewski;
+L_75565fc4a4;Orzesze;Żory;1884-01-01;;false;;Lijewski;
+L_cc5d10bd3b;Kobierzyce;Pustków Żurowski;1884-01-01;;false;;Lijewski;
+L_d7a5376bcd;Fischhausen;Palmnicken;1884-01-01;;false;;Semaforek;
+L_9917d6f35c;Pszczółki;Sobowidz;1884-01-01;;false;;Lijewski;
+L_ebfb4e9a30;Kalety;Lubliniec;1884-01-01;;false;;Lijewski;
+L_4b2b96647d;Niemcza;Łagiewniki Dzierżoniowskie;1884-01-01;;false;;Lijewski;
+L_3a2cda93b6;Legnica;Złotoryja;1884-01-01;;false;;Lijewski;
+L_376f8e02e1;Gryfów Śląski;Mirsk;1884-01-01;;false;;Lijewski;
+L_db33c9cb5c;Olsztyn Gutkowo;Orneta;1884-01-01;;false;;Lijewski;
+L_a3a7e4ab60;Braniewo;Pieniężno;1884-01-01;;false;;Lijewski;
+L_d89b836ca6;Chryplin;Pałahicze;1884-01-01;;false;;Semaforek;
+L_aa0fbe7aac;Buczacz;Pałahicze;1884-01-01;;false;;Semaforek;
+L_f04c38c273;Zwardoń;Żywiec;1884-01-01;;false;;Lijewski;
+L_082890dddb;Zwardoń;Čadca;1884-01-01;;false;;Lijewski;
+L_e70bbf949f;Sieniawka;Zittau;1884-01-01;;false;750.0;Lijewski;
+L_25e9ca8246;Bogatynia;Sieniawka;1884-01-01;;false;750.0;Lijewski;
+L_c1d4992ae8;Bogatynia;Markocice;1884-01-01;;false;750.0;Lijewski;
+L_4cb10ecb06;Skawce;Sucha Beskidzka;1884-01-01;;false;;Lijewski;
+L_71edc68b03;Kalwaria Zebrzydowska;Skawce;1884-01-01;;false;;Lijewski;
+L_6b8d17d371;Kalwaria Zebrzydowska;Skawina;1884-01-01;;false;;Lijewski;
+L_0a8e955514;Sucha Beskidzka;Żywiec;1884-01-01;;false;;Lijewski;
+L_02164144b1;Chabówka;Sucha Beskidzka;1884-01-01;;false;;Lijewski;
+L_a4582a73d9;Chabówka;Limanowa;1884-01-01;;false;;Lijewski;
+L_2a5c9c6c42;Limanowa;Nowy Sącz;1884-01-01;;false;;Lijewski;
+L_a6ed9da7bf;Biała Czortkowska;Buczacz;1884-01-01;;false;;Semaforek;
+L_a21c3e70bf;Biała Czortkowska;Kopyczyńce;1884-01-01;;false;;Semaforek;
+L_b4c32750f0;Husiatyn;Kopyczyńce;1884-01-01;;false;;Semaforek;
+L_371771be3c;Pińsk;Łuniniec;1884-01-01;;false;;Semaforek;
+L_8b0fd6a492;Lida;Wilno;1884-01-01;;false;;Semaforek;
+L_e97c316b86;Lida;Nowojelnia;1884-01-01;;false;;Semaforek;
+L_bbc3648ea7;Baranowicze;Nowojelnia;1884-01-01;;false;;Semaforek;
+L_623b058a5d;Baranowicze;Hancewicze;1884-01-01;;false;;Semaforek;
+L_2abe7cddb0;Hancewicze;Malkowicze;1884-01-01;;false;;Semaforek;
+L_805abbd83c;Dziatłowicze;Malkowicze;1884-01-01;;false;;Semaforek;
+L_2b9d5bbd38;Dziatłowicze;Łuniniec;1884-01-01;;false;;Semaforek;
+L_d4f25b96e7;Bąkowiec;Dęblin;1885-01-01;;false;;Lijewski;
+L_ae06de3fd6;Bąkowiec;Radom;1885-01-01;;false;;Lijewski;
+L_c26fafd397;Radom;Skarżysko Kamienna;1885-01-01;;false;;Lijewski;
+L_102d901276;Kielce;Skarżysko Kamienna;1885-01-01;;false;;Lijewski;
+L_3b59e3b60a;Jędrzejów;Kielce;1885-01-01;;false;;Lijewski;
+L_2807fccd65;Jędrzejów;Tunel;1885-01-01;;false;;Lijewski;
+L_de782fffb7;Charsznica;Tunel;1885-01-01;;false;;Lijewski;
+L_2fad772226;Charsznica;Olkusz;1885-01-01;;false;;Lijewski;
+L_2180169f61;Bukowno;Olkusz;1885-01-01;;false;;Lijewski;
+L_ac778a658b;Bukowno;Strzemieszyce Północne;1885-01-01;;false;;Lijewski;
+L_f235a370b2;Gołonóg;Strzemieszyce Północne;1885-01-01;;false;;Lijewski;
+L_8688221aca;Gorlice;Zagórzany;1885-01-01;;false;;Lijewski;
+L_8b0361657b;Lutol Suchy;Zbąszyń;1885-01-01;;false;;Lijewski;
+L_5b42520803;Lutol Suchy;Międzyrzecz;1885-01-01;;false;;Lijewski;
+L_311d331270;Orneta;Pieniążno;1885-01-01;;false;;Lijewski;W bazie Pod-Semaforkiem zamiast [Głębock, Korniewo] jest [Zinten, Kobbelbude]
+L_e066fe7b2b;Głębock;Pieniążno;1885-01-01;;false;;Lijewski;W bazie Pod-Semaforkiem zamiast [Głębock, Korniewo] jest [Zinten, Kobbelbude]
+L_b365705b07;Głębock;Korniewo;1885-01-01;;false;;Lijewski;W bazie Pod-Semaforkiem zamiast [Głębock, Korniewo] jest [Zinten, Kobbelbude]
+L_6aa3024aa1;Pustków Żurowski;Sobótka Zachodnia;1885-01-01;;false;;Lijewski;
+L_14132a1264;Skarszewy;Sobowidz;1885-01-01;;false;;Lijewski;
+L_7722df1040;Czempiń;Śrem;1885-01-01;;false;;Lijewski;
+L_ca0b653036;Gryfów Śląski;Lwówek Śląski;1885-01-01;;false;;Lijewski;
+L_568b836e13;Kościerzyna;Skarszewy;1885-01-01;;false;;Lijewski;
+L_9f632f8537;Bydgoszcz Wschód;Fordon;1885-01-01;;false;;Lijewski;
+L_68198c6648;Biała Piska;Pisz;1885-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej Białej Piskiej.
+L_2220500fff;Biała Piska;Ełk;1885-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej Białej Piskiej.
+L_587c6af17b;Bojanowo;Góra Śląska;1885-01-01;;false;;Lijewski;
+L_f19fc9be12;Cranz;Königsberg;1885-01-01;;false;;Semaforek;
+L_6930ca66e4;Cranz;Neukuhren;1885-01-01;;false;;Semaforek;
+L_9bcf5bebec;Koluszki;Tomaszów Mazowiecki;1885-01-01;;false;;Lijewski;
+L_03cc637290;Opoczno;Tomaszów Mazowiecki;1885-01-01;;false;;Lijewski;
+L_11030e5352;Końskie;Opoczno;1885-01-01;;false;;Lijewski;
+L_49f86431be;Końskie;Skarżysko Kamienna;1885-01-01;;false;;Lijewski;
+L_72b32c01e1;Skarżysko Kamienna;Starachowice;1885-01-01;;false;;Lijewski;
+L_17531eb0e3;Ostrowiec Świętokrzyski;Starachowice;1885-01-01;;false;;Lijewski;
+L_12e62fb8b7;Kostopol;Równe;1885-01-01;;false;;Semaforek;
+L_3f29cf199a;Kostopol;Sarny;1885-01-01;;false;;Semaforek;
+L_408962a5bd;Horyń;Łuniniec;1885-01-01;;false;;Semaforek;
+L_ec90e9dbc0;Dąbrowica;Horyń;1885-01-01;;false;;Semaforek;
+L_836d48e09f;Dąbrowica;Sarny;1885-01-01;;false;;Semaforek;
+L_02f39aa0fb;Wolsztyn;Zbąszyń;1886-01-01;;false;;Lijewski;
+L_3487c9d788;Pruszcz Gdański;Stara Piła;1886-01-01;;false;;Lijewski;
+L_3a003dd377;Stara Piła;Żukowo Zachodnie;1886-01-01;;false;;Lijewski;
+L_931713654b;Wąsosz;Żmigród;1886-01-01;;false;;Lijewski;
+L_399cd9a3ca;Nowy Staw;Szymankowo;1886-01-01;;false;;Lijewski;
+L_3bb666913c;Nowy Dwór Gdański;Nowy Staw;1886-01-01;;false;;Lijewski;
+L_82d8705234;Opalenica;Rudniki;1886-01-01;;false;750.0;Lijewski;
+L_098001fd3b;Rudniki;Trzcianka Zachodnia;1886-01-01;;false;750.0;Lijewski;
+L_a68cdd79f6;Kartuzy;Żukowo Zachodnie;1886-01-01;;false;;Lijewski;
+L_69a46ec5e9;Brodnica;Jabłonowo Pomorskie;1886-01-01;;false;;Lijewski;
+L_11b14fbdcb;Brochocin Trzebnicki;Wrocław Psie Pole;1886-01-01;;false;;Lijewski;
+L_f48d64585e;Brochocin Trzebnicki;Trzebnica;1886-01-01;;false;;Lijewski;
+L_87a5280582;Kołomyja;Słoboda Rungurska Kopalnia;1886-01-01;;false;;Semaforek;
+L_796f56721d;Kołomyja Nadworniańskie Przedmieście;Szeparowce Kniażdwór;1886-01-01;;false;;Semaforek;
+L_49fbb8c26f;Gardeja;Łasin;1886-01-01;;false;;Lijewski;
+L_e9040e8596;Białystok;Krynki;1886-01-01;;false;;Lijewski;
+L_e5a6cde29c;Andrzejewicze;Krynki;1886-01-01;;false;;Lijewski;
+L_3bfc8e98a6;Andrzejewicze;Wołkowysk;1886-01-01;;false;;Lijewski;
+L_70de18fcd7;Słonim;Wołkowysk;1886-01-01;;false;;Semaforek;
+L_fd2663dcdf;Baranowicze;Słonim;1886-01-01;;false;;Semaforek;
+L_8ec569d4b6;Mikaszewicze;Łuniniec;1886-01-01;;false;;Semaforek;
+L_79e743df1d;Mikaszewicze;Mozyr;1886-01-01;;false;;Semaforek;
+L_ec1ee2f01d;Homel;Mozyr;1886-01-01;;false;;Semaforek;
+L_5709e05974;Stryj;Ławoczne;1887-01-01;;false;;Semaforek;
+L_7348b0ff81;Beskid;Ławoczne;1887-01-01;;false;;Semaforek;
+L_269dbbe076;Poznań Wschodni;Swarzędz;1887-01-01;;false;;Lijewski;
+L_99f45e7ef1;Swarzędz;Września;1887-01-01;;false;;Lijewski;
+L_aa99ff6974;Brodnica;Tama Brodzka;1887-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Tama Brodzka.
+L_5ee2db19de;Lidzbark;Tama Brodzka;1887-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Tama Brodzka.
+L_6df54751e4;Działdowo;Lidzbark;1887-01-01;;false;;Lijewski;
+L_654025fd7f;Opole Zachodnie;Szydłów;1887-01-01;;false;;Lijewski;
+L_75e63593fa;Nysa;Szydłów;1887-01-01;;false;;Lijewski;
+L_43336a5315;Niemodlin;Szydłów;1887-01-01;;false;;Lijewski;
+L_2b64e4c3aa;Gracze;Niemodlin;1887-01-01;;false;;Lijewski;
+L_00e664c424;Gracze;Lipowa Śląska;1887-01-01;;false;;Lijewski;
+L_4147364dec;Lwów;Żółkiew;1887-01-01;;false;;Semaforek;
+L_b26d7d9084;Rawa Ruska;Żółkiew;1887-01-01;;false;;Semaforek;
+L_eaa17381e6;Hrebenne;Rawa Ruska;1887-01-01;;false;;Lijewski;
+L_1c4aec2456;Bełżec;Hrebenne;1887-01-01;;false;;Lijewski;
+L_42a12aa8b3;Dębica;Mielec;1887-01-01;;false;;Lijewski;
+L_251782db68;Mielec;Tarnobrzeg;1887-01-01;;false;;Lijewski;
+L_1b89adc3a0;Sobów;Tarnobrzeg;1887-01-01;;false;;Lijewski;
+L_1191fe6943;Sandomierz;Sobów;1887-01-01;;false;;Lijewski;
+L_a30eec61db;Grębów;Sobów;1887-01-01;;false;;Lijewski;
+L_ddb94fb3a9;Grębów;Rozwadów;1887-01-01;;false;;Lijewski;
+L_0ce2f55e9f;Gniezno;Mieleszyn;1887-01-01;;false;;Lijewski;Ośno to dawna nazwa stacji Mieleszyn
+L_31b8db38f5;Janowiec Wielkopolski;Mieleszyn;1887-01-01;;false;;Lijewski;Ośno to dawna nazwa stacji Mieleszyn
+L_cb6e790561;Damasławek;Janowiec Wielkopolski;1887-01-01;;false;;Lijewski;Ośno to dawna nazwa stacji Mieleszyn
+L_db27e8c8db;Damasławek;Kcynia;1887-01-01;;false;;Lijewski;Ośno to dawna nazwa stacji Mieleszyn
+L_e6376db164;Kcynia;Nakło nad Notecią;1887-01-01;;false;;Lijewski;Ośno to dawna nazwa stacji Mieleszyn
+L_186e18768c;Olsztyn;Olsztynek;1887-01-01;;false;;Lijewski;
+L_3e9c30de04;Międzyrzecz;Wierzbno;1887-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Wierzbno.
+L_c1257eb75d;Kazimierz;Strzemieszyce Północne;1887-01-01;;false;;Lijewski;
+L_202e33c576;Kazimierz;Sosnowiec Południowy;1887-01-01;;false;;Lijewski;
+L_9606ae5c17;Kazimierz;Maczki;1887-01-01;;false;;Lijewski;
+L_a309456e21;Chełm;Włodawa;1887-01-01;;false;;Lijewski;
+L_2d9c27359c;Brześć nad Bugiem;Włodawa;1887-01-01;;false;;Lijewski;
+L_84d9df741a;Siedlce;Sokołów Podlaski;1887-01-01;;false;;Lijewski;
+L_171e9e8197;Małkinia;Sokołów Podlaski;1887-01-01;;false;;Lijewski;
+L_67af8e25b1;Poręba;Zabrze;1887-01-01;;false;;Lijewski;
+L_e6ee58dc47;Strzałkowo;Września;1888-01-01;;false;;Lijewski;
+L_e592a5d767;Głuchołazy;Głuchołazy Zdrój;1888-01-01;;false;;Lijewski;
+L_85fb602eba;Głuchołazy Zdrój;Mikulovice;1888-01-01;;false;;Lijewski;
+L_9a8e1f3017;Jesenik;Mikulovice;1888-01-01;;false;;Semaforek;
+L_514d74b9ce;Jesenik;Lipova Lazne;1888-01-01;;false;;Semaforek;
+L_ef54aec413;Pniewy;Rokietnica;1888-01-01;;false;;Lijewski;
+L_939aa1ff41;Bielsko Biała;Wadowice;1888-01-01;;false;;Lijewski;
+L_857aeafeec;Kalwaria Zebrzydowska Lanckorona;Wadowice;1888-01-01;;false;;Lijewski;
+L_a5082191d6;Bielsko Biała;Skoczów;1888-01-01;;false;;Lijewski;
+L_cda5c1e954;Goleszów;Skoczów;1888-01-01;;false;;Lijewski;
+L_c4d339f5d9;Cieszyn Zachodni;Goleszów;1888-01-01;;false;;Lijewski;
+L_34ef86ec8c;Cieszyn Zachodni;Frydek Mistek;1888-01-01;;false;;Semaforek;
+L_8dee7a414d;Frydek Mistek;Frydlant nad Ostravici;1888-01-01;;false;;Semaforek;
+L_5138fd317c;Frydlant nad Ostravici;Valašske Meziřiči;1888-01-01;;false;;Semaforek;
+L_f6c2605982;Międzychód;Pniewy;1888-01-01;;false;;Lijewski;
+L_84d33c07b7;Kalisz Pomorski;Wałcz;1888-01-01;;false;;Lijewski;
+L_1f0c901cec;Terespol Pomorski;Świecie nad Wisłą;1888-01-01;;false;;Lijewski;
+L_9c9b156f00;Nidzica;Olsztynek;1888-01-01;;false;;Lijewski;
+L_4599877db2;Działdowo;Nidzica;1888-01-01;;false;;Lijewski;
+L_dd15054cc7;Kąkolewo;Leszno;1888-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Kąkolewo.
+L_dc8997953f;Gostyń;Kąkolewo;1888-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Kąkolewo.
+L_4f705ed09a;Gostyń;Jarocin;1888-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Kąkolewo.
+L_95e9a5d224;Karzec;Leszno;1888-01-01;;false;;Lijewski;
+L_a5e8932e65;Karzec;Krobia;1888-01-01;;false;;Lijewski;
+L_1d8cfd93c6;Kobylin;Krobia;1888-01-01;;false;;Lijewski;
+L_ae5a118269;Kobylin;Krotoszyn;1888-01-01;;false;;Lijewski;
+L_4bbf5723b5;Krotoszyn;Ostrów Wielkopolski;1888-01-01;;false;;Lijewski;
+L_3777fb372b;Gliwice;Zabrze Makoszowy;1888-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Zabrze Makoszowy.
+L_5dd091f9f9;Gierałtowice;Zabrze Makoszowy;1888-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Zabrze Makoszowy.
+L_2278e54883;Gierałtowice;Orzesze;1888-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Zabrze Makoszowy.
+L_9466f62509;Hanušovice;Lipova Lazne;1888-01-01;;false;;Semaforek;
+L_a518205743;Jablonec nad Nisou;Liberec;1888-01-01;;false;;Semaforek;
+L_088ecb84fe;Rogoźno Wielkopolskie;Wągrowiec;1888-01-01;;false;;Lijewski;
+L_ae3e8914a3;Goleszów;Ustroń;1888-01-01;;false;;Lijewski;
+L_b5b412db7f;Inowrocław Mątwy;Kruszwica;1889-01-01;;false;;Lijewski;
+L_944d28bdac;Tłumaczów;Ścinawka Średnia;1889-01-01;;false;;Lijewski;
+L_76a93af620;Broumov;Tłumaczów;1889-01-01;;false;;Lijewski;
+L_7ea7b134bf;Damasławek;Wągrowiec;1889-01-01;;false;;Lijewski;
+L_f7e4fee2e0;Damasławek;Żnin;1889-01-01;;false;;Lijewski;
+L_b0f88a54f5;Barcin;Żnin;1889-01-01;;false;;Lijewski;
+L_a0499ae2c6;Barcin;Inowrocław;1889-01-01;;false;;Lijewski;
+L_807d397c56;Jełowa;Opole Główne;1889-01-01;;false;;Lijewski;
+L_7db339e9dd;Jełowa;Namysłów;1889-01-01;;false;;Lijewski;
+L_91eea17b74;Kożuchów;Nowa Sól;1889-01-01;;false;;Lijewski;
+L_94f9d37432;Königsberg;Labiau;1889-01-01;;false;;Semaforek;
+L_75ed23e9d8;Brody Wąskotorowe;Trzcianka Zachodnia;1889-01-01;;false;750.0;Lijewski;
+L_0f7d154fa7;Poprad Tatry;Studeny Potok;1889-01-01;;false;;Semaforek;
+L_fe529d4544;Kežmarok;Studeny Potok;1889-01-01;;false;;Semaforek;
+L_42875d6544;Kożuchów;Stypułów;1890-01-01;;false;;Lijewski;
+L_66e9ac11d4;Stypułów;Żagań;1890-01-01;;false;;Lijewski;
+L_e39d6d4da1;Chocianów;Rokitki;1890-01-01;;false;;Lijewski;
+L_6407c348b5;Chocianów;Niegosławice;1890-01-01;;false;;Lijewski;
+L_ef0ac520c9;Rzeszów;Strzyżów;1890-01-01;;false;;Lijewski;
+L_e3cd84fd56;Jasło;Strzyżów;1890-01-01;;false;;Lijewski;
+L_707357b069;Ośno Lubuskie;Rzepin;1890-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Ośno Lubuskie.
+L_d2e5f3117a;Ośno Lubuskie;Sulęcin;1890-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Ośno Lubuskie.
+L_9bcd0b79c8;Bertsdorf;Zittau;1890-01-01;;false;750.0;Semaforek;
+L_2b2037de66;Bertsdorf;Kurort Oybin;1890-01-01;;false;750.0;Semaforek;
+L_32275350ab;Bertsdorf;Kurort Jonsdorf;1890-01-01;;false;750.0;Semaforek;
+L_b680251556;Roztoka;Strzegom;1890-01-01;;false;;Lijewski;
+L_f0f3c19315;Bolków;Roztoka;1890-01-01;;false;;Lijewski;
+L_71f60aeafa;Kłodzko Miasto;Polanica Zdrój;1890-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Polanica Zdrój.
+L_8f3a78103e;Polanica Zdrój;Szczytna Śląska;1890-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Polanica Zdrój.
+L_b3e6609c3e;Bielawa Zachodnia;Dzierżoniów;1891-01-01;;false;;Lijewski;
+L_9c6f2cdf42;Heinrichswalde;Tilsit;1891-01-01;;false;;Semaforek;
+L_d16f0fa012;Cieplice Zdrój;Jelenia Góra;1891-01-01;;false;;Lijewski;
+L_bbec9b5a38;Labiau;Liebenfelde;1891-01-01;;false;;Semaforek;
+L_e315b59faf;Liebenfelde;Skaisgirren;1891-01-01;;false;;Semaforek;
+L_adaca76e12;Heinrichswalde;Skaisgirren;1891-01-01;;false;;Semaforek;
+L_0a023cd71d;Forst;Weißwasser;1891-01-01;;false;;Semaforek;
+L_d272f8c66a;Kożuchów;Popęszyce;1891-01-01;;false;;Lijewski;
+L_2f93b54b88;Grodków Śląski;Przeworno;1891-01-01;;false;;Lijewski;
+L_63f11cd4ef;Głęboka Śląska;Przeworno;1891-01-01;;false;;Lijewski;
+L_9f32a82a3e;Cieplice Zdrój;Piechowice;1891-01-01;;false;;Lijewski;
+L_67e0aaa9a3;Beskid;Volóc;1891-01-01;;false;;Semaforek;
+L_5d8f5712f2;Bátyú;Volóc;1891-01-01;;false;;Semaforek;
+L_41043e3dd4;Herby Stare;Lubliniec;1892-01-01;;false;;Lijewski;
+L_bec2e23034;Niegosławice;Popęszyce;1892-01-01;;false;;Lijewski;
+L_4458e9d6e6;Międzyrzecz;Sulęcin;1892-01-01;;false;;Lijewski;
+L_88cfea6e18;Horni Benešov;Opava Vychod;1892-01-01;;false;;Semaforek;
+L_be5376b300;Goleniów;Łoźnica;1892-01-01;;false;;Lijewski;
+L_6661113ea6;Wysoka Kamieńska;Łoźnica;1892-01-01;;false;;Lijewski;
+L_78b42df3a8;Kamień Pomorski;Wysoka Kamieńska;1892-01-01;;false;;Lijewski;
+L_0d5586f85f;Recław;Wysoka Kamieńska;1892-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Recław.
+L_523e0c48a6;Recław;Wolin;1892-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Recław.
+L_56aa4ba6db;Mogilno;Strzelno;1892-01-01;;false;;Lijewski;
+L_5e6cda0323;Ragnit;Tilsit;1892-01-01;;false;;Semaforek;
+L_5a05008712;Pillkallen;Stallupönen;1892-01-01;;false;;Semaforek;
+L_9b2af1b583;Godków;Siekierki;1892-01-01;;false;;Lijewski;
+L_f597e207b6;Siekierki;Wriezen;1892-01-01;;false;;Lijewski;
+L_45ee905590;Kežmarok;Spišska Bela;1892-01-01;;false;;Semaforek;
+L_9b925246a2;Głęboka Śląska;Wiązów;1893-01-01;;false;;Lijewski;
+L_5d0015a910;Malbork;Myślice;1893-01-01;;false;;Lijewski;
+L_71efef200c;Małdyty;Myślice;1893-01-01;;false;;Lijewski;
+L_795af4aae2;Elbląg;Myślice;1893-01-01;;false;;Lijewski;
+L_22b993f03c;Miłomłyn;Myślice;1893-01-01;;false;;Lijewski;
+L_7d9a1f63fe;Miłomłyn;Ostróda;1893-01-01;;false;;Lijewski;
+L_c28c9c517d;Fordon;Unisław Pomorski;1893-01-01;;false;;Lijewski;
+L_3fbf5e3b37;Chełmża;Unisław Pomorski;1893-01-01;;false;;Lijewski;
+L_8b5c09b4be;Resko Południowe;Wyszogóra;1893-01-01;;false;;Lijewski;
+L_08f312c00d;Dziewiętlice;Otmuchów;1893-01-01;;false;;Lijewski;
+L_2a51962202;Bernartice u Javornika;Dziewiętlice;1893-01-01;;false;;Lijewski;
+L_208fdd1bd4;Pillkallen;Rautenburg;1893-01-01;;false;;Semaforek;
+L_d64c87b7d1;Bardejov;Kapušany;1893-01-01;;false;;Semaforek;
+L_86d49a98c3;Czerwony Bór;Łapy;1893-01-01;;false;;Lijewski;
+L_b2c69a14c8;Czerwony Bór;Śniadowo;1893-01-01;;false;;Lijewski;
+L_daa8953f0d;Ostrołęka;Śniadowo;1893-01-01;;false;;Lijewski;
+L_114dd69b87;Ostrołęka;Ostrów Mazowiecka;1893-01-01;;false;;Lijewski;
+L_8b123842ed;Małkinia;Ostrów Mazowiecka;1893-01-01;;false;;Lijewski;
+L_b22d626820;Lubartów;Lublin;1893-01-01;;false;;Lijewski;
+L_906edf339a;Lubartów;Parczew;1893-01-01;;false;;Lijewski;
+L_21a0b5997e;Parczew;Radzyń Podlaski;1893-01-01;;false;;Lijewski;
+L_470d6434ca;Radzyń Podlaski;Łuków;1893-01-01;;false;;Lijewski;
+L_0a7e0d0136;Podolinec;Spišska Bela;1893-01-01;;false;;Semaforek;
+L_098ee42e37;Głęboka Śląska;Strzelin;1894-01-01;;false;;Lijewski;
+L_b095a3db14;Chełmża;Kowalewo Pomorskie;1894-01-01;;false;;Lijewski;
+L_33cc3c1ee5;Ahlbeck;Świnoujście;1894-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Ahlbeck.
+L_e2e580dcc3;Ahlbeck;Heringsdorf;1894-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Ahlbeck.
+L_0741d02a64;Rydlewo;Żnin Wąskotorowy;1894-01-01;;false;600.0;Lijewski;Stacja pośrednia w Rydlewie dodana na podstawie Atlasu Kolejowego (https://www.atlaskolejowy.net/pl/kujawsko-pomorskie/?id=linia&poz=936).
+L_45efc105a0;Biskupin;Rydlewo;1894-01-01;;false;600.0;Lijewski;Stacja pośrednia w Rydlewie dodana na podstawie Atlasu Kolejowego (https://www.atlaskolejowy.net/pl/kujawsko-pomorskie/?id=linia&poz=936).
+L_5733d56ce0;Biskupin;Rogowo;1894-01-01;;false;600.0;Lijewski;Stacja pośrednia w Rydlewie dodana na podstawie Atlasu Kolejowego (https://www.atlaskolejowy.net/pl/kujawsko-pomorskie/?id=linia&poz=936).
+L_e46c0172f7;Biskupin;Szelejewo Wąskotorowe;1894-01-01;;false;600.0;Lijewski;
+L_dcc0d57294;Morąg;Orneta;1894-01-01;;false;;Lijewski;
+L_0c3d422dab;Dębnica Kaszubska;Słupsk;1894-01-01;;false;;Lijewski;
+L_63bbbc7401;Nakło nad Notecią;Więcbork;1894-01-01;;false;;Lijewski;
+L_84fd69170e;Sępólno Krajeńskie;Więcbork;1894-01-01;;false;;Lijewski;
+L_b2ecc23fc7;Chojnice;Sępólno Krajeńskie;1894-01-01;;false;;Lijewski;
+L_f1d41b76cc;Fosowskie;Lubliniec;1894-01-01;;false;;Lijewski;
+L_0a269e48bf;Ragnit;Rautenburg;1894-01-01;;false;;Semaforek;
+L_42e127aed0;Olsztynek;Ostróda;1894-01-01;;false;;Lijewski;
+L_154036a9f7;Niemcza;Piława Górna;1894-01-01;;false;;Lijewski;
+L_c4a6ed4f19;Nowy Świętów;Sławniowice Nyskie;1894-01-01;;false;;Lijewski;
+L_1c1a079dce;Chryplin;Delatyn;1894-01-01;;false;;Semaforek;
+L_d870036995;Delatyn;Worochta;1894-01-01;;false;;Semaforek;
+L_6363a8605f;Worochta;Woronienka;1894-01-01;;false;;Semaforek;
+L_662dd53a90;Jablonec nad Nisou;Smržovka;1894-01-01;;false;;Semaforek;
+L_caf9612937;Smržovka;Tanvald;1894-01-01;;false;;Semaforek;
+L_82f8001f96;Josefuv Dul;Smržovka;1894-01-01;;false;;Semaforek;
+L_324baef463;Przedkowice;Sulmierzyce;1894-01-01;;false;750.0;Lijewski;Poprawione według danych z Pod-Semaforkiem oraz Atlasu Kolejowego - Sulmierzyce zamiast Żmigrodu.
+L_5484a235f7;Prusice;Przedkowice;1894-01-01;;false;750.0;Lijewski;Poprawione według danych z Pod-Semaforkiem oraz Atlasu Kolejowego - Sulmierzyce zamiast Żmigrodu.
+L_be4d25dc12;Rahó;Sighetul Marmatiei;1894-01-01;;false;;Semaforek;
+L_bd9ca5d10c;Körösmezo;Rahó;1894-01-01;;false;;Semaforek;
+L_4849990b6c;Bielsk Podlaski;Hajnówka;1894-01-01;;false;;Lijewski;
+L_1c448760fa;Kiwierce;Łuck;1894-01-01;;false;;Semaforek;
+L_875ef4bab8;Bibiela;Tarnowskie Góry Lasowice;1895-01-01;;false;;Lijewski;
+L_d0fbc39353;Chwarstnica;Gryfino;1895-01-01;;false;;Lijewski;
+L_217cfdaba8;Chwarstnica;Swobnica;1895-01-01;;false;;Lijewski;
+L_293697f2c7;Stara Dąbrowa;Stargard Szczeciński;1895-01-01;;false;1000.0;Lijewski;Lijewski odnotowuje otwarcie fragmentu tej linii, ale w Pod-Semaforkiem jest podane więcej znajdujących się na niej stacji.
+L_ac9c25fee4;Stara Dąbrowa;Trąbki;1895-01-01;;false;1000.0;Lijewski;Lijewski odnotowuje otwarcie fragmentu tej linii, ale w Pod-Semaforkiem jest podane więcej znajdujących się na niej stacji.
+L_5ebbb75360;Ińsko;Trąbki;1895-01-01;;false;1000.0;Lijewski;Lijewski odnotowuje otwarcie fragmentu tej linii, ale w Pod-Semaforkiem jest podane więcej znajdujących się na niej stacji.
+L_64fd785d9d;Białośliwie;Nieżychowo Zakłady Przemysłowe;1895-01-01;;false;600.0;Lijewski;
+L_b07757fc24;Czajcze;Nieżychowo Zakłady Przemysłowe;1895-01-01;;false;600.0;Lijewski;
+L_4d69336e7e;Czajcze;Łobżenica;1895-01-01;;false;600.0;Lijewski;
+L_1b9a11d14a;Czajcze;Wysoka Wąskotorowa;1895-01-01;;false;600.0;Lijewski;
+L_c9ab928b69;Bydgoszcz Wąskotorowa;Smukała;1895-01-01;;false;600.0;Lijewski;
+L_dea7c3f679;Morzewiec;Smukała;1895-01-01;;false;600.0;Lijewski;
+L_6fc0726920;Koronowo;Morzewiec;1895-01-01;;false;600.0;Lijewski;
+L_27d4c3f78a;Kania Wąskotorowa;Stara Dąbrowa;1895-01-01;;false;;Lijewski;
+L_9df0cd7ef1;Gądecz;Maksymilianowo;1895-01-01;;false;;Lijewski;
+L_be68fae021;Kasprowo;Morzewiec;1895-01-01;;false;600.0;Lijewski;
+L_67fc75cc06;Resko Północne;Skrzydłowo;1895-01-01;;false;1000.0;Lijewski;Lijewski dodaje jeszcze za Skrzydłowem Rymań, ale na podstawie Atlasu Kolejowego i Pod-Semaforkiem wydaje się, że była to inna linia.
+L_68407321a7;Liszkowo Rozgraniczenie;Łobżenica;1895-01-01;;false;600.0;Lijewski;
+L_48861cc3f0;Liszkowo Rozgraniczenie;Witosław;1895-01-01;;false;600.0;Lijewski;
+L_67e1ddd6aa;Gościno;Kołobrzeg;1895-01-01;;false;1000.0;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Skrzydłowo.
+L_793a117f38;Gościno;Rymań;1895-01-01;;false;1000.0;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Skrzydłowo.
+L_44f0740bd7;Rymań;Skrzydłowo;1895-01-01;;false;1000.0;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Skrzydłowo.
+L_837a3e822c;Ośno;Rogowo;1895-01-01;;false;600.0;Lijewski;
+L_61eadeffbf;Miłków;Mysłakowice;1895-01-01;;false;;Lijewski;
+L_720b456ae4;Karpacz;Miłków;1895-01-01;;false;;Lijewski;
+L_9fceba0e85;Kasprowo;Łukowiec;1895-01-01;;false;600.0;Lijewski;
+L_271e9e4884;Wierzchucin Królewski;Łukowiec;1895-01-01;;false;600.0;Lijewski;
+L_b5479996b6;Kasprowo;Suchary;1895-01-01;;false;600.0;Lijewski;
+L_9135b7479e;Choszczno;Kalisz Pomorski;1895-01-01;;false;;Lijewski;
+L_ae2899bc0a;Körösmezo;Woronienka;1895-01-01;;false;;Semaforek;
+L_c89894affb;Malczyce;Strzegom;1895-01-01;;false;;Lijewski;
+L_3ea27fbce0;Ognica;Ulikowo;1895-01-01;;false;;Semaforek;Lijewski podaje otwarcie odcinka Stargard Szczeciński-Ognica, ale wydaje się, że taka linia nigdy nie istniała.
+L_468a68c8bd;Jerzmanice Zdrój;Złotoryja;1895-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Jerzmanice Zdrój.
+L_a6c0ad0040;Jerzmanice Zdrój;Świerzawa;1895-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Jerzmanice Zdrój.
+L_692e258e93;Zabrze Biskupice;Zabrze Północne;1895-01-01;;false;;Lijewski;
+L_cb584c8ecb;Gościno;Lepino Trójkąt;1895-01-01;;false;1000.0;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Lepino Trójkąt.
+L_20cf9af26b;Lepino Trójkąt;Sławoborze;1895-01-01;;false;1000.0;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Lepino Trójkąt.
+L_e1388b9102;Bydgoszcz;Szubin;1895-01-01;;false;;Lijewski;
+L_7355d02b02;Szubin;Żnin;1895-01-01;;false;;Lijewski;
+L_72da36457d;Jankowa Żagańska;Przewóz;1895-01-01;;false;;Lijewski;
+L_aa0b3a9393;Dębnica Kaszubska;Jamrzyno;1895-01-01;;false;;Lijewski;
+L_38452857d5;Kalisz Pomorski;Ognica;1895-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Ognica.
+L_9dcd1bc21a;Krzanowice Południowe;Racibórz;1895-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Chuchelna i Kravaře ve Slezsku.
+L_9c02b0f192;Chuchelna;Krzanowice Południowe;1895-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Chuchelna i Kravaře ve Slezsku.
+L_74746aa261;Chuchelna;Kravaře ve Slezsku;1895-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Chuchelna i Kravaře ve Slezsku.
+L_0386b78e38;Kravaře ve Slezsku;Opava Vychod;1895-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Chuchelna i Kravaře ve Slezsku.
+L_06466c1d5f;Milicz Wąskotorowy;Przedkowice;1895-01-01;;false;750.0;Lijewski;
+L_3fe73afb3c;Milicz Wąskotorowy;Sulmierzyce;1895-01-01;;false;750.0;Lijewski;
+L_09595eef67;Nakło nad Notecią;Trzeciewnica;1895-01-01;;false;600.0;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Trzeciewnica.
+L_1fdc12172e;Suchary;Trzeciewnica;1895-01-01;;false;600.0;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Trzeciewnica.
+L_6280e1ddad;Olszewka Wyrzyska;Trzeciewnica;1895-01-01;;false;600.0;;
+L_6344753916;Olszewka Wyrzyska;Radzicz Rozgraniczenie;1895-01-01;;false;600.0;;
+L_36b3d258b5;Dobra Nowogardzkie;Kania Wąskotorowa;1895-01-01;;false;;Lijewski;
+L_fc3f404bf5;Leszno;Włoszakowice;1895-01-01;;false;;Lijewski;
+L_6a30467596;Bieniów;Krzystkowice;1895-01-01;;false;;Lijewski;
+L_595c73059c;Janów;Lwów;1895-01-01;;false;;Semaforek;
+L_5ee312baf8;Dobra Nowogardzkie;Stara Dąbrowa;1895-01-01;;false;1000.0;;
+L_0b2e7e5458;Błotnica;Wolsztyn;1895-01-01;;false;;Lijewski;
+L_9babfde766;Lwówek Śląski;Nowa Wieś Grodziska;1895-01-01;;false;;Lijewski;
+L_eb7fcd7282;Nowe Święciany;Postawy;1895-01-01;;false;750.0;Semaforek;
+L_c3ec8d46e7;Gliwice;Poręba;1895-01-01;;false;;Lijewski;
+L_1680dfd60f;Studeny Potok;Tatranska Lomnica;1895-01-01;;false;;Semaforek;
+L_fef424d0e4;Nowe Święciany;Święciany;1895-01-01;;false;750.0;Atlas Kolejowy;
+L_1d043e7b1a;Łyntupy Wąskie;Święciany;1895-01-01;;false;750.0;Atlas Kolejowy;
+L_e5421598d7;Gniezno Wąskotorowe;Niechanowo;1896-01-01;;false;750.0;Lijewski;Informacja o rozstawie szyn z Wikipedii http://pl.wikipedia.org/wiki/Gnie%C5%BAnie%C5%84ska_Kolej_W%C4%85skotorowa
+L_4c45444ec8;Arcugowo;Niechanowo;1896-01-01;;false;750.0;Lijewski;Informacja o rozstawie szyn z Wikipedii http://pl.wikipedia.org/wiki/Gnie%C5%BAnie%C5%84ska_Kolej_W%C4%85skotorowa
+L_d4315469dc;Arcugowo;Mielżyn;1896-01-01;;false;750.0;Lijewski;Informacja o rozstawie szyn z Wikipedii http://pl.wikipedia.org/wiki/Gnie%C5%BAnie%C5%84ska_Kolej_W%C4%85skotorowa
+L_a6f83ec458;Pałahicze;Tłumacz;1896-01-01;;false;;Semaforek;
+L_6a27302a27;Ostrów Wielkopolski;Skalmierzyce;1896-01-01;;false;;Lijewski;
+L_f4473c35ad;Wojcieszów Górny;Świerzawa;1896-01-01;;false;;Lijewski;
+L_da6e4c44ee;Brody Wąskotorowe;Lwówek Wąskotorowy;1896-01-01;;false;750.0;Lijewski;
+L_bc5f57a736;Kietrz;Pietrowice Wielkie;1896-01-01;;false;;Lijewski;
+L_4bebcec756;Błotnica;Włoszakowice;1896-01-01;;false;;Lijewski;
+L_2e3349da26;Wrocław Brochów;Wrocław Popowice;1896-01-01;;false;;Lijewski;
+L_b9cd734a5d;Jerzmanice Zdrój;Nowa Wieś Grodziska;1896-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacji Jerzmanice Zdrój.
+L_3e1d4df1c3;Leśna;Lubań Śląski;1928-01-01;;true;;Semaforek;
+L_b147cb53d5;Międzyrzecz;Skwierzyna;1896-01-01;;false;;Lijewski;
+L_e5f59cf05a;Gryfice;Popiele;1905-01-01;;false;1000.0;Semaforek;
+L_2e5316b79d;Popiele;Rewal;1905-01-01;;false;1000.0;Semaforek;
+L_04e51fd9d2;Niechorze;Rewal;1905-01-01;;false;1000.0;Semaforek;
+L_2e8a9de2d9;Niechorze;Pogorzelica Gryficka;1905-01-01;;false;1000.0;Semaforek;
+L_6c68c881fe;Dobra Nowogardzkie;Mieszewo;1896-01-01;;false;1000.0;Lijewski;
+L_45486a40a0;Mieszewo;Łobez;1896-01-01;;false;1000.0;Lijewski;
+L_9c366668b1;Mieszewo;Żelmowo;1896-01-01;;false;1000.0;Lijewski;
+L_e25f86df81;Lipova Lazne;Velka Kraš;1896-01-01;;false;;Semaforek;
+L_13c91ef62a;Bernartice u Javornika;Velka Kraš;1896-01-01;;false;;Semaforek;
+L_e35f15c0c6;Marciszów;Wojcieszów Górny;1896-01-01;;false;;Lijewski;
+L_e345224dc4;Bernartice u Javornika;Javornik ve Slezsku;1896-01-01;;false;;Semaforek;
+L_c55ff4cd5f;Bieniów;Żary;1896-01-01;;false;;Lijewski;
+L_c8e44fca32;Niechanowo;Powidz;1896-01-01;;false;;Lijewski;
+L_57d3fb00be;Bzowo Goraj;Drawski Młyn;1896-01-01;;false;;;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego występuje stacja Krzyż, która według Atlasu Kolejowego nie znajdowała się jednak na tej linii.
+L_4e69ab37c3;Bzowo Goraj;Rogoźno;1896-01-01;;false;;;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego występuje stacja Krzyż, która według Atlasu Kolejowego nie znajdowała się jednak na tej linii.
+L_c04de22411;Jawor;Roztoka;1896-01-01;;false;;Lijewski;
+L_f2f1cbfcc0;Biała Prudnicka;Prudnik;1896-01-01;;false;;Lijewski;
+L_0c0b8a08cf;Grzmiąca;Śliwno Bobolickie;1896-01-01;;false;;Lijewski;
+L_99b3d69626;Smardzko;Świdwin;1896-01-01;;false;;Lijewski;
+L_c906504f4b;Tarnopol;Trembowla;1896-01-01;;false;;Semaforek;
+L_f6f1288753;Kopyczyńce;Trembowla;1896-01-01;;false;;Semaforek;
+L_cc88d8393e;Mikulovice;Zlate Hory;1896-01-01;;false;;Semaforek;
+L_1d3f1c0ed8;Gorzów Wielkopolski Zieleniec;Skwierzyna;1896-01-01;;false;;Lijewski;
+L_4fd947d2d2;Gozdnica;Ruszów;1896-01-01;;false;;Lijewski;
+L_9aeb74457e;Biała Prudnicka;Gogolin;1896-01-01;;false;;Lijewski;
+L_f80650495e;Chyrzyno;Kostrzyn;1896-01-01;;false;;Lijewski;W bazie Pod-Semaforkiem jest informacja Chyrzyno-Słońsk, u Lijewskiego Kostrzyn-Słońsk.
+L_44167c1c0b;Chyrzyno;Słońsk;1896-01-01;;false;;Lijewski;W bazie Pod-Semaforkiem jest informacja Chyrzyno-Słońsk, u Lijewskiego Kostrzyn-Słońsk.
+L_6836f394aa;Redło;Smardzko;1896-01-01;;false;;Lijewski;
+L_d356a56a87;Kamienica Wołyńska;Krzemieniec;1896-01-01;;false;;Semaforek;
+L_1eab972e0c;Podbrodzie;Łyntupy;1896-01-01;;false;;Semaforek;
+L_57347293b9;Berezowica Ostrów;Potutory;1897-01-01;;false;;Semaforek;
+L_41c9712c87;Podwysokie;Potutory;1897-01-01;;false;;Semaforek;
+L_a9f68110db;Redło;Stare Ludzicko;1897-01-01;;false;;Lijewski;
+L_be247e9470;Połczyn Zdrój;Stare Ludzicko;1897-01-01;;false;;Lijewski;
+L_c5df7d4792;Bzowo Goraj;Czarnków;1897-01-01;;false;;Lijewski;
+L_93af77eb2e;Dobra Szczecińska;Stolec;1905-01-01;;false;1435.0;Semaforek;
+L_bfaab4f8f8;Stolec;Stolzenburger Glashütte;1905-01-01;;false;1435.0;Semaforek;
+L_b7db4a650d;Halicz;Podwysokie;1897-01-01;;false;;Semaforek;
+L_717bb85c50;Wąwelno;Łukowiec;1897-01-01;;false;600.0;Lijewski;
+L_0c4c738ab4;Gądecz;Włóki;1897-01-01;;false;;Lijewski;
+L_4052c72dba;Borki Wielkie;Grzymałów;1897-01-01;;false;;;
+L_79d935443f;Velka Kraš;Vidnava;1897-01-01;;false;;Semaforek;
+L_0e8b0b8e1d;Gniezno;Powidz;1957-01-01;;false;750.0;Semaforek;
+L_c7ad3a8d94;Ińsko;Studnica;1897-01-01;;false;;Lijewski;Informacja o Ińsku jest domyślna - kawałek był przedłużeniem Stargardzkiej Kolei Dojazdowej.
+L_98aefe4136;Jankowo Pomorskie;Studnica;1897-01-01;;false;;Lijewski;Informacja o Ińsku jest domyślna - kawałek był przedłużeniem Stargardzkiej Kolei Dojazdowej.
+L_b6c4e3031f;Lubsko;Tuplice;1897-01-01;;false;;Lijewski;
+L_f944fecdca;Strzelce Krajeńskie Miasto;Strzelce Krajeńskie Wschód;1897-01-01;;false;;Lijewski;
+L_0ea63fffc2;Krosnowice Kłodzkie;Lądek Zdrój;1897-01-01;;false;;Lijewski;
+L_28841caac3;Lądek Zdrój;Stronie Śląskie;1897-01-01;;false;;Lijewski;
+L_44edc39f5a;Chodorów;Podwysokie;1897-01-01;;false;;Semaforek;
+L_7d0f82b693;Bobolice;Śliwno Bobolickie;1897-01-01;;false;;Lijewski;
+L_8d334c5662;Jacinki;Polanów;1934-01-01;;false;1435.0;Semaforek;
+L_ee6452564e;Gołogóra;Polanów;1934-01-01;;false;1435.0;Semaforek;
+L_dcc4563b85;Jacinki;Nacław;1950-01-01;;false;1000.0;Semaforek;
+L_4027b2d4a4;Ostrołęka;Wyszków;1897-01-01;;false;;Lijewski;
+L_d850e79180;Tłuszcz;Wyszków;1897-01-01;;false;;Lijewski;
+L_8cc57e07ea;Mińsk Mazowiecki;Tłuszcz;1897-01-01;;false;;;
+L_da07d74470;Mińsk Mazowiecki;Pilawa;1897-01-01;;false;;;
+L_542838a818;Białowieża;Hajnówka;1897-01-01;;false;;Lijewski;
+L_ef96054c22;Woropajewo;Łyntupy;1897-01-01;;false;;Semaforek;
+L_997d418158;Głębokie;Woropajewo;1897-01-01;;false;;Semaforek;
+L_b0f843ad1a;Cisna;Nowy Łupków;1898-01-01;;false;760.0;Lijewski;Semaforek dodaje, że linia sięgała do Majdanu (zgadza się z informacjami z strony https://hasajacezajace.com/bieszczadzka-kolejka-lesna/).
+L_767a54e4bf;Cisna;Majdan;1898-01-01;;false;760.0;Lijewski;Semaforek dodaje, że linia sięgała do Majdanu (zgadza się z informacjami z strony https://hasajacezajace.com/bieszczadzka-kolejka-lesna/).
+L_3864557bc6;Legnica;Ścinawa;1898-01-01;;false;;Lijewski;
+L_aad413e245;Krzelów;Ścinawa;1898-01-01;;false;;Lijewski;
+L_b99915ac1d;Krzelów;Wąsosz;1898-01-01;;false;;Lijewski;
+L_6c9fa6e1f5;Rawicz;Wąsosz;1898-01-01;;false;;Lijewski;
+L_7fe43d2ee9;Miejska Górka;Rawicz;1898-01-01;;false;;Lijewski;
+L_ceb27c091a;Kobylin;Miejska Górka;1898-01-01;;false;;Lijewski;
+L_cdccbd2e84;Szczecin;Szczecin Drzetowo;1898-01-01;;false;;Lijewski;
+L_10050699c7;Wąbrzeźno;Wąbrzeźno Miasto;1898-01-01;;false;;Lijewski;
+L_0e1d5f296d;Borzykowo;Września;1898-01-01;;false;600.0;Lijewski;
+L_564edbc6ac;Miejska Górka;Pakosław;1898-01-01;;false;;Lijewski;
+L_3eddd14ecd;Gostkowo;Miejska Górka;1898-01-01;;false;;Lijewski;
+L_15891afa7b;Kętrzyn;Sławkowo;1898-01-01;;false;750.0;Lijewski;
+L_9c3f6522e9;Mrągowo;Sławkowo;1898-01-01;;false;750.0;Lijewski;
+L_d2dd60606b;Salpik;Sławkowo;1898-01-01;;false;750.0;Lijewski;
+L_42dd62d528;Biskupiec;Czerwonka;1898-01-01;;false;;Lijewski;
+L_4006b4c419;Tuplice;Łęknica;1898-01-01;;false;;Lijewski;Alternatywna nazwa Łęknicy to Mużaków Wschód.
+L_e9a3c137f3;Bad Muskau;Łęknica;1898-01-01;;false;;Lijewski;Alternatywna nazwa Łęknicy to Mużaków Wschód.
+L_35d45e658d;Gliwice;Zabrze Północne;1898-01-01;;false;;Lijewski;
+L_2a885c2405;Mrągowo;Ruciane Nida;1898-01-01;;false;;Lijewski;
+L_47521796cf;Trzebnica Gaj;Wrocław Wąskotorowy;1898-01-01;;false;750.0;Lijewski;
+L_a7457d802a;Lujeni;Stefanesti;1898-01-01;;false;;Semaforek;
+L_97871c3455;Stefanesti;Zaleszczyki;1898-01-01;;false;;Semaforek;
+L_31a24450e9;Choszczno;Lubiana Pyrzycka;1898-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego jest na tym odcinku wymieniona stacja Lubiana Pyrzycka
+L_d328d3bb49;Barlinek;Lubiana Pyrzycka;1898-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego jest na tym odcinku wymieniona stacja Lubiana Pyrzycka
+L_9cf662529c;Sobótka Zachodnia;Świdnica Przedmieście;1898-01-01;;false;;Lijewski;Strzeblów to dawna nazwa stacji Sobótka Zachodnia. W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacja Świdnica Przedmieście.
+L_6bd3805233;Świdnica;Świdnica Przedmieście;1898-01-01;;false;;Lijewski;Strzeblów to dawna nazwa stacji Sobótka Zachodnia. W przeciwieństwie do Pod-Semaforkiem, u Lijewskiego nie ma na tym odcinku wymienionej stacja Świdnica Przedmieście.
+L_a3468f3ecd;Pyrzyce;Płońsko;1898-01-01;;false;;Lijewski;
+L_c0470e413d;Pyrzyce;Sobieradz;1898-01-01;;false;;Lijewski;
+L_042e4f2017;Chwarstnica;Sobieradz;1898-01-01;;false;;Lijewski;
+L_6c43d2f98e;Stare Czarnowo;Szczecin Lotnisko;1898-01-01;;false;;Lijewski;
+L_26436958ba;Biskupiec;Mrągowo;1898-01-01;;false;;Lijewski;
+L_467223bf1d;Frysztat;Piotrowice;1898-01-01;;false;;Semaforek;
+L_d91e05ff63;Frysztat;Karwina;1898-01-01;;false;;Semaforek;
+L_951c36ee6c;Dzikowo Iławieckie;Zinten;1898-01-01;;false;;Lijewski;Zinten to dzisiejsze Korniejewo. Na bazie Atlasu Kolejowego wydaje się, że linia dochodziła do Korniejewa, a Dzikowo Iławieckie było tylko przystankiem pośrednim, a nie końcowym (jak u Lijewskiego).
+L_a2fb06222e;Dzikowo Iławieckie;Górowo Iławeckie;1898-01-01;;false;;Lijewski;Zinten to dzisiejsze Korniejewo. Na bazie Atlasu Kolejowego wydaje się, że linia dochodziła do Korniejewa, a Dzikowo Iławieckie było tylko przystankiem pośrednim, a nie końcowym (jak u Lijewskiego).
+L_88143312dd;Gerdauen;Rudziszki;1898-01-01;;false;;Lijewski;
+L_236fe01233;Rudziszki;Węgorzewo;1898-01-01;;false;;Lijewski;
+L_d6a8db7ea0;Kędzierzyn Koźle Zachodni;Reńska Wieś;1898-01-01;;false;;Lijewski;
+L_5ef65f9dd1;Kobierzyce;Łagiewniki Dzierżoniowskie;1898-01-01;;false;;Lijewski;
+L_e4e5d88be5;Police;Szczecin Drzetowo;1898-01-01;;false;;Lijewski;
+L_e5707d997a;Jasienica;Police;1898-01-01;;false;;Lijewski;
+L_d7c8eeb9e0;Gryfice;Tąpadły;1905-01-01;;false;1000.0;Semaforek;
+L_31dd7090a9;Dargosław;Tąpadły;1905-01-01;;false;1000.0;Semaforek;
+L_242fc308ae;Piaseczno Miasto;Warszawa Mokotów;1898-01-01;;false;1000.0;Lijewski;
+L_7d055efc1a;Góra Kalwaria;Piaseczno Miasto;1898-01-01;;false;1000.0;Lijewski;
+L_b4163eef8a;Gołków;Piaseczno Miasto;1898-01-01;;false;1000.0;Lijewski;
+L_a96240cf5e;Biała Czortkowska;Zaleszczyki;1898-01-01;;false;;Semaforek;
+L_99a963426c;Teresin;Wygnanka;1898-01-01;;false;;Semaforek;
+L_b75641d2af;Skała Podolska;Teresin;1898-01-01;;false;;Semaforek;
+L_7fdf81e846;Lisewo Malborskie;Pogorzała;1898-01-01;;false;750.0;Lijewski;Informacja o stacji pośredniej w Pogorzale dodana na podstawie Atlasu Kolejowego: https://www.atlaskolejowy.net/pl/pomorskie/?id=linia&poz=1013.
+L_0cf45ad689;Miłoradz;Pogorzała;1898-01-01;;false;750.0;Lijewski;Informacja o stacji pośredniej w Pogorzale dodana na podstawie Atlasu Kolejowego: https://www.atlaskolejowy.net/pl/pomorskie/?id=linia&poz=1013.
+L_ecbe3d798a;Koszalin;Manowo;1950-01-01;;false;1000.0;Semaforek;
+L_f0b43ad557;Manowo;Nacław;1950-01-01;;false;1000.0;Semaforek;
+L_5665f46706;Bytom Nowy Karb;Zabrze Biskupice;1898-01-01;;false;;Lijewski;Informacja o linii z Lijewskiego. Informacje co do tej linii są sprzeczne między Lijewskim, Pod-Semaforkiem oraz Atlasem Kolejowym.
+L_1cba83dd4a;Bytom Dąbrowa Miejska;Bytom Nowy Karb;1898-01-01;;false;;Lijewski;Informacja o linii z Lijewskiego. Informacje co do tej linii są sprzeczne między Lijewskim, Pod-Semaforkiem oraz Atlasem Kolejowym.
+L_4077a622e8;Iwanie Puste;Teresin;1898-01-01;;false;;Semaforek;
+L_3ff271ee8f;Rudki;Wałcz;1898-01-01;;false;;Lijewski;
+L_643ebc7745;Puck;Reda;1898-01-01;;false;;Lijewski;
+L_849dcd965d;Nowy Tomyśl;Wąsowo;1898-01-01;;false;750.0;Lijewski;
+L_02f01f7ef0;Lichnowy;Nowa Cerkiew;1898-01-01;;false;750.0;Lijewski;
+L_67b3b31553;Lichnowy;Nowy Staw;1898-01-01;;false;750.0;Lijewski;
+L_f79b36c208;Lipinka Gdańska;Nowy Staw;1898-01-01;;false;750.0;Lijewski;
+L_dc02474207;Osoblaha;Třemešna ve Slezsku;1898-01-01;;false;760.0;Semaforek;
+L_0968e14cdd;Kralovany;Oravsky Podzamok;1898-01-01;;false;;Semaforek;
+L_1648e9d3fd;Nowe Święciany;Poniewież;1898-01-01;;false;750.0;Semaforek;
+L_cf6ad1c6f4;Prusice;Trzebnica Gaj;1899-01-01;;false;750.0;Lijewski;
+L_83626a292d;Godków;Pyrzyce;1899-01-01;;false;;Lijewski;
+L_c4b4124c9b;Gorzów Wielkopolski;Gorzów Wielkopolski Zamoście;1899-01-01;;false;;Lijewski;
+L_1844dc7885;Gliwice Trynek;Nędza Wąskotorowa;1899-01-01;;false;785.0;Lijewski;
+L_134374ce48;Nędza Wąskotorowa;Racibórz Markowice;1899-01-01;;false;785.0;Lijewski;
+L_bfc0c419f8;Koszalin;Mścice;1899-01-01;;false;;Lijewski;
+L_fb4af70b21;Kołobrzeg;Mścice;1899-01-01;;false;;Lijewski;
+L_686bfa69bc;Oravsky Podzamok;Tvrdošin;1899-01-01;;false;;Semaforek;
+L_ba058d3159;Międzyzdroje;Wolin;1899-01-01;;false;;Lijewski;
+L_c937c29715;Bolków;Marciszów;1899-01-01;;false;;Lijewski;
+L_e8664d6727;Gołdap;Węgorzewo;1899-01-01;;false;;Lijewski;
+L_3659bae961;Siersza Wodna;Trzebinia;1899-01-01;;false;;Lijewski;
+L_7e1d38cc46;Bolęcin;Trzebinia;1899-01-01;;false;;Lijewski;
+L_a9576bfefd;Bolęcin;Spytkowice;1899-01-01;;false;;Lijewski;
+L_46bd2ef69c;Spytkowice;Wadowice;1899-01-01;;false;;Lijewski;
+L_f0c1438733;Skawce;Wadowice;1899-01-01;;false;;Lijewski;
+L_c3b6ba09d9;Lichnowy;Lisewo Malborskie;1899-01-01;;false;750.0;Lijewski;
+L_673b7ece8d;Elbląg;Tolkmicko;1899-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, Lijewski nie wspomina stacji pośredniej Frombork.
+L_68eb62d1c3;Frombork;Tolkmicko;1899-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, Lijewski nie wspomina stacji pośredniej Frombork.
+L_8a3afb6b98;Braniewo;Frombork;1899-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem, Lijewski nie wspomina stacji pośredniej Frombork.
+L_db015b4af3;Marki;Warszawa Targowa;1951-01-01;;false;750.0;;
+L_c49168ddd2;Marki;Struga;1951-01-01;;false;750.0;;
+L_7dfe7c91a0;Radzymin Wąskotorowy;Struga;1951-01-01;;false;750.0;;
+L_add89c5ed4;Jabłonowo Pomorskie;Kisielice;1899-01-01;;false;;Lijewski;
+L_63fd676fa4;Kisielice;Prabuty;1899-01-01;;false;;Lijewski;
+L_ee5cffe319;Górowo Iławeckie;Lidzbark Warmiński;1899-01-01;;false;;Lijewski;
+L_51a04d9124;Jełowa;Kluczbork;1899-01-01;;false;;Lijewski;
+L_7deeb8c376;Orzegów;Ruda Chebzie;1899-01-01;;false;;Lijewski;
+L_17da118c1a;Kamienna Góra;Krzeszów;1899-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, Pod-Semaforkiem dodaje stacje pośrednie Krzeszów i Chełmsko Śląskie
+L_b2b48f75c0;Chełmsko Śląskie;Krzeszów;1899-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, Pod-Semaforkiem dodaje stacje pośrednie Krzeszów i Chełmsko Śląskie
+L_036d8f6703;Chełmsko Śląskie;Okrzeszyn;1899-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, Pod-Semaforkiem dodaje stacje pośrednie Krzeszów i Chełmsko Śląskie
+L_75140f5936;Delatyn;Kołomyja;1899-01-01;;false;;Semaforek;
+L_4a36c20698;Jasienów Polny;Kołomyja;1899-01-01;;false;;Semaforek;
+L_959fe1cde7;Jasienów Polny;Stefanesti;1899-01-01;;false;;Semaforek;
+L_365b193f8c;Chabówka;Nowy Targ;1899-01-01;;false;;Lijewski;
+L_67e9119ea7;Nowy Targ;Zakopane;1899-01-01;;false;;Lijewski;
+L_2a309462aa;Barnisław;Szczecin Pomorzany;1899-01-01;;false;;Lijewski;
+L_ea26d5b788;Garczegorze;Lębork;1899-01-01;;false;;Lijewski;
+L_b8594cecac;Garczegorze;Wrzeście;1899-01-01;;false;;Lijewski;
+L_f20b5d4761;Wrzeście;Łeba;1899-01-01;;false;;Lijewski;
+L_c9a60a79d1;Czerwonka;Lidzbark Warmiński;1899-01-01;;false;;Lijewski;
+L_7d5e2299cf;Człopa;Krzyż;1899-01-01;;false;;Lijewski;
+L_36000a1bce;Chodorów;Stryj;1899-01-01;;false;;Semaforek;
+L_d9ce9f9d26;Skrzydłowo;Tąpadły;1899-01-01;;false;1000.0;Lijewski;
+L_27287a3d30;Trstena;Tvrdošin;1899-01-01;;false;;Semaforek;
+L_d16d240714;Sucha Góra;Trstena;1899-01-01;;false;;Semaforek;
+L_c28445356a;Jablonec nad Jizerou;Martinice v Krkonošich;1899-01-01;;false;;Semaforek;
+L_dd9ed8fd60;Jablonec nad Jizerou;Rokytnice nad Jizerou;1899-01-01;;false;;Semaforek;
+L_a50fc093e3;Dolni Lipka;Štity;1899-01-01;;false;;Semaforek;
+L_457c5ee406;Alytus;Šeštokai;1899-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje informacje o stacjach pośrednich w Łosośnej, Šeštokai, oraz stacji początkowej Orany.
+L_f7ce11db01;Suwałki;Trakiszki;1899-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje informacje o stacjach pośrednich w Łosośnej, Šeštokai, oraz stacji początkowej Orany.
+L_dbf330a0bb;Augustów;Suwałki;1899-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje informacje o stacjach pośrednich w Łosośnej, Šeštokai, oraz stacji początkowej Orany.
+L_5f9f955310;Augustów;Kamienna Nowa;1899-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje informacje o stacjach pośrednich w Łosośnej, Šeštokai, oraz stacji początkowej Orany.
+L_849777a403;Bielany Białostockie;Kamienna Nowa;1899-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje informacje o stacjach pośrednich w Łosośnej, Šeštokai, oraz stacji początkowej Orany.
+L_59e90de81a;Bielany Białostockie;Łosośna;1899-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje informacje o stacjach pośrednich w Łosośnej, Šeštokai, oraz stacji początkowej Orany.
+L_9745701779;Grodno;Łosośna;1899-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje informacje o stacjach pośrednich w Łosośnej, Šeštokai, oraz stacji początkowej Orany.
+L_3d45d410e2;Leżajsk;Przeworsk;1900-01-01;;false;;Lijewski;
+L_576d885d8c;Leżajsk;Rozwadów;1900-01-01;;false;;Lijewski;
+L_e351c954a2;Kisielice;Kwidzyn;1900-01-01;;false;;Lijewski;
+L_b2d574dfbb;Polkowice;Rudna Gwizdanów;1900-01-01;;false;;Lijewski;
+L_67de44717f;Kalisz Pomorski;Wierzchowo Pomorskie;1900-01-01;;false;;Lijewski;
+L_1d6d66c785;Wierzchowo Pomorskie;Złocieniec;1900-01-01;;false;;Lijewski;
+L_e3856931d4;Bily Potok pod Smrkem;Raspenava;1900-01-01;;false;;Semaforek;
+L_f077c79886;Dzierżoniów;Pieszyce;1900-01-01;;false;;Lijewski;
+L_c17655446e;Bielawa Zachodnia;Pieszyce;1900-01-01;;false;;Lijewski;
+L_e8c4b51992;Bielawa Zachodnia;Srebrna Góra;1900-01-01;;false;;Lijewski;
+L_7859323863;Nowa Wieś Kłodzka;Srebrna Góra;1900-01-01;;false;;Lijewski;
+L_a58c8ecddc;Międzyzdroje;Odra Port;1900-01-01;;false;;Lijewski;
+L_2ab0a157d2;Kraków Czyżyny;Kraków Mogiła;1900-01-01;;false;;Lijewski;
+L_8e55eaba2d;Szczytno;Wielbark;1900-01-01;;false;;Lijewski;
+L_14acea575d;Nidzica;Wielbark;1900-01-01;;false;;Lijewski;
+L_30ec2dc989;Krotoszyn;Pleszew Wąskotorowy;1900-01-01;;false;750.0;Lijewski;
+L_659c82d81c;Heřmanice;Markocice;1900-01-01;;false;750.0;Lijewski;Pod-Semaforkiem dodaje stację Frýdlant v Čechach.
+L_966273756f;Frýdlant v Čechach;Heřmanice;1900-01-01;;false;750.0;Lijewski;Pod-Semaforkiem dodaje stację Frýdlant v Čechach.
+L_2563850fee;Gołdap;Rominter Heide;1900-01-01;;false;;Lijewski;
+L_bd5852881d;Krzywiń;Stare Bojanowo;1950-01-01;;false;750.0;Semaforek;
+L_fed795d38e;Gostyń;Kościan;1900-01-01;;false;;Lijewski;
+L_c6f54a1bc1;Bolęcin;Chrzanów;1900-01-01;;false;;Lijewski;
+L_9ed19a029e;Chrzanów;Jaworzno Miasto;1900-01-01;;false;;Lijewski;
+L_809c4d07e5;Kraśniewo;Malbork Kałdowo;1900-01-01;;false;750.0;Lijewski;
+L_0c67d5bce7;Lipinka Gdańska;Malbork Kałdowo;1900-01-01;;false;750.0;Lijewski;
+L_c814111aa8;Stare Bojanowo;Śmigiel;1950-01-01;;false;750.0;Semaforek;
+L_d719ae833f;Wielichowo;Śmigiel;1950-01-01;;false;750.0;Semaforek;
+L_6bd06d0d17;Ujazd Wielkopolski;Wielichowo;1950-01-01;;false;750.0;Semaforek;
+L_26916f4da3;Golub Dobrzyń;Kowalewo Pomorskie;1900-01-01;;false;;Lijewski;
+L_ce7db51d1c;Brodnica;Golub Dobrzyń;1900-01-01;;false;;Lijewski;
+L_80b2911545;Kamieniec Ząbkowicki;Złoty Stok;1900-01-01;;false;;Lijewski;
+L_445629251f;Rudki;Wierzchowo Pomorskie;1900-01-01;;false;;Lijewski;
+L_7609f5d946;Nowa Cerkiew;Ostaszewo Żuławskie;1900-01-01;;false;750.0;Lijewski;
+L_31260cc614;Kościerzyna;Lipusz;1900-01-01;;false;;Lijewski;
+L_fe6a70633d;Jabłonna;Warszawa Most;1900-01-01;;false;;Lijewski;
+L_713ccb02bd;Warszawa Most;Wawer Wąskotorowy;1900-01-01;;false;;Lijewski;
+L_9342cf9bcf;Pleszew Miasto;Pleszew Wąskotorowy;1901-01-01;;false;;Lijewski;
+L_b68f6f569a;Lipusz;Ugoszcz;1901-01-01;;false;;Lijewski;
+L_fb9f07f308;Odra Port;Świnoujście;1901-01-01;;false;;Lijewski;
+L_a472509c15;Bytów;Ugoszcz;1901-01-01;;false;;Lijewski;
+L_23126c5604;Gryfice Wąskotorowe;Kołomąć;1901-01-01;;false;;Lijewski;
+L_5e008887ad;Golczewo Wąskotorowe;Kołomąć;1901-01-01;;false;;Lijewski;
+L_5916d75fa4;Warszawa Stalowa;Warszawa Targówek;1951-01-01;;false;750.0;;
+L_9613e242f0;Golczewo;Popiele;1901-01-01;;false;1000.0;;
+L_77a540d1c2;Rominter Heide;Tollmingen;1901-01-01;;false;;;
+L_809393ebb5;Stallupönen;Tollmingen;1901-01-01;;false;;;
+L_419eceeed0;Grodzisk Wielkopolski;Ujazd Wielkopolski;1901-01-01;;false;;Lijewski;
+L_601e57166e;Kościan;Ujazd Wielkopolski;1901-01-01;;false;;Lijewski;
+L_b93d269083;Starogród;Unisław Pomorski;1901-01-01;;false;;Lijewski;
+L_f71735d88a;Chełmża;Mełno;1901-01-01;;false;;Lijewski;
+L_f419080f6c;Kwidzyn;Mareza;1901-01-01;;false;750.0;Lijewski;
+L_4bb0a3f8bb;Mareza;Rusinowo Wąskotorowe;1901-01-01;;false;750.0;Lijewski;"Lijewski podaje błędnie stację ""Rostowo"" zamiast stacji ""Rusinowo""."
+L_fe02614702;Gurcz;Mareza;1901-01-01;;false;750.0;Lijewski;W rzeczywistości linia docierała niemal do Gurcza, to samego Gurcza została dociągnięta w 1927 roku (https://www.atlaskolejowy.net/pl/pomorskie/?id=linia&poz=1004).
+L_7ba330e559;Liszkowo Rozgraniczenie;Radzicz Rozgraniczenie;1901-01-01;;false;600.0;Lijewski;
+L_9a948198a3;Nieżychowo Zakłady Przemysłowe;Radzicz Rozgraniczenie;1901-01-01;;false;600.0;Lijewski;
+L_665ceb842f;Mościska;Wysoka Wąskotorowa;1901-01-01;;false;;Lijewski;
+L_a63743afd3;Gołubie Kaszubskie;Kościerzyna;1901-01-01;;false;;Lijewski;
+L_d2bb60f084;Gołubie Kaszubskie;Somonino;1901-01-01;;false;;Lijewski;
+L_e735ee38ed;Kartuzy;Somonino;1901-01-01;;false;;Lijewski;
+L_b3ffee6c55;Jeziernik;Ostaszewo Żuławskie;1901-01-01;;false;750.0;Lijewski;
+L_457123e392;Jeziernik;Nowy Dwór Gdański;1901-01-01;;false;750.0;Lijewski;
+L_463082129b;Piechowice;Szklarska Poręba Górna;1902-01-01;;false;;Lijewski;
+L_96febd6354;Poznań Malta;Poznań Wschodni;1902-01-01;;false;;Lijewski;
+L_3968ca3f12;Poznań Kobylepole;Poznań Malta;1902-01-01;;false;;Lijewski;
+L_50c0e39f52;Połażejewo;Środa Wielkopolska Miasto;1953-01-01;;false;750.0;Semaforek;
+L_aaa9283736;Poznań Kobylepole;Połażejewo;1953-01-01;;false;750.0;Semaforek;
+L_b88da0068f;Kořenov;Tanvald;1902-01-01;;false;;Semaforek;
+L_2a0c488584;Chojnice;Lipusz;1902-01-01;;false;;Lijewski;
+L_6dfb451e9f;Bytów;Pomysk;1902-01-01;;false;;Lijewski;
+L_9d7bfb605b;Lubiana Pyrzycka;Strzelce Krajeńskie Miasto;1902-01-01;;false;;Lijewski;
+L_81519f9100;Chełmno;Starogród;1902-01-01;;false;;Lijewski;
+L_1f881106b8;Kostroga;Lębork;1902-01-01;;false;;Lijewski;
+L_cf979feaa3;Jeżkowice;Pomysk;1902-01-01;;false;;Lijewski;
+L_3364adb522;Jeżkowice;Kostroga;1902-01-01;;false;;Lijewski;
+L_2ce3d2e8a4;Dobra Nowogardzkie Północ;Nowogard;1902-01-01;;false;;Lijewski;
+L_69ac6bff15;Nowa Wieś Kłodzka;Wolibórz;1902-01-01;;false;;Atlas Kolejowy;
+L_37607617b7;Nowa Ruda Słupiec;Wolibórz;1902-01-01;;false;;Atlas Kolejowy;
+L_0d05d5d264;Nowa Ruda Słupiec;Ścinawka Średnia Mały Dworzec;1902-01-01;;false;;Atlas Kolejowy;
+L_08502733f3;Radków;Ścinawka Średnia Mały Dworzec;1902-01-01;;false;;Atlas Kolejowy;
+L_e29b0b1d17;Frýdlant v Čechach;Nove Mesto pod Smrkem;1902-01-01;;false;;Semaforek;
+L_b956fd133a;Jindřichovice pod Smrkem;Nove Mesto pod Smrkem;1902-01-01;;false;;Semaforek;
+L_3e977d98e3;Czosnowo;Człuchów;1902-01-01;;false;;Lijewski;
+L_6a723825f6;Iława;Nowe Miasto Lubawskie;1902-01-01;;false;;Lijewski;
+L_a651fa65f3;Nowe Miasto Lubawskie;Szramowo;1902-01-01;;false;;Lijewski;
+L_27b1c2fad2;Jakuszyce;Szklarska Poręba Górna;1902-01-01;;false;;Lijewski;Lijewski podaje tylko Szklarska-Tkacze, Pod-Semaforkiem podaje Szklarska-Jakuszyce-Kořenov.
+L_f4d4201d1e;Jakuszyce;Tkacze;1902-01-01;;false;;Lijewski;Lijewski podaje tylko Szklarska-Tkacze, Pod-Semaforkiem podaje Szklarska-Jakuszyce-Kořenov.
+L_1ccd8e4299;Kořenov;Tkacze;1902-01-01;;false;;Lijewski;Lijewski podaje tylko Szklarska-Tkacze, Pod-Semaforkiem podaje Szklarska-Jakuszyce-Kořenov.
+L_14d314e785;Skórcz;Smętowo;1902-01-01;;false;;Lijewski;
+L_379fb36161;Jawor;Malczyce;1902-01-01;;false;;Lijewski;
+L_78f6be2aa4;Nowa Brda;Słosinko;1902-01-01;;false;;Lijewski;Lijewski podaje błędnie, że otwarty odcinek łączył stacje Miastko i Nowa Brda - kolej ze Słosinka dochodziła już do Miastka wcześniej i to połączenie Nowej Brdy ze Słosinkiem stworzyło połączenie między Miastkiem i Nową Brdą.
+L_c36ea40737;Czosnowo;Nowa Brda;1902-01-01;;false;;Lijewski;
+L_ae912896ee;Twardów;Witaszyce;1902-01-01;;false;600.0;Lijewski;
+L_aea0ac42c9;Sucha Wąskotorowa;Twardów;1902-01-01;;false;600.0;Lijewski;
+L_c6ac362ef0;Komorze;Sucha Wąskotorowa;1902-01-01;;false;600.0;Lijewski;
+L_9e45a953cb;Robaków;Sucha Wąskotorowa;1902-01-01;;false;600.0;Lijewski;
+L_cdbaeebba7;Warszawa Gołąbki;Warszawa Kaliska;1902-01-01;;false;;Lijewski;
+L_9992de9f60;Błonie;Warszawa Gołąbki;1902-01-01;;false;;Lijewski;
+L_b4f9e5b493;Błonie;Sochaczew;1902-01-01;;false;;Lijewski;
+L_176bec2036;Sochaczew;Łowicz Przedmieście;1902-01-01;;false;;Lijewski;
+L_6644fd996b;Zgierz;Łowicz Przedmieście;1902-01-01;;false;;Lijewski;
+L_f7fdfd5eff;Zgierz;Łódź Kaliska;1902-01-01;;false;;Lijewski;
+L_dc8b70cd35;Pabianice;Łódź Kaliska;1902-01-01;;false;;Lijewski;
+L_ec2b5e950f;Pabianice;Zduńska Wola;1902-01-01;;false;;Lijewski;
+L_abe4e5e71e;Sieradz;Zduńska Wola;1902-01-01;;false;;Lijewski;
+L_18da954562;Kalisz;Sieradz;1902-01-01;;false;;Lijewski;
+L_b15ad98694;Łowicz;Łowicz Przedmieście;1902-01-01;;false;;;
+L_c87bf75983;Bednary;Łowicz;1902-01-01;;false;;;
+L_783ef73811;Zebrzydowa;Ławszowa;1902-01-01;;false;;Lijewski;
+L_21847f608c;Prusewo;Wejherowo;1902-01-01;;false;;Lijewski;
+L_45156b268f;Duszniki Zdrój;Szczytna Śląska;1902-01-01;;false;;Lijewski;
+L_e4d41a2d23;Lubicz;Toruń Mokre;1902-01-01;;false;;Lijewski;
+L_2397e38653;Antonówka;Kowel;1902-01-01;;false;;Semaforek;
+L_b8b383ac3e;Antonówka;Sarny;1902-01-01;;false;;Semaforek;
+L_b50d310a0c;Ostki;Sarny;1902-01-01;;false;;Semaforek;
+L_07d49d84de;Korosten;Ostki;1902-01-01;;false;;Semaforek;
+L_8fb76e1c3f;Kiev;Korosten;1902-01-01;;false;;Semaforek;
+L_fcd5f86ead;Skórcz;Starogard Gdański;1903-01-01;;false;;Lijewski;
+L_5516382c0f;Połczyn Zdrój;Złocieniec;1903-01-01;;false;;Lijewski;
+L_d5144fe36e;Bobolice;Polanów;1903-01-01;;false;;Lijewski;
+L_ae6379fc90;Jaworzno Miasto;Szczakowa;1903-01-01;;false;;Lijewski;
+L_8de80401e3;Lwów;Sambor;1903-01-01;;false;;Semaforek;
+L_5ee49384b4;Puck;Swarzewo;1903-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, w bazie Pod-Semaforkiem pojawia się stacja pośrednia Swarzewo.
+L_61abf0bc10;Krokowa;Swarzewo;1903-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, w bazie Pod-Semaforkiem pojawia się stacja pośrednia Swarzewo.
+L_55b74a54a5;Barwice;Połczyn Zdrój;1903-01-01;;false;;Lijewski;
+L_8bae270ec1;Królewo Malborskie;Malbork Kałdowo;1903-01-01;;false;;Lijewski;
+L_bbe616a00c;Królewo Malborskie;Malbork;1903-01-01;;false;;Lijewski;
+L_c53c1a9e1d;Barwice;Grzmiąca;1903-01-01;;false;;Lijewski;
+L_f79377fc06;Ryn;Salpik;1903-01-01;;false;;Lijewski;
+L_7111c49957;Domachowo;Gostyń;1903-01-01;;false;;Lijewski;
+L_b83e828550;Domachowo;Krobia;1903-01-01;;false;;Lijewski;
+L_035971c7a2;Gostkowo;Krobia;1903-01-01;;false;;Lijewski;
+L_106d8c6630;Domachowo;Karzec;1903-01-01;;false;;Lijewski;
+L_e7535f1fb9;Rudniki;Sędziny;1903-01-01;;false;;Lijewski;
+L_ec83e8c519;Janów;Jaworów;1903-01-01;;false;;;
+L_dc787b5ef9;Goleniów;Maszewo;1903-01-01;;false;;Lijewski;
+L_60889718a3;Łódź Chojny;Łódź Kaliska;1903-01-01;;false;;Lijewski;
+L_f20958ecd9;Łódź Chojny;Łódź Widzew;1903-01-01;;false;;Lijewski;
+L_fe02e6ad5c;Golczewo;Łoźnica;1903-01-01;;false;1000.0;Lijewski;
+L_7546d88ee4;Stepnica;Łoźnica;1903-01-01;;false;1000.0;Lijewski;
+L_8a9a234085;Ruda Bielszowice;Zabrze Makoszowy;1904-01-01;;false;;;
+L_523c2f58dd;Laukszargen;Pogegen;1904-01-01;;false;;Semaforek;
+L_1e647e5d2e;Piotrków Trybunalski;Sulejów Pilica;1904-01-01;;false;750.0;Lijewski;
+L_6a067a5797;Forst;Horno;1904-01-01;;false;;Semaforek;
+L_a94340c761;Guben;Horno;1904-01-01;;false;;Semaforek;
+L_1c87266ff6;Nowy Targ;Podczerwone;1904-01-01;;false;;Lijewski;
+L_24a129575a;Podczerwone;Sucha Góra;1904-01-01;;false;;Lijewski;
+L_58eda40f26;Lwówek Śląski;Zebrzydowa;1904-01-01;;false;;Lijewski;
+L_d351248470;Krzystkowice;Zielona Góra;1904-01-01;;false;;Lijewski;
+L_bd5eb144f4;Kańczuga;Przeworsk;1951-01-01;;false;750.0;Semaforek;
+L_92a08f6209;Dynów;Kańczuga;1951-01-01;;false;750.0;Semaforek;
+L_9551a2a831;Świdnica Kraszowice;Świdnica Przedmieście;1904-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, w bazie Pod-Semaforkiem pojawia się rozróżnienie na stacje Świdnica Przedmieście i Kraszowice.
+L_14f6e8689b;Jugowice;Świdnica Kraszowice;1904-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, w bazie Pod-Semaforkiem pojawia się rozróżnienie na stacje Świdnica Przedmieście i Kraszowice.
+L_4915d100bc;Jedlina Zdrój;Jugowice;1904-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, w bazie Pod-Semaforkiem pojawia się rozróżnienie na stacje Świdnica Przedmieście i Kraszowice.
+L_ccb7ea4c17;Ruda Bielszowice;Ruda Kochłowice;1904-01-01;;false;;LIjewski;
+L_209ec52293;Katowice Ligota;Ruda Kochłowice;1904-01-01;;false;;LIjewski;
+L_d3bec2c920;Ławszowa;Świętoszów;1904-01-01;;false;;Lijewski;
+L_4a48f81727;Mirsk;Pobiedna;1904-01-01;;false;;Lijewski;
+L_dae77f9443;Jindřichovice pod Smrkem;Pobiedna;1904-01-01;;false;;Lijewski;
+L_0e13f5eb21;Nowe;Twarda Góra;1904-01-01;;false;;Lijewski;
+L_54b6de8553;Sambor;Strzyłki Topolnica;1904-01-01;;false;;Semaforek;
+L_3050e0437e;Człopa;Wałcz;1904-01-01;;false;;Lijewski;
+L_54d7b895b2;Gniew;Morzeszczyn;1905-01-01;;false;;Lijewski;
+L_cfe341aaf5;Pleszew;Pleszew Miasto;1905-01-01;;false;750.0;;
+L_7320b1de31;Sulechów;Wolsztyn;1905-01-01;;false;;Lijewski;
+L_b2657b562a;Skarszewy;Starogard Gdański;1905-01-01;;false;;Lijewski;
+L_375893d265;Kamienna Góra;Kowary;1932-01-01;;true;;Semaforek;
+L_f31d7870a5;Trzcianka Zachodnia;Śliwno;1905-01-01;;false;750.0;Lijewski;
+L_78b1ba89ad;Duszniki Wielkopolskie;Śliwno;1905-01-01;;false;750.0;Lijewski;
+L_9a4d2b3f0a;Hradec nad Moravici;Opava Vychod;1905-01-01;;false;;Semaforek;
+L_437eded51f;Rakoniewice;Wolsztyn;1905-01-01;;false;;Lijewski;
+L_963869216e;Grodzisk Wielkopolski;Rakoniewice;1905-01-01;;false;;Lijewski;
+L_30ab8f9dde;Duszniki Zdrój;Kudowa Zdrój;1905-01-01;;false;;Lijewski;
+L_f1e3a291d7;Świętoszów;Żagań;1905-01-01;;false;;Lijewski;
+L_7b8f989c62;Gdańsk Wąskotorowy;Odrzygość;1905-01-01;;false;750.0;Lijewski;
+L_f41452d0e1;Cedry Wielkie;Odrzygość;1905-01-01;;false;750.0;Lijewski;
+L_ef5419bfff;Cedry Wielkie;Koszwały;1905-01-01;;false;750.0;Lijewski;
+L_6e58c00aa8;Koszwały;Stegna Gdańska;1905-01-01;;false;750.0;Lijewski;
+L_9a713e330f;Stegna Gdańska;Sztutowo;1905-01-01;;false;750.0;Lijewski;
+L_168c9543cc;Mielno;Mścice;1905-01-01;;false;;Lijewski;
+L_8aa2549dc6;Strzyłki Topolnica;Turka;1905-01-01;;false;;;
+L_9bec1a48d1;Sianki;Turka;1905-01-01;;false;;;
+L_c017a2b98f;Gdańsk;Odrzygość;1905-01-01;;false;750.0;;
+L_c0f0d349ec;Giemlice;Odrzygość;1905-01-01;;false;750.0;;
+L_386889a505;Koszwały;Odrzygość;1905-01-01;;false;750.0;;
+L_20b4ad8bf3;Cedry Małe;Koszwały;1905-01-01;;false;750.0;;
+L_aa117b0ae6;Cedry Małe;Przegalina;1905-01-01;;false;750.0;;
+L_4cec4770a5;Lewy Brzeg Wisły;Przegalina;1905-01-01;;false;750.0;;
+L_22641c4c33;Cedry Wielkie;Giemlice;1905-01-01;;false;750.0;;
+L_6b40a67d12;Jantar;Prawy Brzeg Wisły;1905-01-01;;false;750.0;;
+L_97728f23d6;Jantar;Stegna Gdańska;1905-01-01;;false;750.0;;
+L_6d8ab695d2;Pastwa Południowa;Wielkie Walichnowy;1905-01-01;;false;750.0;;
+L_449b516bf2;Lidzbark Warmiński;Orneta;1905-01-01;;false;;Lijewski;
+L_ab51cb266a;Lidzbark Warmiński;Sątopy Samulewo;1905-01-01;;false;;Lijewski;
+L_b3c69ad0d2;Choczewo;Prusewo;1905-01-01;;false;;Lijewski;
+L_1f33a78e54;Poznań Wschodni;Sława Wielkopolska;1905-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, w bazie Pod-Semaforkiem pojawia się stacja pośrednia Sława Wielkopolska.
+L_eb5a0dea21;Skoki;Sława Wielkopolska;1905-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, w bazie Pod-Semaforkiem pojawia się stacja pośrednia Sława Wielkopolska.
+L_238feaff31;Janowiec Wielkopolski;Skoki;1905-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, w bazie Pod-Semaforkiem pojawia się stacja pośrednia Sława Wielkopolska.
+L_11c035061c;Kartuzy;Sierakowice;1905-01-01;;false;;Lijewski;
+L_a77109f860;Lębork;Sierakowice;1905-01-01;;false;;Lijewski;
+L_ff137ba856;Orzysz;Pisz;1905-01-01;;false;;Lijewski;
+L_99d4ab20ef;Białogard;Świetlino;1905-01-01;;false;;Lijewski;
+L_c0a76b58e7;Manowo;Świetlino;1948-01-01;;false;1000.0;;
+L_453ea2b407;Bobolice;Świetlino;1948-01-01;;false;1000.0;;
+L_927ad4e235;Hanušovice;Stare Mesto pod Snežnikem;1905-01-01;;false;;Semaforek;
+L_7762f5530c;Sobieradz;Stare Czarnowo;1905-01-01;;false;;Lijewski;
+L_82ec34e143;Giżycko;Kruklanki;1905-01-01;;false;;Lijewski;
+L_17d5125292;Kruklanki;Węgorzewo;1905-01-01;;false;;Lijewski;
+L_6a17bd8c97;Tűzhegy;Ungvár;1905-01-01;;false;;Semaforek;
+L_f102a9e617;Antonówka Wąska;Chinocze;1905-01-01;;false;750.0;Atlas Kolejowy;
+L_dab374400a;Chinocze;Cichowierz;1905-01-01;;false;750.0;Atlas Kolejowy;
+L_1aaf16600e;Chinocze;Dąbrowica Wąska;1905-01-01;;false;750.0;Atlas Kolejowy;
+L_5d3bf6718b;Ruda Kochłowice;Ruda Wschodnia Wąskotorowa;1906-01-01;;false;;Lijewski;
+L_75efe93ec7;Ruda Chebzie;Ruda Wschodnia Wąskotorowa;1906-01-01;;false;;Lijewski;
+L_9b50f15bff;Tarnopol;Zbaraż;1906-01-01;;false;;Semaforek;
+L_08af9a5fd3;Resko Północne;Worowo;1906-01-01;;false;;Lijewski;
+L_f4db8f6395;Bolesławiec;Warta Bolesławiecka;1906-01-01;;false;;Lijewski;
+L_4707805d68;Nowa Wieś Grodziska;Warta Bolesławiecka;1906-01-01;;false;;Lijewski;
+L_eda9522358;Nowa Warta;Warta Bolesławiecka;1906-01-01;;false;;Lijewski;
+L_dad315aff4;Skwierzyna;Wierzbno;1906-01-01;;false;;Lijewski;U Lijewskiego figuruje informacja o otwarciu odcinka Skwierzyna-Międzychód, ale odcinek Międzychów-Wierzbno został już otwarty w 1887 roku.
+L_9981682848;Kudowa Słone;Kudowa Zdrój;1906-01-01;;false;;Lijewski;
+L_006e3ddd89;Nowy Dwór Gdański;Rybina;1906-01-01;;false;750.0;Lijewski;W przeciwieństwie do Lijewskiego, w baze Pod-Semaforkiem pojawia się stacja pośrednia Rybina.
+L_890af5e7c9;Rybina;Stegna Gdańska;1906-01-01;;false;750.0;Lijewski;W przeciwieństwie do Lijewskiego, w baze Pod-Semaforkiem pojawia się stacja pośrednia Rybina.
+L_a80864b445;Giżycko;Orzysz;1906-01-01;;false;;Lijewski;
+L_e3eb2c4103;Głogów;Szlichtyngowa;1906-01-01;;false;;Lijewski;
+L_3ef9efdaf3;Książ Wielkopolski;Mieszków;1906-01-01;;false;;Atlas Kolejowy;Lijewski podaje błędnie Jarocin-Książ, natomiast nie było takiej linii.
+L_6025287be5;Budowo;Jamrzyno;1906-01-01;;false;;Lijewski;
+L_dd9b9387b8;Chojnów;Złotoryja;1906-01-01;;false;;Lijewski;
+L_588ff5875b;Góra Śląska;Szlichtyngowa;1906-01-01;;false;;Lijewski;
+L_a535cbafeb;Jelenia Góra;Siedlęcin;1906-01-01;;false;;Lijewski;
+L_8ca38e4d38;Laskowice Pomorskie;Szlachta;1906-01-01;;false;;Lijewski;
+L_07bb3eb37c;Czersk;Szlachta;1906-01-01;;false;;Lijewski;
+L_870d02c937;Więcbork;Złotów;1906-01-01;;false;;Lijewski;
+L_7cff3cac19;Dąbrowa Tarnowska;Tarnów;1906-01-01;;false;;Lijewski;
+L_4b83331972;Dąbrowa Tarnowska;Szczucin koło Tarnowa;1906-01-01;;false;;Lijewski;
+L_d47cad1fe0;Karszno;Stolzenburger Glashütte;1906-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje dwie stacje na końcu linii oprócz stacji u Lijewskiego: Stobno Szczecińskie i Dobra Szczecińska.
+L_193560ec56;Karszno;Nowe Warpno;1906-01-01;;false;;Lijewski;Pod-Semaforkiem dodaje dwie stacje na końcu linii oprócz stacji u Lijewskiego: Stobno Szczecińskie i Dobra Szczecińska.
+L_d9b82424b6;Krzeszyce;Słońsk;1906-01-01;;false;;Lijewski;
+L_0aa86cb5f8;Kalisz;Skalmierzyce;1906-01-01;;false;;Lijewski;
+L_0e8e439891;Kolsko;Wolsztyn;1906-01-01;;false;;Lijewski;
+L_df5c477167;Kolsko;Konotop;1906-01-01;;false;;Lijewski;
+L_1786cfdc94;Książ Wielkopolski;Śrem;1906-01-01;;false;;Atlas Kolejowy;
+L_3666cb3cbc;Doudleby nad Orlici;Rokytnice v Orlickych Horach;1906-01-01;;false;;Semaforek;
+L_224b2a64a1;Chojnów;Rokitki;1906-01-01;;false;;Lijewski;
+L_9295c16522;Kamień Pomorski;Trzebiatów;1906-01-01;;false;;Lijewski;
+L_9d9179c24c;Siedlce;Siemiatycze;1906-01-01;;false;;Lijewski;
+L_a68ab13390;Czeremcha;Siemiatycze;1906-01-01;;false;;Lijewski;
+L_974f469fc0;Czeremcha;Hajnówka;1906-01-01;;false;;Lijewski;
+L_ea86e74aab;Hajnówka;Siemianówka;1906-01-01;;false;;Lijewski;
+L_879ec61a02;Andrzejewicze;Siemianówka;1906-01-01;;false;;Lijewski;
+L_432d3b5c37;Friedland;Löwenhagen;1906-01-01;;false;;Semaforek;
+L_a4cd141a77;Friedland;Gerdauen;1906-01-01;;false;;Semaforek;
+L_e12ac7def3;Nowa Sól;Otyń;1907-01-01;;false;;Lijewski;
+L_342f8c2276;Resko Południowe;Resko Północne;1907-01-01;;false;;Lijewski;
+L_fc522035b2;Sępopol;Wiatrowiec Warmiński;1907-01-01;;false;;Lijewski;
+L_1f5c260624;Kętrzyn;Węgorzewo;1907-01-01;;false;;Lijewski;
+L_4a33f76f33;Cybinka;Kunowice;1907-01-01;;false;;Lijewski;
+L_2f44f9c81d;Chrzypsko;Międzychód;1907-01-01;;false;;Lijewski;
+L_3de43e9832;Binino;Szamotuły;1907-01-01;;false;;Lijewski;
+L_0ca7affbbf;Dargosław;Trzebiatów;1907-01-01;;false;1000.0;Lijewski;
+L_6ab9b03ee5;Resko Północne;Żelmowo;1907-01-01;;false;1000.0;Lijewski;
+L_d87182a8a5;Horka;Rothenburg;1907-01-01;;false;;Lijewski;Do stacji wspomnianych u Lijewskiego, Pod-Semaforkiem dodaje Horka i Lodenau.
+L_82778dfb7b;Lodenau;Rothenburg;1907-01-01;;false;;Lijewski;Do stacji wspomnianych u Lijewskiego, Pod-Semaforkiem dodaje Horka i Lodenau.
+L_689eed6d63;Lodenau;Sanice;1907-01-01;;false;;Lijewski;Do stacji wspomnianych u Lijewskiego, Pod-Semaforkiem dodaje Horka i Lodenau.
+L_470baa6135;Przewóz;Sanice;1907-01-01;;false;;Lijewski;Do stacji wspomnianych u Lijewskiego, Pod-Semaforkiem dodaje Horka i Lodenau.
+L_c6f57626ee;Legionowo;Wieliszew;1907-01-01;;false;;Lijewski;
+L_38a39bf8f3;Wieliszew;Zegrze;1907-01-01;;false;;Lijewski;
+L_0b06e91e89;Mosty;Wołkowysk;1907-01-01;;false;;Semaforek;
+L_f743106166;Lida;Mosty;1907-01-01;;false;;Semaforek;
+L_40ef3792c4;Lida;Mołodeczno;1907-01-01;;false;;Semaforek;
+L_350d1b515a;Królewszczyzna;Mołodeczno;1907-01-01;;false;;Semaforek;
+L_a890169206;Królewszczyzna;Zahacie;1907-01-01;;false;;Semaforek;
+L_923f141c76;Polock;Zahacie;1907-01-01;;false;;Semaforek;
+L_0f7753546b;Grodno;Mosty;1907-01-01;;false;;Semaforek;
+L_5a33b00540;Smólsk;Włocławek;1922-01-01;;false;750.0;Semaforek;
+L_7bc83f5e1a;Brześć Kujawski;Smólsk;1922-01-01;;false;750.0;Semaforek;
+L_005ba9c8aa;Binino;Nojewo;1908-01-01;;false;;Lijewski;
+L_12932ae117;Chrzypsko;Nojewo;1908-01-01;;false;;Lijewski;
+L_5ab26a9dd5;Konotop;Otyń;1908-01-01;;false;;Lijewski;
+L_d01a2b942b;Baborów;Polska Cerekiew;1908-01-01;;false;;Lijewski;
+L_05a61e768f;Kętrzyn;Reszel;1908-01-01;;false;;Lijewski;
+L_b247c1db30;Gierałtowice;Knurów;1908-01-01;;false;;;
+L_d138e99c4f;Reszel;Sątopy Samulewo;1908-01-01;;false;;;
+L_1b5a083dde;Gumbinnen;Tollmingen;1908-01-01;;false;;Lijewski;Lijewski nie podaje wprost stacji Tollmingen i Wehrkirchen, tylko stację początkową Gusiew (dawniej Gumbinnen) i końcową Żytkiejmy.
+L_4345044336;Tollmingen;Wehrkirchen;1908-01-01;;false;;Lijewski;Lijewski nie podaje wprost stacji Tollmingen i Wehrkirchen, tylko stację początkową Gusiew (dawniej Gumbinnen) i końcową Żytkiejmy.
+L_1cecc47242;Wehrkirchen;Żytkiejmy;1908-01-01;;false;;Lijewski;Lijewski nie podaje wprost stacji Tollmingen i Wehrkirchen, tylko stację początkową Gusiew (dawniej Gumbinnen) i końcową Żytkiejmy.
+L_dca4d71bdd;Skórcz;Szlachta;1908-01-01;;false;;;
+L_069b4851ea;Trzciel;Zbąszyń;1908-01-01;;false;;Lijewski;
+L_586f72a1b0;Międzychód;Trzciel;1908-01-01;;false;;Lijewski;
+L_d533fa8725;Frydlant nad Ostravici;Ostravice;1908-01-01;;false;;Semaforek;
+L_79c95792de;Bila;Ostravice;1908-01-01;;false;;Semaforek;
+L_9c70c15102;Dłutowo;Pisz;1908-01-01;;false;;Lijewski;
+L_98a16322e7;Kruklanki;Olecko;1908-01-01;;false;;Lijewski;
+L_fbc4068846;Adršpach;Teplice nad Metuji;1908-01-01;;false;;Semaforek;
+L_bdce17c05b;Adršpach;Trutnov;1908-01-01;;false;;Semaforek;
+L_ef6286beb1;Skoki;Wągrowiec;1908-01-01;;false;;Lijewski;
+L_615e454e00;Gołańcz;Wągrowiec;1908-01-01;;false;;Lijewski;
+L_da5b9c2186;Gołańcz;Kcynia;1908-01-01;;false;;Lijewski;
+L_63f6dbff69;Kcynia;Szubin;1908-01-01;;false;;Lijewski;
+L_ee67b7fff7;Chodzież;Gołańcz;1908-01-01;;false;;Lijewski;
+L_a67d2faaa6;Kruszwica;Strzelno;1908-01-01;;false;;Lijewski;
+L_9674522c26;Czaplinek;Jastrowie;1908-01-01;;false;;Lijewski;
+L_3d9dbeb41f;Srebrna Góra;Ząbkowice Śląskie;1908-01-01;;false;;Lijewski;
+L_eaf0453940;Ciepłowody;Ząbkowice Śląskie;1908-01-01;;false;;Lijewski;
+L_1f6a60055c;Ciepłowody;Henryków;1908-01-01;;false;;Lijewski;
+L_92ac22c351;Ciepłowody;Kondratowice;1908-01-01;;false;;Lijewski;
+L_c80904d761;Biskupiec;Dźwierzuty;1908-01-01;;false;;Lijewski;
+L_ed3a9ff05d;Kurowice;Lwów Podzamcze;1908-01-01;;false;;Semaforek;
+L_c3266fc853;Kowel;Włodzimierz Wołyński;1908-01-01;;false;;Semaforek;
+L_c0bbccf24e;Dobre Kujawskie;Nieszawa Waganiec;1908-01-01;;false;750.0;Atlas Kolejowy;Lijewski podaje Nieszawa-Dobre Aleksandrowskie-Radziejów-Wąsowo, mieszkając kilka różnych linii w jedną.
+L_0d2a7e626a;Dobre Kujawskie;Radziejów Kujawski;1908-01-01;;false;750.0;Atlas Kolejowy;Atlas Kolejowy sprawdzony z informacjami z Lijewskiego.
+L_62337a4e51;Radziejów Kujawski;Wąsewo Wieś;1908-01-01;;false;750.0;Atlas Kolejowy;Atlas Kolejowy sprawdzony z informacjami z Lijewskiego.
+L_9943a5883a;Wąsewo Dwór;Wąsewo Wieś;1908-01-01;;false;750.0;Atlas Kolejowy;Atlas Kolejowy sprawdzony z informacjami z Lijewskiego.
+L_6a9b16954d;Piotrków Kujawski;Wąsewo Dwór;1908-01-01;;false;750.0;Atlas Kolejowy;Atlas Kolejowy sprawdzony z informacjami z Lijewskiego.
+L_b8b190f63f;Dobre Kujawskie;Płowce;1922-01-01;;false;750.0;Semaforek;
+L_c5be080668;Kurowice;Wołków;1909-01-01;;false;;;
+L_26b065d933;Jabłonka;Szczytno;1909-01-01;;false;;Lijewski;
+L_a4c7e3cb9f;Płoty;Resko Północne;1909-01-01;;false;;Lijewski;
+L_fb32a29f7e;Golczewo;Płoty;1909-01-01;;false;;Lijewski;
+L_afcf8e1916;Pruszcz Bagienica;Terespol Pomorski;1909-01-01;;false;;Lijewski;
+L_912e9aba8f;Pruszcz Bagienica;Więcbork;1909-01-01;;false;;Lijewski;
+L_e27627b522;Kwidzyn;Prabuty;1909-01-01;;false;;Lijewski;
+L_edd824b958;Grodzisk Wielkopolski;Luboń koło Poznania;1909-01-01;;false;;Lijewski;
+L_f96b26b54e;Miłomłyn;Morąg;1909-01-01;;false;;Lijewski;
+L_a4b67cd84a;Lwówek Śląski;Wleń;1909-01-01;;false;;Lijewski;
+L_ddd4c6ca92;Międzyrzecz;Toporów;1909-01-01;;false;;Lijewski;
+L_69d205cc62;Baborów;Pilszcz;1909-01-01;;false;;Lijewski;
+L_938e19b8d3;Opava Zapad;Pilszcz;1909-01-01;;false;;Lijewski;
+L_9ce2cf3d2c;Siedlęcin;Wleń;1909-01-01;;false;;Lijewski;
+L_e68105b731;Zaniemyśl;Środa Wielkopolska Miasto;1953-01-01;;false;750.0;Semaforek;
+L_5a5af3cb7e;Opalenie;Smętowo;1909-01-01;;false;;Lijewski;
+L_75da45776f;Potutory;Wołków;1909-01-01;;false;;;
+L_bc0fd8fddd;Podhajce;Potutory;1909-01-01;;false;;;
+L_e85f7905ea;Białogard;Rarwino;1950-01-01;;false;1000.0;Semaforek;
+L_6570bbee4a;Jelcz Miłoszyce;Wrocław Brochów;1909-01-01;;false;;Lijewski;
+L_8e642d9f92;Jelcz Miłoszyce;Opole Wschodnie;1909-01-01;;false;;Lijewski;
+L_e6ac85bed8;Opole Groszowice;Opole Wschodnie;1909-01-01;;false;;Lijewski;
+L_dad3703478;Knurów;Leszczyny;1909-01-01;;false;;Lijewski;Leszczyny to inaczej stacja Rzędówka.
+L_82dbee6e0a;Toruń Mokre;Toruń Północny;1909-01-01;;false;;Lijewski;
+L_5d677b0bdb;Odolanów;Ostrów Wielkopolski;1909-01-01;;false;;Lijewski;
+L_f4a3e83bd8;Lwów Podzamcze;Sapieżanka;1909-01-01;;false;;Semaforek;
+L_08d9167346;Sapieżanka;Stojanów;1909-01-01;;false;;Semaforek;
+L_1c7bd54d9d;Mirsk;Świeradów Zdrój;1909-01-01;;false;;Lijewski;
+L_00c83332ae;Lipinka Gdańska;Nowy Dwór Gdański;1909-01-01;;false;750.0;;
+L_0e1b5481da;Opole Główne;Opole Wschodnie;1909-01-01;;false;;Lijewski;
+L_97a6295a46;Koźmin Wielkopolski;Piaski Wielkopolskie;1909-01-01;;false;;Lijewski;
+L_44874f98ae;Koronowo;Pruszcz Bagienica;1909-01-01;;false;;Lijewski;
+L_04c62caf25;Gościno;Pobłocie Wielkie;1909-01-01;;false;;Lijewski;
+L_ae84b7bd94;Bytów;Miastko;1909-01-01;;false;;Lijewski;
+L_d9d28d5322;Sosnowiec Zagórze;Strzemieszyce Północne;1909-01-01;;false;;Lijewski;
+L_bf5c42effc;Dąbrowa Górnicza;Sosnowiec Zagórze;1909-01-01;;false;;Lijewski;
+L_8aabd3b60e;Czarnowo koło Torunia;Toruń Północny;1910-01-01;;false;;Lijewski;
+L_a3b6c21c83;Jasienica;Trzebież Szczeciński;1910-01-01;;false;;Lijewski;
+L_8729019c56;Choczewo;Garczegorze;1910-01-01;;false;;Lijewski;
+L_52b66ae757;Jaryszewo Obornickie;Wronki;1910-01-01;;false;;Lijewski;
+L_70aeed134c;Jaryszewo Obornickie;Oborniki Wielkopolskie;1910-01-01;;false;;Lijewski;
+L_2d79f2a201;Pawłowice Śląskie;Żory;1910-01-01;;false;;Lijewski;
+L_d877baf54e;Rakoniewice;Wielichowo;1950-01-01;;false;750.0;Semaforek;
+L_4a2c264234;Brzeg;Wiązów;1910-01-01;;false;;Lijewski;
+L_fb59eb8821;Kłodobok;Przeworno;1910-01-01;;false;;Lijewski;
+L_af817c9d45;Kłodobok;Otmuchów;1910-01-01;;false;;Lijewski;
+L_e9ec61c734;Boreczek;Oława;1910-01-01;;false;;Lijewski;
+L_1a65941525;Bukowina Sycowska;Grabowno Wielkie;1910-01-01;;false;;Lijewski;
+L_fdaa95f232;Grabów nad Prosną;Ostrzeszów;1910-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, Pod-Semaforkiem wymienia stację pośrednią Grabów nad Prosną.
+L_e6334124fd;Grabów nad Prosną;Namysłaki;1910-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, Pod-Semaforkiem wymienia stację pośrednią Grabów nad Prosną.
+L_dc879aa366;Dąbrówno;Samborowo;1910-01-01;;false;;;
+L_e7c02e9358;Dąbrówno;Turza Wielka;1910-01-01;;false;;;
+L_85b18127ec;Bargędzino;Wrzeście;1910-01-01;;false;;Lijewski;
+L_96b3ee5dae;Olek;Toruń Północny;1910-01-01;;false;;Lijewski;
+L_bd7a2aef0d;Międzybórz Sycowski;Odolanów;1910-01-01;;false;;Lijewski;
+L_551a96e47a;Drawsko Pomorskie Wąskotorowe;Jankowo Pomorskie Wąskotorowe;1910-01-01;;false;;Lijewski;
+L_6497c7e3c3;Bukowina Sycowska;Międzybórz Sycowski;1910-01-01;;false;;Lijewski;
+L_2ee4b1af38;Nowe Miasto Lubawskie;Zajączkowo Lubawskie;1910-01-01;;false;;Lijewski;
+L_e46157d229;Golczewo;Wysoka Kamieńska;1910-01-01;;false;;Lijewski;
+L_9d710a6222;Piekło;Ząbkowice Będzińskie;1910-01-01;;false;;Lijewski;
+L_60e1bf3550;Jerzmanowo;Smólsk;1922-01-01;;false;750.0;Semaforek;
+L_b47c3716e0;Boniewo;Jerzmanowo;1922-01-01;;false;750.0;Semaforek;
+L_33040c69b4;Krośniewice;Ostrowy Wąskotorowe;1951-01-01;;false;750.0;Semaforek;
+L_0a36646298;Krośniewice;Most Krzewie;1951-01-01;;false;750.0;Semaforek;
+L_2ef41f998b;Koryta;Most Krzewie;1951-01-01;;false;750.0;Semaforek;
+L_21f5eccc33;Kielce;Włoszczowa;1911-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Koniecpol.
+L_57aed5e82e;Koniecpol;Włoszczowa;1911-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Koniecpol.
+L_45c49d37e6;Częstochowa Stradom;Koniecpol;1911-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Koniecpol.
+L_108eafb683;Krynica;Muszyna;1911-01-01;;false;;Lijewski;
+L_99dec0566d;Jastrzębie Zdrój Moszczenica;Pawłowice Śląskie;1911-01-01;;false;;Lijewski;
+L_00f2c249ff;Friedland;Wehlau;1911-01-01;;false;;;
+L_74b606297b;Bartoszyce;Judyty;1911-01-01;;false;;Lijewski;Friedland to dawna nazwa miejscowości Prawdinsk. W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Judyty.
+L_941bd1f6b9;Friedland;Judyty;1911-01-01;;false;;Lijewski;Friedland to dawna nazwa miejscowości Prawdinsk. W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Judyty.
+L_a4bd557a0e;Postomino;Sławno;1911-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Postomino.
+L_ba45fa92ae;Postomino;Ustka;1911-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Postomino.
+L_77d68e71bb;Kucharki;Ociąż;1911-01-01;;false;;Lijewski;
+L_3658d54501;Olecko Wąskotorowe;Świętajno Wąskotorowe;1911-01-01;;false;;Lijewski;
+L_95d9616c7d;Garbas;Olecko Wąskotorowe;1911-01-01;;false;;Lijewski;
+L_825556a242;Stypułów;Zielona Góra;1911-01-01;;false;;Lijewski;
+L_520ae31d6b;Stypułów;Szprotawa;1911-01-01;;false;;Lijewski;
+L_b474b3546a;Mikołajki;Mrągowo;1911-01-01;;false;;Lijewski;
+L_d6c603b099;Mikołajki;Orzysz;1911-01-01;;false;;Lijewski;
+L_8c98706d89;Kępno;Rychtal;1911-01-01;;false;;Lijewski;
+L_bfd915e8c2;Anastazewo;Powidz;1955-01-01;;false;750.0;Semaforek;
+L_48d7d25d93;Obiecanowo;Żnin Wąskotorowy;1911-01-01;;false;;Lijewski;
+L_2de14d84fd;Nysa;Ścinawa Mała;1911-01-01;;false;;Lijewski;
+L_77c7c75a5f;Kałków Łąka;Nysa;1912-01-01;;false;;Lijewski;
+L_01d4ea90ef;Kałków Łąka;Vidnava;1912-01-01;;false;;Lijewski;
+L_b21e92d2f0;Drohobycz;Truskawiec Zdrój;1912-01-01;;false;;Semaforek;
+L_7d5a20b909;Mrzeżyno Gryfickie;Trzebiatów Mokre;1912-01-01;;false;1000.0;Lijewski;
+L_6a0ad221e5;Olek;Unisław Pomorski;1912-01-01;;false;;Lijewski;
+L_d1612eabfe;Leszczyny;Rybnik Piaski;1912-01-01;;false;;Lijewski;
+L_7621529c13;Gorzów Wielkopolski Zieleniec;Rudnica;1912-01-01;;false;;Lijewski;
+L_c323360d8b;Rudnica;Sulęcin;1912-01-01;;false;;Lijewski;
+L_c5d4b5af55;Gorzów Wielkopolski;Myślibórz;1912-01-01;;false;;Lijewski;
+L_73c45ba3ad;Barcin;Mogilno;1912-01-01;;false;;Lijewski;
+L_1b12d4696b;Czarnków;Jabłonowo Wielkopolskie;1912-01-01;;false;;Lijewski;
+L_de7a952a27;Jelcz Miłoszyce;Nadolice Wielkie;1912-01-01;;false;;Lijewski;
+L_b77bf1fe3a;Dobrzykowice Wrocławskie;Nadolice Wielkie;1912-01-01;;false;;Lijewski;
+L_1d78f45ddf;Osowa Góra;Puszczykówko;1912-01-01;;false;;Lijewski;
+L_13215bea6f;Bukowa Śląska;Namysłów;1912-01-01;;false;;Lijewski;
+L_027c187357;Katowice Ligota;Tychy;1912-01-01;;false;;Lijewski;
+L_b72d8d101a;Fosowskie;Strzelce Opolskie;1912-01-01;;false;;Lijewski;
+L_7133f6de59;Mysłowice Krasowy;Mysłowice Wesoła;1912-01-01;;false;;Lijewski;
+L_d44b98f67d;Mysłowice Brzezinka;Mysłowice Krasowy;1912-01-01;;false;;Lijewski;
+L_24adea1363;Lędziny;Mysłowice Krasowy;1912-01-01;;false;;Lijewski;
+L_bce411dc57;Anastazewo;Jabłonka Słupecka;1955-01-01;;false;750.0;Semaforek;
+L_c56d88edcc;Gosławice;Jabłonka Słupecka;1955-01-01;;false;750.0;Semaforek;
+L_eeef3051fd;Jabłonka Słupecka;Sławoszewek;1955-01-01;;false;750.0;Semaforek;
+L_35ed8dd3d5;Sławoszewek;Wilczyn;1955-01-01;;false;750.0;Semaforek;
+L_b1d4d73d4d;Częstochowa;Częstochowa Stradom;1912-01-01;;false;;Atlas Kolejowy;
+L_d861f08724;Rybnik;Sumina;1913-01-01;;false;;Lijewski;
+L_cb10516f96;Kolsko;Sława Śląska;1913-01-01;;false;;Lijewski;
+L_798ad2240d;Dobra Nowogardzkie;Dobra Nowogardzkie Północ;1913-01-01;;false;;Lijewski;
+L_ceac71f084;Pogorzelica Gryficka;Trzebiatów Mokre;1913-01-01;;false;1000.0;Atlas Kolejowy;
+L_7715af392a;Piła;Ujście;1913-01-01;;false;;Lijewski;
+L_138dfae7bc;Jabłonowo Wielkopolskie;Ujście;1913-01-01;;false;;Lijewski;
+L_796db87836;Gartz (Oder);Tantow;1913-01-01;;false;;Semaforek;
+L_693c18c4be;Grodziec Mały;Lipinka Głogowska;1913-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Lipinka Głogowska
+L_3c034e5a44;Lipinka Głogowska;Sława Śląska;1913-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wymienia stację pośrednią Lipinka Głogowska
+L_f08c2c7c1b;Lipinka Głogowska;Wschowa;1913-01-01;;false;;Atlas Kolejowy;
+L_330fd2557a;Potok Lubuski;Przewóz;1913-01-01;;false;;Atlas Kolejowy;Lijewski nie podaje stacji pośredniej Potok Lubuski.
+L_beb2742287;Potok Lubuski;Przysieka;1913-01-01;;false;;Atlas Kolejowy;Lijewski nie podaje stacji pośredniej Potok Lubuski.
+L_e863a9fcce;Kołomąć;Trzygłów;1913-01-01;;false;;Lijewski;
+L_7755f0afba;Czerwona Woda;Węgliniec;1913-01-01;;false;;Lijewski;
+L_208acf864e;Ełk;Laski Małe;1951-01-01;;false;750.0;Semaforek;
+L_c8c3e0eeaa;Borzymy;Laski Małe;1951-01-01;;false;750.0;Semaforek;
+L_9a56bf9681;Laski Małe;Zawady Tworki;1951-01-01;;false;750.0;Semaforek;
+L_8d7cbfd838;Krosno Odrzańskie;Strużka Janiszowice;1913-01-01;;false;;Lijewski;
+L_cdfcc32e2f;Olekszyn;Sława Wielkopolska;1913-01-01;;false;;Lijewski;Lijewski podaje otwarcie odcinka Skoki-Olekszyn, natomiast w istocie odcinek Skoki-Sława Wielkopolska był już zbudowany.
+L_9a48962b68;Gniezno Winiary;Obora Wielkopolska;1913-01-01;;false;;Lijewski;
+L_ecec48934c;Dębnica Wielkopolska;Obora Wielkopolska;1913-01-01;;false;;Lijewski;
+L_ff4c0aa04c;Jastrzębie Zdrój;Jastrzębie Zdrój Moszczenica;1913-01-01;;false;;Lijewski;
+L_a19509c3ee;Jastrzębie Zdrój Moszczenica;Wodzisław Śląski;1913-01-01;;false;;Lijewski;
+L_acce35847b;Dobrodzień;Fosowskie;1913-01-01;;false;;Lijewski;
+L_431f032576;Komnino;Kępno Słupskie;1913-01-01;;false;;Lijewski;
+L_e2519ac2c9;Komnino;Ustka;1913-01-01;;false;;Lijewski;
+L_f067c224da;Komnino;Siecie;1913-01-01;;false;;Lijewski;
+L_68507b6aa6;Bolesławiec;Modła;1913-01-01;;false;;Lijewski;
+L_1d83d1ba98;Otwock Wąskotorowy;Wawer Wąskotorowy;1914-01-01;;false;;Lijewski;
+L_85bec2ecc0;Karczew;Otwock Wąskotorowy;1914-01-01;;false;;Lijewski;
+L_a8d627c4f9;Dębnica Wielkopolska;Kłecko;1914-01-01;;false;;Lijewski;
+L_d7883ba72f;Kłecko;Olekszyn;1914-01-01;;false;;Lijewski;
+L_6064882a08;Lubsko;Strużka Janiszowice;1914-01-01;;false;;Lijewski;
+L_3775a5d74c;Gdańsk Wrzeszcz;Kokoszki;1914-01-01;;false;;Lijewski;
+L_534074792f;Kokoszki;Stara Piła;1914-01-01;;false;;Lijewski;
+L_882d23a718;Gołków;Grójec;1914-01-01;;false;1000.0;Lijewski;
+L_60d6de8150;Grójec;Jasieniec;1914-01-01;;false;1000.0;Lijewski;
+L_4415ac2a3e;Kamienna Góra;Marciszów;1914-01-01;;false;;Lijewski;
+L_d9180eea23;Jugowice;Walim;1914-01-01;;false;;Lijewski;
+L_2efad18495;Ołownik;Węgorzewo;1914-01-01;;false;;Lijewski;Darkehmen to inaczej Darkiejmy lub Oziorsk.
+L_4fb4ef828a;Darkehmen;Ołownik;1914-01-01;;false;;Lijewski;Darkehmen to inaczej Darkiejmy lub Oziorsk.
+L_bfb0aeec2f;Makov;Čadca;1914-01-01;;false;;Semaforek;
+L_3d595487e1;Ostrava Svinov;Szumbark Śląski;1914-01-01;;false;;Semaforek;
+L_d76548b2dc;Cieszyn Zachodni;Szumbark Śląski;1914-01-01;;false;;Semaforek;
+L_612a02b92f;Węgierce;Złotów;1914-01-01;;false;;Lijewski;
+L_df2ad02dbf;Jastrowie;Węgierce;1914-01-01;;false;;Lijewski;
+L_2f4ab0942f;Płytnica;Węgierce;1914-01-01;;false;;Lijewski;
+L_d28acc4204;Płytnica;Wałcz;1914-01-01;;false;;Lijewski;
+L_c61806702c;Pruszcz Bagienica;Tuchola;1914-01-01;;false;;Lijewski;
+L_c8a046f439;Kraśnik;Lublin;1914-01-01;;false;;Lijewski;
+L_0dddee9371;Kraśnik;Rozwadów;1914-01-01;;false;;Lijewski;
+L_573c09f8ab;Koneck;Straszewo;1914-01-01;;false;750.0;;
+L_ed1f66d8fe;Opatówek;Żelazków;1914-01-01;;false;750.0;Lijewski;
+L_c4f4a3014e;Zbiersk;Żelazków;1914-01-01;;false;750.0;Lijewski;
+L_13e93d6232;Gosławice;Konin;1955-01-01;;false;750.0;Semaforek;
+L_b47cb9a8f3;Dobre Kujawskie;Straszewo;1915-01-01;;false;750.0;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Straszewo.
+L_d5104250c6;Aleksandrów Kujawski;Straszewo;1915-01-01;;false;750.0;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Straszewo.
+L_57398fe095;Jerzmanowo;Płowce;1922-01-01;;false;750.0;Semaforek;
+L_df572d64db;Boniewo;Krośniewice;1922-01-01;;false;750.0;Semaforek;
+L_89e9480211;Boniewo;Przystronie;1922-01-01;;false;750.0;Semaforek;
+L_32776f8f80;Piotrków Kujawski;Sompolno;1923-01-01;;false;750.0;Semaforek;
+L_7887e8c1ab;Przystronie;Sompolno;1923-01-01;;false;750.0;Semaforek;
+L_afc9071bc8;Koło;Przystronie;1923-01-01;;false;750.0;Semaforek;
+L_58aa8ff642;Dąbie;Koło;1923-01-01;;false;750.0;Semaforek;
+L_4e801bc42e;Krzeszyce;Rudnica;1915-01-01;;false;;Lijewski;
+L_6c3db5bfcf;Iwacewicze Wąskie Osobowe;Święta Wola;1915-01-01;;false;750.0;Atlas Kolejowy;
+L_5472d84d7a;Długa;Święta Wola;1915-01-01;;false;750.0;Atlas Kolejowy;
+L_277282ce29;Długa;Janów Poleski Wąski;1915-01-01;;false;750.0;Atlas Kolejowy;
+L_d93caa2d4c;Janów Poleski Wąski;Lubieszów;1915-01-01;;false;750.0;Atlas Kolejowy;
+L_58b42003d1;Długa;Telechany;1915-01-01;;false;600.0;Atlas Kolejowy;
+L_da206b53e1;Koryta;Łęczyca Wąskotorowa;1951-01-01;;false;750.0;Semaforek;
+L_022b4799f3;Ozorków Wąskotorowy;Łęczyca Wąskotorowa;1951-01-01;;false;750.0;Semaforek;
+L_c98918a7f7;Jędrzejów Wąskotorowy;Motkowice Wąskotorowe;1955-01-01;;false;750.0;Semaforek;
+L_919bd83f38;Rawa Mazowiecka;Rogów Towarowy Wąskotorowy;1954-01-01;;false;750.0;;
+L_1da66e92a1;Biała Rawska;Rawa Mazowiecka;1954-01-01;;false;750.0;;
+L_a891d7c518;Rozogi;Spychowo;1915-01-01;;false;600.0;;
+L_e2f2ba2c42;Ełk;Orzysz;1915-01-01;;false;;Lijewski;
+L_cb83f39f30;Czermin;Twardów;1915-01-01;;false;;Lijewski;
+L_179014076e;Turowo Wielkopolskie;Śliwno;1915-01-01;;false;;Lijewski;
+L_d65f7cb43d;Maków Mazowiecki;Przasnysz Miasto;1961-01-01;;false;750.0;;
+L_7283ec192d;Grabowo;Ostrołęka;1915-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem i Atlasu Kolejowego, Lijewski nie wspomina stacji pośredniej Chorzeli.
+L_4c4d6dd38b;Chorzele;Grabowo;1915-01-01;;false;;Lijewski;W przeciwieństwie do Pod-Semaforkiem i Atlasu Kolejowego, Lijewski nie wspomina stacji pośredniej Chorzeli.
+L_d44e491d47;Lubiechowo;Pobłocie Wielkie;1915-01-01;;false;1000.0;Lijewski;
+L_57b4203e39;Karlino Wąskotorowe;Lubiechowo;1915-01-01;;false;1000.0;Lijewski;
+L_36f95673bf;Lubiechowo;Włościbórz;1915-01-01;;false;1000.0;Lijewski;
+L_f8e6444daa;Konotop;Trzebiechów;1915-01-01;;false;;Lijewski;
+L_ba7a65260d;Sulechów;Trzebiechów;1915-01-01;;false;;Lijewski;
+L_0e3fc00b36;Borzymy;Turowo;1951-01-01;;false;750.0;Semaforek;
+L_b4f8dfadf4;Ostrówce;Rydlewo;1915-01-01;;false;;Lijewski;Lijewski podaje budowę odcinka Żnin-Ostrowo, ale odcinek Żnin Wąskotorowy-Rydlewo był już otwarty od 1894 roku.
+L_b72c0f819c;Dzierzbice Kutnowskie;Krośniewice;1915-01-01;;false;;Lijewski;
+L_262c40f37f;Laukszargen;Taurage;1915-01-01;;false;;Semaforek;
+L_af8a5f950e;Taurage;Šilenai;1915-01-01;;false;;Semaforek;
+L_6fce822467;Joniškis;Šiauliai;1915-01-01;;false;;Semaforek;
+L_dbeb8bfc7e;Jelgava;Joniškis;1915-01-01;;false;;Semaforek;
+L_fed5447aa3;Kretinga;Memel;1915-01-01;;false;;Semaforek;
+L_5cda578a91;Kretinga;Skuodas;1915-01-01;;false;;Semaforek;
+L_b388f9552c;Priekule;Skuodas;1915-01-01;;false;;Semaforek;
+L_7ad08e6f97;Głębokie;Królewszczyzna;1915-01-01;;false;;Semaforek;
+L_05dc11129a;Olecko;Suwałki;1915-01-01;;false;;Lijewski;
+L_a60dd0b9f3;Łomża;Śniadowo;1915-01-01;;false;;Lijewski;
+L_d956546a09;Bąkowiec;Wysokie Koło;1915-01-01;;false;;Lijewski;
+L_197904b21f;Bąkowiec;Kozienice;1915-01-01;;false;;Lijewski;
+L_a4cc5ea5d1;Spała;Tomaszów Mazowiecki;1915-01-01;;false;;Lijewski;
+L_03a1862f9b;Bluszczów;Olza;1915-01-01;;false;;Lijewski;Lijewski nie wspomina Syryni, która pojawia się jako stacja pośrednia w Atlasie Kolejowym i Pod-Semaforkiem.
+L_95f8b10f2c;Bluszczów;Syrynia;1915-01-01;;false;;Lijewski;Lijewski nie wspomina Syryni, która pojawia się jako stacja pośrednia w Atlasie Kolejowym i Pod-Semaforkiem.
+L_ccba06a0fe;Pszów;Syrynia;1915-01-01;;false;;Lijewski;Lijewski nie wspomina Syryni, która pojawia się jako stacja pośrednia w Atlasie Kolejowym i Pod-Semaforkiem.
+L_ee53e95ae5;Sokal;Włodzimierz Wołyński;1915-01-01;;false;;;
+L_1044c839af;Krystynopol;Sapieżanka;1915-01-01;;false;;;
+L_39e0e0b3fc;Ostrowiec Świętokrzyski;Sandomierz;1915-01-01;;false;;Lijewski;
+L_99f4865ade;Zamość;Zawada;1915-01-01;;false;;Lijewski;Lijewski wymienia tylko stacje do Władzimierza Wołyńskiego.
+L_7ba5d310fc;Werbkowice;Zamość;1915-01-01;;false;;Lijewski;Lijewski wymienia tylko stacje do Władzimierza Wołyńskiego.
+L_f98032ad70;Hrubieszów;Werbkowice;1915-01-01;;false;;Lijewski;Lijewski wymienia tylko stacje do Władzimierza Wołyńskiego.
+L_d8b5ec70c0;Hrubieszów;Włodzimierz Wołyński;1915-01-01;;false;;Lijewski;Lijewski wymienia tylko stacje do Władzimierza Wołyńskiego.
+L_4d1a150b65;Wojnica;Włodzimierz Wołyński;1915-01-01;;false;;Lijewski;Lijewski wymienia tylko stacje do Władzimierza Wołyńskiego.
+L_864a4026fd;Kamień Koszyrski;Kowel;1915-01-01;;false;;Semaforek;
+L_f7e9bd95d4;Zbaraż;Łanowce;1915-01-01;;false;;Semaforek;
+L_0f2e100d39;Łanowce;Šhepetovka;1915-01-01;;false;;Semaforek;
+L_984662961b;Grabowo Wąskotorowe;Ostrołęka Północna Wąskotorowa;1915-01-01;;false;600.0;Lijewski;
+L_e19734c61e;Myszyniec;Ostrołęka Północna Wąskotorowa;1915-01-01;;false;600.0;Lijewski;
+L_4273a9c3bf;Dęby;Myszyniec;1915-01-01;;false;600.0;Lijewski;
+L_e072f63dd4;Dęby;Kolno;1915-01-01;;false;600.0;Lijewski;
+L_e62d1d9993;Myszyniec;Spychowo;1915-01-01;;false;600.0;Lijewski;
+L_27faf69fa2;Ozorków Wąskotorowy;Stryków Przeładownia;1915-01-01;;false;;Lijewski;
+L_86148e9efa;Krzewata;Most Krzewie;1915-01-01;;false;;Lijewski;
+L_ef262d0ce8;Dalniki;Lubieszów;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_384a10bfd2;Dalniki;Kamień Koszyrski Wąski;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_57145264fd;Dalniki;Hrywiatki;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_de6a88e7e2;Kraśnica;Święta Wola;1916-01-01;;false;600.0;Atlas Kolejowy;
+L_18718e8c74;Rzeczki;Telechany;1916-01-01;;false;600.0;Atlas Kolejowy;
+L_a8c735d88e;Grudusk;Mława;1961-01-01;;false;750.0;Semaforek;
+L_423530d27c;Grudusk;Przasnysz Miasto;1961-01-01;;false;750.0;Semaforek;
+L_fdb7df2966;Krasnystaw;Rejowiec;1916-01-01;;false;;Lijewski;
+L_41bf5d4de2;Krasnystaw;Zawada;1916-01-01;;false;;Lijewski;
+L_a45c385cbd;Zawada;Zwierzyniec;1916-01-01;;false;;Lijewski;
+L_59d99fdabb;Bełżec;Zwierzyniec;1916-01-01;;false;;Lijewski;
+L_9a0f0a8dee;Turek;Zbiersk;1916-01-01;;false;750.0;Lijewski;
+L_a28977efe5;Dęby;Nowogród;1916-01-01;;false;600.0;Lijewski;
+L_a154efd81d;Struga;Zegrze;1916-01-01;;false;;Lijewski;
+L_ff3af2038a;Bełżec Wąskotorowy;Tomaszów Lubelski Wąskotorowy;1916-01-01;;false;;Lijewski;
+L_b755e3bf08;Budy Dzierążeńskie;Tomaszów Lubelski Wąskotorowy;1916-01-01;;false;;Lijewski;
+L_92d5a5cf7f;Rataje;Wołów;1916-01-01;;false;;Lijewski;
+L_235060a4df;Myślice;Prabuty;1916-01-01;;false;;Lijewski;
+L_f299729007;Lidzbark Warmiński;Szwaruny;1916-01-01;;false;;Lijewski;
+L_e6b137ce19;Góra Śląska;Leszno;1916-01-01;;false;;Lijewski;
+L_7823769b9a;Góra Śląska;Krzelów;1916-01-01;;false;;Lijewski;
+L_732ef8f099;Kwieciszewo;Mogilno;1916-01-01;;false;;Lijewski;
+L_a308f7d1cb;Motkowice Wąskotorowe;Umianowice;1916-01-01;;false;;Lijewski;Dokładna data podana za Atlasem Kolejowym (https://www.atlaskolejowy.net/pl/swietokrzyskie/?id=linia&poz=124). Lijewski podaje budowę odcinka od Jędrzejowa, natomiast odcinek Jędrzejów Wąskotorowy-Motkowice Wąskotorowe był już otwarty w 1915 roku.
+L_8421672479;Stawiany Pińczowskie;Umianowice;1916-01-01;;false;;Lijewski;Dokładna data podana za Atlasem Kolejowym (https://www.atlaskolejowy.net/pl/swietokrzyskie/?id=linia&poz=124). Lijewski podaje budowę odcinka od Jędrzejowa, natomiast odcinek Jędrzejów Wąskotorowy-Motkowice Wąskotorowe był już otwarty w 1915 roku.
+L_e9bfaee22c;Bogoria;Stawiany Pińczowskie;1916-01-01;;false;;Lijewski;Dokładna data podana za Atlasem Kolejowym (https://www.atlaskolejowy.net/pl/swietokrzyskie/?id=linia&poz=124). Lijewski podaje budowę odcinka od Jędrzejowa, natomiast odcinek Jędrzejów Wąskotorowy-Motkowice Wąskotorowe był już otwarty w 1915 roku.
+L_3f12c42fc0;Gębice;Kwieciszewo;1916-01-01;;false;;Lijewski;
+L_fea2dafddb;Lubiąż;Rataje;1916-01-01;;false;;Lijewski;
+L_aea2aa35e8;Bogoria;Iwaniska;1916-01-01;;false;;Lijewski;Dokładna data podana za Atlasem Kolejowym (https://www.atlaskolejowy.net/pl/swietokrzyskie/?id=linia&poz=196).
+L_1d1fbad0d7;Lipno Płockie;Lubicz Wąskotorowy;1916-01-01;;false;;Lijewski;Odcinek Sierpc-Płońsk-Nasielsk był pierwotnie wąskotorowy i w 1924 roku zastąpiono go koleją normalnotorową (https://www.atlaskolejowy.net/pl/mazowieckie/?id=linia&poz=512).
+L_3eb2cd0576;Lipno Płockie;Sierpc Wąskotorowy;1916-01-01;;false;;Lijewski;Odcinek Sierpc-Płońsk-Nasielsk był pierwotnie wąskotorowy i w 1924 roku zastąpiono go koleją normalnotorową (https://www.atlaskolejowy.net/pl/mazowieckie/?id=linia&poz=512).
+L_595b25ed98;Płońsk;Sierpc Wąskotorowy;1916-01-01;;false;;Lijewski;Odcinek Sierpc-Płońsk-Nasielsk był pierwotnie wąskotorowy i w 1924 roku zastąpiono go koleją normalnotorową (https://www.atlaskolejowy.net/pl/mazowieckie/?id=linia&poz=512).
+L_306f5aab07;Nasielsk;Płońsk;1916-01-01;;false;;Lijewski;Odcinek Sierpc-Płońsk-Nasielsk był pierwotnie wąskotorowy i w 1924 roku zastąpiono go koleją normalnotorową (https://www.atlaskolejowy.net/pl/mazowieckie/?id=linia&poz=512).
+L_0f480155fd;Charsznica;Miechów;1950-01-01;;false;750.0;Semaforek;
+L_5ce3c381cd;Działoszyce;Miechów;1950-01-01;;false;750.0;Semaforek;
+L_1831dd258c;Karczmiska;Nałęczów;1916-01-01;;false;750.0;Lijewski;
+L_6b023d3fe2;Karczmiska;Rozalin;1916-01-01;;false;750.0;Lijewski;
+L_9930e2c986;Opole Lubelskie;Rozalin;1916-01-01;;false;750.0;Lijewski;
+L_7182384f7f;Karczmiska;Wilków Wąskotorowy;1916-01-01;;false;750.0;Lijewski;
+L_2b6b84ccc1;Praszka;Wieluń;1916-01-01;;false;750.0;Lijewski;W przewieństwie do Pod-Semaforkiem, Lijewski nie wspomina stacji pośredniej Praszka.
+L_c6df7a04ad;Werbkowice Wąskotorowe;Łaszczów;1916-01-01;;false;760.0;Lijewski;
+L_b59d3e4cec;Byków Wąskotorowy;Łaszczów;1916-01-01;;false;760.0;Lijewski;
+L_a0dc5f37b0;Byków Wąskotorowy;Uhnów;1916-01-01;;false;760.0;Lijewski;
+L_e974df5a4b;Strzyżów Hrubieszowski;Werbkowice;1916-01-01;;false;760.0;;
+L_fc9adb11a4;Gozdów;Werbkowice Wąskotorowe;1916-01-01;;false;;Lijewski;
+L_e08926e656;Gozdów;Hrubieszów Wąskotorowy;1916-01-01;;false;;Lijewski;
+L_0980d27a7a;Dziekanów;Hrubieszów Wąskotorowy;1916-01-01;;false;;Lijewski;
+L_ff7b5dcf0d;Dziekanów;Matcze;1916-01-01;;false;;Lijewski;
+L_989960d55d;Wożuczyn;Łaszczów;1916-01-01;;false;;Lijewski;
+L_7376f44c81;Gozdów;Uchanie;1916-01-01;;false;;Lijewski;
+L_0996dfda04;Uchanie;Wojsławice;1916-01-01;;false;;Lijewski;
+L_b630585b28;Biłgoraj;Zwierzyniec;1964-01-01;;false;750.0;Semaforek;
+L_cd393d19d1;Nowojelnia Wąska;Łopuszno;1916-01-01;;false;600.0;Atlas Kolejowy;
+L_7ff83e5aba;Skrzydlewo;Łopuszno;1916-01-01;;false;600.0;Atlas Kolejowy;
+L_5cd697affb;Horodeczno;Skrzydlewo;1916-01-01;;false;600.0;Atlas Kolejowy;
+L_227fe9167f;Horodeczno;Lubcz;1916-01-01;;false;600.0;Atlas Kolejowy;
+L_c93b120cad;Orańczyce Wąskie;Prużana;1916-01-01;;false;600.0;Atlas Kolejowy;
+L_de6b898854;Dukszty;Dukszty Wąskotorowe;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_c4de47ed23;Dukszty Wąskotorowe;Opsa;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_efa98f2074;Brasław;Opsa;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_ae2514d880;Brasław;Druja Wąska;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_1fa1da6d44;Bogoria;Staszów Wąskotorowy;1950-01-01;;false;750.0;Semaforek;
+L_68704b2808;Olszew;Łyntupy Wąskie;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_803e7916ed;Kobylnik;Olszew;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_82ad086064;Będzin Grodziec;Piekło;1916-01-01;;false;;Lijewski;Lijewski wskazuje tylko otwarcie odcinku Piekło-Wojkowice. Pozostałe stacje dodane na podstawie Atlasu Kolejowego.
+L_1f53bea543;Będzin Grodziec;Będzin Wojkowice;1916-01-01;;false;;Lijewski;Lijewski wskazuje tylko otwarcie odcinku Piekło-Wojkowice. Pozostałe stacje dodane na podstawie Atlasu Kolejowego.
+L_08f03eab2d;Brzeziny Śląskie;Będzin Wojkowice;1916-01-01;;false;;Lijewski;Lijewski wskazuje tylko otwarcie odcinku Piekło-Wojkowice. Pozostałe stacje dodane na podstawie Atlasu Kolejowego.
+L_f35bc9b3e0;Narocz;Olszew;1916-01-01;;false;750.0;Atlas Kolejowy;
+L_6718c2c128;Grójec;Kozietuły;1917-01-01;;false;1000.0;Lijewski;
+L_4af0936e45;Kozietuły;Mogielnica;1917-01-01;;false;1000.0;Lijewski;
+L_a8472ba1ce;Chocianów;Lubin;1917-01-01;;false;;Lijewski;
+L_b442b4c7c9;Biała Podlaska;Roskosz;1917-01-01;;false;750.0;Lijewski;
+L_203b7251a9;Konstantynów;Roskosz;1917-01-01;;false;750.0;Lijewski;
+L_6d2ce3ae9d;Rokitno;Roskosz;1917-01-01;;false;750.0;Lijewski;
+L_cb00c67812;Kalisz;Żelazków;1917-01-01;;false;750.0;Lijewski;
+L_9e2ba91ed1;Krynki Wąskotorowe;Myszanka;1917-01-01;;false;;Atlas Kolejowy;
+L_5893c2bef2;Krzywoszyn;Myszanka;1917-01-01;;false;;Atlas Kolejowy;
+L_9cab97cc2e;Górki;Zajączkowo Tczewskie;1918-01-01;;false;;;
+L_b52a56a9d5;Sulechów;Świebodzin;1919-01-01;;false;;Lijewski;
+L_2b24fc72fd;Kocmyrzów;Posądza;1950-01-01;;false;750.0;Semaforek;
+L_583594ccdb;Jeziernik;Żuławki Północne;1920-01-01;;false;;Lijewski;
+L_23471a2438;Brzostowiec;Mogielnica;1920-01-01;;false;;Lijewski;
+L_9fda1a32a2;Sompolno;Ślesin;1955-01-01;;false;750.0;Semaforek;
+L_cc66536ccc;Sławoszewek;Ślesin;1955-01-01;;false;750.0;Semaforek;
+L_8559e1e17e;Cegielnia;Sławoszewek;1921-01-01;;false;;Lijewski;Data pochodzi z Atlasu Kolejowego (https://www.atlaskolejowy.net/pl/wielkopolskie/?id=linia&poz=1113).
+L_e31c6b322d;Krzewie;Kutno;1921-01-01;;false;;Lijewski;
+L_f965dfd868;Krzewie;Kłodawa;1921-01-01;;false;;Lijewski;
+L_a817f64363;Koło;Kłodawa;1921-01-01;;false;;Lijewski;
+L_5c378d3306;Konin;Koło;1921-01-01;;false;;Lijewski;
+L_ef95d9e6c3;Konin;Słupca;1921-01-01;;false;;Lijewski;
+L_0bf5cdd7af;Strzałkowo;Słupca;1921-01-01;;false;;Lijewski;
+L_138d16eccc;Kokoszki;Osowa;1921-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Gdynia Wielki Kack.
+L_ad5bdb0645;Gdynia Wielki Kack;Osowa;1921-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Gdynia Wielki Kack.
+L_2dba2e7af6;Gdynia Główna;Gdynia Wielki Kack;1921-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Gdynia Wielki Kack.
+L_c6d36e0ddb;Korzybie;Polanów;1921-01-01;;false;;Lijewski;
+L_3692cebfaf;Gębice;Orchowo;1921-01-01;;false;;Lijewski;
+L_61d8e950ca;Cieleśnica;Rokitno;1921-01-01;;false;;Lijewski;
+L_cb2b0b9ffc;Nowogródek;Skrzydlewo;1922-01-01;;false;600.0;Atlas Kolejowy;
+L_5d35832c88;Gostynin;Kutno;1922-01-01;;false;;Lijewski;
+L_d5a6d05b51;Gostynin;Płock Radziwie;1922-01-01;;false;;Lijewski;
+L_ed423c571a;Nowogród;Łomża;1922-01-01;;false;600.0;Lijewski;
+L_4850847a75;Dobrzykowice Wrocławskie;Wrocław Sołtysowice;1922-01-01;;false;;Lijewski;
+L_850f6f39bd;Swarzewo;Władysławowo;1922-01-01;;false;;Lijewski;Lijewski pisze o otwarciu odcinka Puck-Hel, jednak odcinek Puck-Swarzewo istniał już od 1903 roku. Władysławowo dodane na bazie Atlasu Kolejowego.
+L_c533ee4cab;Hel;Władysławowo;1922-01-01;;false;;Lijewski;Lijewski pisze o otwarciu odcinka Puck-Hel, jednak odcinek Puck-Swarzewo istniał już od 1903 roku. Władysławowo dodane na bazie Atlasu Kolejowego.
+L_b9f0813abe;Sochaczew;Tułowice Sochaczewskie;1922-01-01;;false;750.0;Lijewski;
+L_4bf6666879;Tułowice Sochaczewskie;Wyszogród;1922-01-01;;false;750.0;Lijewski;
+L_17bf786146;Sosnowiec Główny;Sosnowiec Południowy;1922-01-01;;false;;Lijewski;
+L_a765720942;Janów Podlaski;Rokitno;1922-01-01;;false;;Lijewski;
+L_bc269db65e;Borzykowo;Pyzdry;1922-01-01;;false;600.0;Lijewski;
+L_423228c0f9;Rzepedź;Smolnik;1922-01-01;;false;760.0;;
+L_8ba229526b;Rypin Wąskotorowy;Sierpc Wąskotorowy;1922-01-01;;false;;Lijewski;
+L_f86fc32052;Piaski Królewskie;Tułowice Sochaczewskie;1922-01-01;;false;750.0;Lijewski;
+L_00c4e11ce5;Myszanka;Suchowiersze;1922-01-01;;false;750.0;Atlas Kolejowy;
+L_8de7402608;Leśna Wąska Towarowa;Suchowiersze;1922-01-01;;false;750.0;Atlas Kolejowy;
+L_e2b7336d3c;Baranowicze Poleskie Wąskie;Myszanka;1922-01-01;;false;750.0;Atlas Kolejowy;
+L_0fc6707584;Lubiąż;Malczyce;1923-01-01;;false;;Lijewski;
+L_4e8af5399a;Dubieninki;Gołdap;1923-01-01;;false;;Lijewski;
+L_1f57d5f208;Rataje Wąskotorowe;Staszów Wąskotorowy;1950-01-01;;false;750.0;Semaforek;
+L_7971e60738;Rataje Wąskotorowe;Szczucin koło Tarnowa Wąskotorowy;1950-01-01;;false;750.0;Semaforek;
+L_ed3fcd8081;Chorzów Batory;Ruda Kochłowice;1924-01-01;;false;;Lijewski;
+L_89f112ebc5;Brzostowiec;Nowe Miasto nad Pilicą;1924-01-01;;false;;Lijewski;
+L_83d0c7d09a;Chybie;Pawłowice Śląskie;1924-01-01;;false;;Lijewski;
+L_03853abfb0;Marijampole;Šeštokai;1924-01-01;;false;;Semaforek;
+L_be8aae4e83;Kazlu Ruda;Marijampole;1924-01-01;;false;;Semaforek;
+L_1825e12ff9;Krasne Wąskotorowe;Przasnysz;1924-01-01;;false;;Lijewski;
+L_f2b94060f5;Krasne Wąskotorowe;Szwejki;1924-01-01;;false;;Lijewski;
+L_63ba8a6713;Gołymin-Ośrodek;Szwejki;1924-01-01;;false;;Lijewski;
+L_52a1035459;Ciechanów;Grudusk;1961-01-01;;false;750.0;Semaforek;
+L_903d35503a;Ciechanów;Pałuki;1925-01-01;;false;;Lijewski;Lijewski odnotowuje, że początkowo linia została otwarta jako kolejka cukrowniana, otwarta dla ruchu publicznego dopiero w 1949 roku.
+L_aba339f92f;Działoszyce;Kazimierza Wielka;1950-01-01;;false;750.0;Semaforek;
+L_9c8a2fb1b2;Cudzynowice;Wiślica;1950-01-01;;false;750.0;Semaforek;
+L_dcf3f9c930;Pińczów;Wiślica;1950-01-01;;false;750.0;Semaforek;
+L_f3570edf19;Brzezie nad Odrą;Syrynia;1925-01-01;;false;;Lijewski;Lijewski pisze o otwarciu odcinka Bluszczów-Brzezie - jednak w rzeczywistości odcinek Brzezie-Syrynia został już otwarty w 1915 roku.
+L_6ab73fda08;Dobry Pomorski;Słobity;1925-01-01;;false;;Lijewski;
+L_08ee589092;Miłkowice;Wielkie Piekary;1925-01-01;;false;;;
+L_05cef3acdd;Biskupiec Pomorski Miasto;Kisielice;1925-01-01;;false;;Lijewski;
+L_1e1a9d0e34;Brzeziny Śląskie;Chorzów Stary;1925-01-01;;false;;Lijewski;
+L_9342a3c5e1;Brzeziny Śląskie;Piekary Śląskie Szarlej;1925-01-01;;false;;Lijewski;
+L_2e81fb8072;Ozorków;Zgierz;1925-01-01;;false;;Lijewski;
+L_da5740b02f;Ozorków;Łęczyca;1925-01-01;;false;;Lijewski;
+L_7c74b196e3;Kutno;Łęczyca;1925-01-01;;false;;Lijewski;
+L_507932eefe;Brzeźno Człuchowskie;Wierzchowo Człuchowskie;1926-01-01;;false;;Lijewski;
+L_98df9b0dc5;Środa Śląska;Środa Śląska Rynek;1926-01-01;;false;;Lijewski;
+L_7ea419fe53;Dobry Pomorski;Orneta;1926-01-01;;false;;Lijewski;
+L_afe9cb03e9;Kalety;Strzebiń;1926-01-01;;false;;Lijewski;Strzebiń dodany jako stacja pośrednia na podstawie Atlasu Kolejowego (https://www.atlasdrah.net/pl/slaskie/?id=linia&poz=401).
+L_b8d2b10a60;Herby Nowe;Strzebiń;1926-01-01;;false;;Lijewski;Strzebiń dodany jako stacja pośrednia na podstawie Atlasu Kolejowego (https://www.atlasdrah.net/pl/slaskie/?id=linia&poz=401).
+L_d22141a55e;Herby Nowe;Wieluń;1926-01-01;;false;;Lijewski;Strzebiń dodany jako stacja pośrednia na podstawie Atlasu Kolejowego (https://www.atlasdrah.net/pl/slaskie/?id=linia&poz=401).
+L_2e7a8cab88;Wieluń;Wieruszów;1926-01-01;;false;;Lijewski;Strzebiń dodany jako stacja pośrednia na podstawie Atlasu Kolejowego (https://www.atlasdrah.net/pl/slaskie/?id=linia&poz=401).
+L_5974b8be80;Herby Nowe;Herby Stare;1926-01-01;;false;;;
+L_9820fb0abc;Błąkały;Dubieninki;1926-01-01;;false;;Lijewski;
+L_c8dfc59272;Rataje Wąskotorowe;Szczucin koło Tarnowa;1950-01-01;;false;750.0;Semaforek;
+L_9e8e69749b;Posądza;Proszowice;1950-01-01;;false;750.0;Semaforek;
+L_94168928e7;Kazimierza Wielka;Proszowice;1950-01-01;;false;750.0;Semaforek;
+L_65e21de909;Pińczów;Umianowice;1926-01-01;;false;;Lijewski;
+L_54795758cc;Kazimierza Wielka;Pińczów;1926-01-01;;false;;Lijewski;
+L_f0364c00c3;Kužiai;Telšiai;1926-01-01;;false;;Semaforek;
+L_736e227e3a;Wrocław Muchobór;Wrocław Zachodni;1927-01-01;;false;;Lijewski;Dawna nazwa Wrocława Zachodniego to Muchobór Wielki.
+L_8bddc0dd02;Błąkały;Żytkiejmy;1927-01-01;;false;;Lijewski;
+L_585c8c07c0;Mikułowa;Sulików;1927-01-01;;false;;Lijewski;
+L_b9feb41f78;Chybie;Skoczów;1927-01-01;;false;;Lijewski;
+L_f7a1807130;Ustroń;Ustroń Polana;1928-01-01;;false;;Lijewski;
+L_0634ab78d3;Bydgoszcz Wschód;Maksymilianowo;1928-01-01;;false;;Lijewski;
+L_c6cf292c30;Komorowo Wielkopolskie;Lwówek Wąskotorowy;1928-01-01;;false;;Lijewski;
+L_f48ec823fe;Tworóg Brynek;Zabrze Mikulczyce;1928-01-01;;false;;Lijewski;
+L_ba6a74c1a1;Bąk;Czersk;1928-01-01;;false;;Lijewski;
+L_d03a6ebbef;Bąk;Kościerzyna;1928-01-01;;false;;Lijewski;
+L_cd34796fff;Warszawa Marszałkowska;Warszawa Szczęśliwice;1929-01-01;;false;;Lijewski;
+L_f41567217d;Podkowa Leśna;Warszawa Szczęśliwice;1929-01-01;;false;;Lijewski;
+L_5a423bc034;Grodzisk Mazowiecki;Podkowa Leśna;1929-01-01;;false;;Lijewski;
+L_5173f79777;Ustroń Polana;Wisła Uzdrowisko;1929-01-01;;false;;Lijewski;
+L_bab6090eca;Lutol Suchy;Trzciel Zachodni;1929-01-01;;false;;Lijewski;
+L_1857077640;Warszawa Gdańska;Łomianki;1929-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Łomianki.
+L_1d0733bccb;Palmiry;Łomianki;1929-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Łomianki.
+L_e12a5028fb;Ciechanów;Krasne Wąskotorowe;1961-01-01;;false;750.0;Semaforek;
+L_71b4453235;Chorzew Siemkowice;Herby Nowe;1930-01-01;;false;;Lijewski;
+L_1af63731cc;Chorzew Siemkowice;Zduńska Wola Karsznice;1930-01-01;;false;;Lijewski;
+L_1894293481;Zduńska Wola Karsznice;Zduńska Wola Karsznice;1930-01-01;;false;;Lijewski;
+L_0818b92919;Maksymilianowo;Wierzchucin;1930-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Lipowa Tucholska.
+L_6bc355c9aa;Lipowa Tucholska;Wierzchucin;1930-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Lipowa Tucholska.
+L_c610415cba;Bąk;Lipowa Tucholska;1930-01-01;;false;;Lijewski;W przeciwieństwie do Lijewskiego, baza Pod-Semaforkiem wspomina stację pośrednią Lipowa Tucholska.
+L_e1773e14f5;Lipowa Tucholska;Szlachta;1930-01-01;;false;;;
+L_089a512880;Osowa;Somonino;1930-01-01;;false;;Lijewski;
+L_6c200ee581;Bydgoszcz Wschód;Nowa Wieś Wielka;1930-01-01;;false;;Lijewski;
+L_bf87d6e5d3;Budziszewice Łódzkie;Koluszki;1930-01-01;;false;;Lijewski;
+L_b57386876b;Sienkiewiczówka;Stojanów;1930-01-01;;false;;;
+L_8695ba9d99;Sienkiewiczówka;Łuck;1930-01-01;;false;;;
+L_dde70e90d9;Szczecin Gumieńce;Szczecin Turzyn;1931-01-01;;false;;Lijewski;
+L_81474b5d71;Grębów;Sandomierz;1931-01-01;;false;;Lijewski;
+L_e51589ebf8;Zgierz;Łódź Widzew;1931-01-01;;false;;Lijewski;
+L_c01ff82ee6;Warszawa Szczęśliwice;Warszawa Włochy;1932-01-01;;false;;Lijewski;
+L_8d449a0989;Strzebiń;Woźniki Śląskie;1932-01-01;;false;;Lijewski;Lijewski podaje otwarcie odcinka Kalety-Woźniki Śląskie, natomiast odcinek Kalety-Strzebiń został otwarty już w 1926 roku.
+L_8477549737;Warszawa Gołąbki;Warszawa Włochy;1932-01-01;;false;;Lijewski;
+L_c796eba9c8;Druja;Woropajewo;1932-01-01;;false;;Semaforek;
+L_9c223bec87;Plunge;Telšiai;1932-01-01;;false;;Semaforek;
+L_57cf03efc8;Kretinga;Plunge;1932-01-01;;false;;Semaforek;
+L_cdb9ed1566;Pruszków;Warszawa Gołąbki;1932-01-01;;false;;Lijewski;
+L_3d454b0d8d;Poddębice;Zduńska Wola Karsznice;1933-01-01;;false;;Lijewski;
+L_5285d4b6f4;Dąbie;Poddębice;1933-01-01;;false;;Lijewski;
+L_3fdaf656b1;Dąbie;Piotrków Kujawski;1933-01-01;;false;;Lijewski;
+L_83d004f9a1;Inowrocław;Piotrków Kujawski;1933-01-01;;false;;Lijewski;
+L_73d47c5605;Warszawa Zachodnia;Warszawa Śródmieście;1933-01-01;;false;;Lijewski;Lijewski podaje tylko połączenie stacji Warszawa Śródmieście i Warszawa Wschodnia.
+L_7289f9f25f;Warszawa Wschodnia;Warszawa Śródmieście;1933-01-01;;false;;Lijewski;Lijewski podaje tylko połączenie stacji Warszawa Śródmieście i Warszawa Wschodnia.
+L_a092f6e0bd;Warszawa Rembertów;Zielonka;1933-01-01;;false;;Lijewski;
+L_f990fb6a32;Wisła Głębce;Wisła Uzdrowisko;1933-01-01;;false;;Lijewski;
+L_040bc89734;Kędzierzyn Koźle;Leśnica;1934-01-01;;false;;Lijewski;
+L_9baf5699e5;Cieszyn;Zebrzydowice;1934-01-01;;false;;Lijewski;
+L_9066df2637;Płock;Sierpc;1934-01-01;;false;;Lijewski;
+L_eaf5b19d60;Kraków Batowice;Kraków Główny;1934-01-01;;false;;Lijewski;
+L_16ede1156e;Kraków Batowice;Miechów;1934-01-01;;false;;Lijewski;
+L_6e8c496aba;Miechów;Tunel;1934-01-01;;false;;Lijewski;
+L_74fa69789b;Piaseczno Miasto;Warszawa Zachodnia;1934-01-01;;false;;Lijewski;
+L_2eb18a819a;Piaseczno Miasto;Warka;1934-01-01;;false;;Lijewski;
+L_e093f2b5f0;Radom;Warka;1934-01-01;;false;;Lijewski;
+L_fc77a8452d;Druskienniki;Porzecze;1934-01-01;;false;;;
+L_2e4ccc1980;Lipki Wielkie;Skwierzyna;1935-01-01;;false;;Lijewski;
+L_9270216c94;Jastrzębie Zdrój Moszczenica;Zebrzydowice;1935-01-01;;false;;Lijewski;
+L_0721953fab;Borne Sulinowo;Łubowo;1935-01-01;;false;;Lijewski;
+L_8e00648cfb;Szczecin Dąbie;Szczecin Gumieńce;1936-01-01;;false;;Lijewski;
+L_31fe9caa8e;Leśnica;Strzelce Opolskie;1936-01-01;;false;;Lijewski;
+L_7622b61921;Lipki Wielkie;Stare Bielice;1936-01-01;;false;;Lijewski;Stacja pośrednia Stare Bielice dodana na podstawie Atlasu Kolejowego (https://www.atlaskolejowy.net/pl/lubuskie/?id=linia&poz=13 ORAZ https://www.atlaskolejowy.net/pl/lubuskie/?id=linia&poz=41).
+L_b7d93ed1ad;Krzyż;Stare Bielice;1936-01-01;;false;;Lijewski;Stacja pośrednia Stare Bielice dodana na podstawie Atlasu Kolejowego (https://www.atlaskolejowy.net/pl/lubuskie/?id=linia&poz=13 ORAZ https://www.atlaskolejowy.net/pl/lubuskie/?id=linia&poz=41).
+L_156dd58c08;Radzymin;Wieliszew;1936-01-01;;false;;Lijewski;
+L_706aeb9243;Radzymin;Tłuszcz;1936-01-01;;false;;Lijewski;
+L_173d5d832d;Milanówek;Podkowa Leśna;1936-01-01;;false;;Lijewski;
+L_d92204f9e2;Rybnik;Żory;1936-01-01;;false;;Lijewski;
+L_3f50b01263;Gdynia Chylonia;Gdynia Port Oksywie;1937-01-01;;false;;Lijewski;
+L_9e2ae84c29;Lipno;Sierpc;1937-01-01;;false;;Lijewski;
+L_9afd6c14ab;Lipno;Lubicz;1937-01-01;;false;;Lijewski;
+L_088202b42e;Poręba;Zawiercie;1937-01-01;;false;;Lijewski;
+L_769aac35de;Rypin;Sierpc;1937-01-01;;false;;Lijewski;
+L_c27b315be3;Brodnica;Rypin;1937-01-01;;false;;Lijewski;
+L_7caa0b0261;Bukowa Śląska;Pawłowice Namysłowskie;1937-01-01;;false;;Lijewski;
+L_d7053fc0d3;Preußisch Eylau;Stablack;1937-01-01;;false;;;
+L_70a0c0dace;Vievis;Zawiasy;1937-01-01;;false;;;
+L_b939fc3402;Heiligenbeil;Zinten;1938-01-01;;false;;;
+L_c38cf1f263;Pszczyna;Żory;1938-01-01;;false;;Lijewski;
+L_7a24ab3791;Płock;Płock Radziwie;1938-01-01;;false;;Lijewski;
+L_a68ef265c8;Ocice;Tarnobrzeg;1938-01-01;;false;;Lijewski;
+L_f78f1f8858;Dęba Rozalin;Ocice;1938-01-01;;false;;Lijewski;
+L_526c663333;Poniatowa;Rozalin;1938-01-01;;false;750.0;Lijewski;
+L_9131203869;Bukowno;Szczakowa;1939-01-01;;false;;Lijewski;
+L_f68541e4ce;Legionowo Piaski;Nasielsk;1939-01-01;;false;;;
+L_4c222e7fb3;Gołębice;Pawłowice Namysłowskie;1939-01-01;;false;;Lijewski;
+L_4fa940032d;Chorzew Siemkowice;Częstochowa;1939-01-01;;false;;Lijewski;
