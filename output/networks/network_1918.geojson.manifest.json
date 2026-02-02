@@ -1,0 +1,51 @@
+{
+  "schema": "network_build_manifest.v1",
+  "created_utc": "2026-02-02T22:15:52.836859+00:00",
+  "run": {
+    "started_utc": "2026-02-02T22:15:25.312079+00:00",
+    "duration_s": 27.52378010749817
+  },
+  "environment": {
+    "python_version": "3.11.5",
+    "platform": "Windows-10-10.0.26100-SP0"
+  },
+  "parameters": {
+    "year": 1918,
+    "lines": "data_preprocessed/lines_cropped.csv",
+    "stations": "data/stations.csv",
+    "out": "output/network_1918.geojson",
+    "speed_normal_kmh": 10.0,
+    "speed_narrow_kmh": 10.0,
+    "speed_horse_kmh": 4,
+    "transfer_radius_m": 1200
+  },
+  "files": {
+    "inputs": {
+      "stations": {
+        "path": "data\\stations.csv",
+        "exists": true,
+        "size_bytes": 150640,
+        "mtime_utc": "2026-01-30T15:36:18.853087+00:00"
+      },
+      "lines": {
+        "path": "data_preprocessed\\lines_cropped.csv",
+        "exists": true,
+        "size_bytes": 95480,
+        "mtime_utc": "2026-02-02T12:56:08.821577+00:00"
+      }
+    },
+    "outputs": {
+      "geojson": {
+        "path": "output\\network_1918.geojson",
+        "exists": true,
+        "size_bytes": 626938,
+        "mtime_utc": "2026-02-02T22:15:52.833853+00:00"
+      }
+    }
+  },
+  "graph": {
+    "nodes": 872,
+    "edges": 1019,
+    "removed_isolates": 0
+  }
+}

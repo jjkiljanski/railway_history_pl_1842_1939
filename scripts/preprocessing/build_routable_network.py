@@ -13,6 +13,12 @@ import networkx as nx
 from shapely.geometry import Point, LineString
 from pyproj import Geod
 
+import json
+import os
+import platform
+from datetime import datetime, timezone
+from pathlib import Path
+
 
 # ------------------------------------------------------------------
 # Logging setup
@@ -243,6 +249,77 @@ def export_geojson(G, stations, path):
     gpd.GeoDataFrame.from_features(feats, crs="EPSG:4326").to_file(path, driver="GeoJSON")
     log.info(f"Wrote {path}")
 
+# ------------------------------------------------------------------
+# Create a manifest
+# ------------------------------------------------------------------
+
+def write_manifest(
+    *,
+    manifest_path: str,
+    args: argparse.Namespace,
+    out_path: str,
+    stations_path: str,
+    lines_path: str,
+    year: int,
+    run_started_utc: datetime,
+    run_duration_s: float,
+    graph_stats: dict,
+):
+    mp = Path(manifest_path)
+    mp.parent.mkdir(parents=True, exist_ok=True)
+
+    def _file_info(p: str) -> dict:
+        pp = Path(p)
+        info = {"path": str(pp)}
+        try:
+            st = pp.stat()
+            info.update(
+                {
+                    "exists": True,
+                    "size_bytes": int(st.st_size),
+                    "mtime_utc": datetime.fromtimestamp(st.st_mtime, tz=timezone.utc).isoformat(),
+                }
+            )
+        except FileNotFoundError:
+            info["exists"] = False
+        return info
+
+    manifest = {
+        "schema": "network_build_manifest.v1",
+        "created_utc": datetime.now(timezone.utc).isoformat(),
+        "run": {
+            "started_utc": run_started_utc.isoformat(),
+            "duration_s": run_duration_s,
+        },
+        "environment": {
+            "python_version": platform.python_version(),
+            "platform": platform.platform(),
+        },
+        "parameters": {
+            "year": year,
+            "lines": lines_path,
+            "stations": stations_path,
+            "out": out_path,
+            "speed_normal_kmh": args.speed_normal_kmh,
+            "speed_narrow_kmh": args.speed_narrow_kmh,
+            "speed_horse_kmh": args.speed_horse_kmh,
+            "transfer_radius_m": args.transfer_radius_m,
+        },
+        "files": {
+            "inputs": {
+                "stations": _file_info(stations_path),
+                "lines": _file_info(lines_path),
+            },
+            "outputs": {
+                "geojson": _file_info(out_path),
+            },
+        },
+        "graph": graph_stats,
+    }
+
+    mp.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    log.info(f"Wrote manifest {mp}")
+
 
 # ------------------------------------------------------------------
 # Main
@@ -254,13 +331,18 @@ def main():
     ap.add_argument("--lines", default="data_preprocessed/lines_cropped.csv")
     ap.add_argument("--stations", default="data/stations.csv")
     ap.add_argument("--out", default=None)
-    ap.add_argument("--speed_normal_kmh", type=float, default=15)
-    ap.add_argument("--speed_narrow_kmh", type=float, default=15)
+    ap.add_argument("--manifest", default=None, help="Path to write JSON manifest (defaults to <out>.manifest.json)")
+    ap.add_argument("--speed_normal_kmh", type=float, required=True)
+    ap.add_argument("--speed_narrow_kmh", type=float, required=True)
     ap.add_argument("--speed_horse_kmh", type=float, default=4)
     ap.add_argument("--transfer_radius_m", type=float, default=1200)
     args = ap.parse_args()
 
-    out = args.out or f"output/network_{args.year}.geojson"
+    run_started_utc = datetime.now(timezone.utc)
+    t0 = time.time()
+
+    out = args.out or f"output/networks/network_{args.year}.geojson"
+    manifest_path = args.manifest or f"{out}.manifest.json"
 
     stations = build_station_index(args.stations)
     lines = load_active_lines(args.lines, args.year)
@@ -275,11 +357,31 @@ def main():
     force_connectivity(G, stations, args.speed_horse_kmh)
 
     isolates = list(nx.isolates(G))
+    removed_isolates = len(isolates)
     if isolates:
-        log.info(f"Removing isolates (degree=0): {len(isolates):,}")
+        log.info(f"Removing isolates (degree=0): {removed_isolates:,}")
         G.remove_nodes_from(isolates)
 
     export_geojson(G, stations, out)
+
+    # Manifest stats
+    graph_stats = {
+        "nodes": int(G.number_of_nodes()),
+        "edges": int(G.number_of_edges()),
+        "removed_isolates": int(removed_isolates),
+    }
+
+    write_manifest(
+        manifest_path=manifest_path,
+        args=args,
+        out_path=out,
+        stations_path=args.stations,
+        lines_path=args.lines,
+        year=args.year,
+        run_started_utc=run_started_utc,
+        run_duration_s=float(time.time() - t0),
+        graph_stats=graph_stats,
+    )
 
 
 if __name__ == "__main__":
