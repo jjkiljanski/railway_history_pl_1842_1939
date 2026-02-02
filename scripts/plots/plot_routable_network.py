@@ -21,7 +21,7 @@ def main():
     ap.add_argument("--figsize", type=float, nargs=2, default=(10, 10))
     args = ap.parse_args()
 
-    out = args.out or f"output/plots/{Path(args.geojson).stem}.png"
+    out = args.out or f"output/networks/{Path(args.geojson).stem}.png"
 
     log.info(f"Loading {args.geojson}...")
     gdf = gpd.read_file(args.geojson)

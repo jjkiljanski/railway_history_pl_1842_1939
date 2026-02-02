@@ -13,6 +13,11 @@ from shapely.geometry import Point, LineString
 from pyproj import Geod
 import matplotlib.pyplot as plt
 
+import json
+import platform
+from datetime import datetime, timezone
+from pathlib import Path
+
 
 # -------------------------
 # Constants: border points
@@ -435,6 +440,85 @@ def plot_network_with_connectors(
     plt.close(fig)
     log.info("Plot done.")
 
+# -------------------------
+# Create a manifest
+# -------------------------
+
+
+def write_manifest(
+    *,
+    manifest_path: str,
+    args: argparse.Namespace,
+    run_started_utc: datetime,
+    run_duration_s: float,
+    derived: dict,
+    counts: dict,
+):
+    mp = Path(manifest_path)
+    mp.parent.mkdir(parents=True, exist_ok=True)
+
+    def _file_info(p: str) -> dict:
+        pp = Path(p)
+        info = {"path": str(pp)}
+        try:
+            st = pp.stat()
+            info.update(
+                {
+                    "exists": True,
+                    "size_bytes": int(st.st_size),
+                    "mtime_utc": datetime.fromtimestamp(st.st_mtime, tz=timezone.utc).isoformat(),
+                }
+            )
+        except FileNotFoundError:
+            info["exists"] = False
+        return info
+
+    # Normalize plot_out the same way as main()
+    plot_out_effective = None if str(args.plot_out).lower() == "none" else str(args.plot_out)
+
+    manifest = {
+        "schema": "network_consumer_manifest.v1",
+        "created_utc": datetime.now(timezone.utc).isoformat(),
+        "run": {
+            "started_utc": run_started_utc.isoformat(),
+            "duration_s": float(run_duration_s),
+        },
+        "environment": {
+            "python_version": platform.python_version(),
+            "platform": platform.platform(),
+        },
+        "parameters": {
+            "network": str(args.network),
+            "centroids": str(args.centroids),
+            "cities": str(args.cities),
+            "horse_kmh": float(args.horse_kmh),
+            "out_points": str(args.out_points),
+            "out_matrix": str(args.out_matrix),
+            "plot_out": plot_out_effective,
+            "figsize": [float(args.figsize[0]), float(args.figsize[1])],
+            "node_size": float(args.node_size),
+            "ext_point_size": float(args.ext_point_size),
+            "progress_every": int(args.progress_every),
+        },
+        "derived": derived,
+        "files": {
+            "inputs": {
+                "network": _file_info(str(args.network)),
+                "centroids": _file_info(str(args.centroids)),
+                "cities": _file_info(str(args.cities)),
+            },
+            "outputs": {
+                "out_points": _file_info(str(args.out_points)),
+                "out_matrix": _file_info(str(args.out_matrix)),
+                **({"plot_out": _file_info(plot_out_effective)} if plot_out_effective else {}),
+            },
+        },
+        "counts": counts,
+    }
+
+    mp.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    log.info(f"Wrote manifest {mp}")
+
 
 # -------------------------
 # Main
@@ -460,8 +544,13 @@ def main() -> int:
 
     # Performance / logging knobs
     ap.add_argument("--progress_every", type=int, default=100, help="Log progress every N connections per group")
+    
+    # Manifest
+    ap.add_argument("--manifest", default=None,
+                help="Path to write JSON manifest (defaults to <out_matrix>.manifest.json)")
     args = ap.parse_args()
 
+    run_started_utc = datetime.now(timezone.utc)
     t_all = time.time()
 
     # 1) Load network
@@ -514,6 +603,42 @@ def main() -> int:
     mat.to_csv(args.out_matrix, index=False)
 
     log.info(f"All done in {time.time() - t_all:.1f}s")
+
+    # 7) Manifest
+    manifest_path = args.manifest or f"{args.out_matrix}.manifest.json"
+    plot_out_effective = None if str(args.plot_out).lower() == "none" else str(args.plot_out)
+
+    derived = {
+        "plot_out_effective": plot_out_effective,
+        "weight": "time_min",
+    }
+
+    counts = {
+        # network as loaded
+        "network_nodes_loaded": int(base_gdf[base_gdf["feature"] == "node"].shape[0]) if "feature" in base_gdf.columns else None,
+        "network_edges_loaded": int(base_gdf[base_gdf["feature"] == "edge"].shape[0]) if "feature" in base_gdf.columns else None,
+
+        # graph sizes
+        "graph_nodes_after_connect": int(G.number_of_nodes()),
+        "graph_edges_after_connect": int(G.number_of_edges()),
+
+        # external points connected
+        "external_points_total": int(points_meta.shape[0]),
+        "external_points_by_type": points_meta["point_type"].value_counts().to_dict(),
+
+        # matrix rows (n^2)
+        "matrix_rows": int(mat.shape[0]),
+    }
+
+    write_manifest(
+        manifest_path=manifest_path,
+        args=args,
+        run_started_utc=run_started_utc,
+        run_duration_s=float(time.time() - t_all),
+        derived=derived,
+        counts=counts,
+    )
+
     return 0
 
 
