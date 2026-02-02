@@ -1,5 +1,7 @@
-# railway_history_pl_1842_1939
+# Railway History of Poland and Second Polish Republic (1842-1939)
 An event-based railway history database verified against historical sources with simple scripts to construct a rootable railway network graph and plot basic insights.
+
+*Acknowledgements: I strongly encourage to view the databases https://pod-semaforkiem.com.pl/ and https://www.atlaskolejowy.net/ - the best Internet resources about Polish railway history. It is hard to overestimate the importance of those two databases for the history of Polish railway infrastructure. This database would not come to be without those two crucial sources.*
 
 ![Railway network in 1877](output/history_plots/1877.png)
 
