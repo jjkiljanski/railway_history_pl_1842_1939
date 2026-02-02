@@ -1,6 +1,23 @@
 # railway_history_pl_1842_1939
 An event-based railway history database verified against historical sources with simple scripts to construct a rootable railway network graph and plot basic insights.
 
+![Railway network in 1877](output/history_plots/1877.png)
+
+*Figure 1. Railway network in 1877. The map shows the spatial extent of railway lines operating in 1877, reconstructed from historical line opening and closure data.*
+
+![Travel-time savings between 1913 and 1939](output/check_plots/time_savings/warsaw_1913_1939.png)
+
+*Figure 2. Estimated travel-time savings to Warsaw in 1939 relative to 1913, computed on the routable railway network. Colors indicate reduction in travel time (hours).*
+
+## How to run
+The only necessary files to reconstruct all the files in the `data_preprocessed` and `output` folders are the files in the `data` folder.
+
+To run the default pipeline and generate all the files:
+
+```bash
+python scripts/run_pipeline.py
+```
+
 ## Speed assumptions used in the model
 
 ### Railway commercial speed
