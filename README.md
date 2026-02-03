@@ -9,7 +9,7 @@ An event-based railway history database verified against historical sources with
 
 ![Travel-time savings between 1913 and 1939](output/check_plots/time_savings/warsaw_1913_1939.png)
 
-*Figure 2. Estimated travel-time savings to Warsaw in 1939 relative to 1913, computed on the routable railway network. Colors indicate reduction in travel time (hours).*
+*Figure 2. Estimated travel-time savings to Warsaw in 1939 relative to 1913, computed on the routable railway network. Colors indicate reduction in travel time (hours). Assumed commercial speeds: 12 km/h (1913) and 16.1 km/h (1939).*
 
 ## How to run
 The only necessary files to reconstruct all the files in the `data_preprocessed` and `output` folders are the files in the `data` folder.
