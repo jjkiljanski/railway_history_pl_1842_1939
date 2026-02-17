@@ -1,24 +1,86 @@
-# Railway History of Poland and Second Polish Republic (1842-1939)
-An event-based railway history database verified against historical sources with simple scripts to construct a rootable railway network graph and plot basic insights.
+﻿# Railway History of Poland and Second Polish Republic (1842-1939)
 
-*Acknowledgements: I strongly encourage to view the databases https://pod-semaforkiem.com.pl/ and https://www.atlaskolejowy.net/ - the best Internet resources about Polish railway history. It is hard to overestimate the importance of those two databases for the history of Polish railway infrastructure. This database would not come to be without those two crucial sources.*
+An event-based railway history database (verified against historical sources) with a reproducible pipeline that:
+- builds historical line intervals,
+- constructs routable railway networks,
+- computes time and distance accessibility metrics,
+- and generates timeline / isochrone / time-savings visualizations.
+
+Acknowledgements: I strongly encourage using https://pod-semaforkiem.com.pl/ and https://www.atlaskolejowy.net/.
+These are the most important online resources for Polish railway history and were crucial for building this dataset.
 
 ![Railway network in 1877](output/history_plots/1877.png)
 
-*Figure 1. Railway network in 1877. The map shows the spatial extent of railway lines operating in 1877, reconstructed from historical line opening and closure data.*
+*Figure 1. Railway network in 1877.*
 
-![Travel-time savings between 1913 and 1939](output/check_plots/time_savings/warsaw_1913_1939.png)
+![Travel-time savings between 1913 and 1939 (baseline)](output/check_plots/time_savings/warsaw_1913_1939_baseline.png)
 
-*Figure 2. Estimated travel-time savings to Warsaw in 1939 relative to 1913, computed on the routable railway network. Colors indicate reduction in travel time (hours).*
+*Figure 2. Estimated travel-time savings to Warsaw in 1939 relative to 1913 (baseline scenario).* 
+
+## What the pipeline generates
+
+From `data/` inputs, the pipeline regenerates:
+- `data_preprocessed/`
+  - `lines.csv`
+  - `lines_cropped.csv`
+  - district union and centroids
+- `output/networks/`
+  - scenario-specific routable network GeoJSON/PNG/manifest files
+- `output/distance_matrices/`
+  - time matrices (`distance_matrix_long_*`)
+  - rail-distance matrices in km (`distance_matrix_rail_km_long_*`)
+  - horse-distance matrices in km (`distance_matrix_horse_km_long_*`)
+  - point-index tables and connection diagnostics
+- `output/check_plots/isochrones/`
+  - colored and grayscale isochrone maps + GeoJSON
+- `output/check_plots/time_savings/`
+  - colored and grayscale time-savings maps + GeoJSON
+- `output/check_plots/built_between/`
+  - railway expansion maps for selected year ranges
+- `output/history_plots/` and `output/history_plots_II_RP_only/`
+  - yearly timeline maps (1842-1939)
+
+## Scenarios and years
+
+The pipeline computes two network scenarios:
+- `baseline`: historical year-specific speed assumptions
+- `fixed14`: both normal and narrow gauge railway speeds fixed to `14.0 km/h`
+
+Network builds are configured for:
+- `1913, 1918, 1924, 1938, 1939` (both scenarios)
+
+Distance matrices are configured for:
+- `1913, 1918, 1924, 1938, 1939` (both scenarios)
+
+Isochrones are configured for:
+- `1913, 1918, 1924, 1939` (both scenarios)
+
+Time-savings pairs are configured for:
+- `1913->1924`
+- `1913->1939`
+- `1918->1939`
+- `1924->1939`
+
+Time-savings are computed with a `20-minute` step.
 
 ## How to run
-The only necessary files to reconstruct all the files in the `data_preprocessed` and `output` folders are the files in the `data` folder.
 
-To run the default pipeline and generate all the files:
+Install dependencies (example):
 
 ```bash
-python scripts/run_pipeline.py
+C:\Users\janek\miniconda3\python.exe -m pip install -r requirements.txt
 ```
+
+Run full pipeline:
+
+```bash
+C:\Users\janek\miniconda3\python.exe scripts/run_pipeline.py
+```
+
+Notes:
+- By default, `run_pipeline.py` cleans `data_preprocessed/` and `output/` before execution.
+- Use `--no-clean` to keep existing generated files.
+- Use `--steps ...` or `--list-steps` for targeted runs.
 
 ## Speed assumptions used in the model
 
@@ -42,49 +104,33 @@ Average annual commercial speeds (km/h):
 | 1937 |         16.1 |
 
 For years not directly covered by the source:
+- `1924`: `13 km/h` (baseline assumption)
+- `1913`: `12 km/h` (baseline counterfactual assumption)
 
-* **1924**: a commercial speed of **13 km/h** was assumed, reflecting the ongoing post-war reconstruction of the railway network and rolling stock.
-* **1913**: a counterfactual commercial speed of **12 km/h** was assumed for modelling purposes, despite the fact that the railway network was then divided between three partitioning states.
+The alternative scenario `fixed14` sets both normal and narrow gauge railway speeds to `14.0 km/h` in each computed year.
 
 ### Horse-drawn carriage speed
 
-The commercial speed of horse-drawn wagons transporting goods to railway stations was assumed to be **4 km/h**.
-This value is consistent with contemporary military, engineering, and foreign comparative sources:
-
-* Polish military regulations for wagon trains indicate a typical marching speed of approximately **4 km/h** for horse-drawn transport columns (Ministerstwo Spraw Wojskowych, 1930).
-* Cavalry movement at the walk is consistently given as **6 km/h**, providing an upper bound for unloaded or lightly loaded horse movement (Redakcja Przeglądu Wojskowego, 1928).
-* U.S. Army field regulations from the early 1920s give wagon-train marching speeds of **2.5–3.5 mph (≈4.0–5.6 km/h)** depending on road conditions and column length, with daily march distances comparable to infantry (United States War Department, 1924).
-
-Given load, road conditions, and short operational distances typical of feeder transport to railway stations, **4 km/h** was adopted as a conservative and representative commercial speed.
-
----
+Commercial speed for horse-drawn feeder transport to stations is assumed as `4 km/h`.
 
 ## References (speed assumptions)
 
 Tuz, A. (1939). *Usprawnienie ruchu i przewozów*. **Inżynier Kolejowy**, 16(1/173), Table 5.
 
-Ministerstwo Spraw Wojskowych. (1930). *Instrukcja taborowa do użytku wszystkich broni i służb (tymczasowa). Cz. 2: Zestawienie składników taboru; Cz. 3: Używanie taboru* (p. 73). Warszawa.
-Available at: [https://polona.pl/item-view/1169fc64-bac9-44c4-9114-954eacafd9a6?page=88](https://polona.pl/item-view/1169fc64-bac9-44c4-9114-954eacafd9a6?page=88)
+Ministerstwo Spraw Wojskowych. (1930). *Instrukcja taborowa do użytku wszystkich broni i służb (tymczasowa).* Warszawa.
+https://polona.pl/item-view/1169fc64-bac9-44c4-9114-954eacafd9a6?page=88
 
-Redakcja Przeglądu Wojskowo-Technicznego. (1928). *Polowy podręcznik saperski*. Warszawa: Drukarnia Techniczna, Sp. Akc. (Część VII, p. 6).
-Available at:
-[https://zbrojownia.cbw.wp.mil.pl/Content/12076/231912_CZ_7.pdf](https://zbrojownia.cbw.wp.mil.pl/Content/12076/231912_CZ_7.pdf)
+Redakcja Przeglądu Wojskowo-Technicznego. (1928). *Polowy podręcznik saperski*. Warszawa.
+https://zbrojownia.cbw.wp.mil.pl/Content/12076/231912_CZ_7.pdf
 
-United States War Department. (1924). *Field Service Regulations: United States Army* (p. 59). Washington, DC: Government Printing Office.
-
+United States War Department. (1924). *Field Service Regulations: United States Army*.
 
 ## References (railway history sources)
 
-Lijewski, T. (1959). *Rozwój sieci kolejowej Polski*. Dokumentacja Geograficzna, Zeszyt 5. Polska Akademia Nauk.
+Lijewski, T. (1959). *Rozwój sieci kolejowej Polski*. Dokumentacja Geograficzna, Zeszyt 5.
 
-Atlas Kolejowy. (n.d.). *Atlas kolejowy Polski*. https://www.atlaskolejowy.net/  
-(Accessed February 28–30, 2026).
+Atlas Kolejowy. *Atlas kolejowy Polski*. https://www.atlaskolejowy.net/
 
-Historia sieci kolejowej. (n.d.). *Pod Semaforkiem*. https://www.pod-semaforkiem.pl/  
-(Accessed November 6, 2026).
+Historia sieci kolejowej (Pod Semaforkiem). https://www.pod-semaforkiem.pl/
 
 Local government websites and Wikipedia articles on railway stations were also consulted and cross-verified.
-
-## Future work
-
-Future work in the Central-European context should rely primarily simply on the database https://www.atlaskolejowy.net/. It is by far the best source available.

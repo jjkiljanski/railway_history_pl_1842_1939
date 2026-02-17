@@ -1,9 +1,9 @@
 {
   "schema": "network_consumer_manifest.v1",
-  "created_utc": "2026-02-16T16:57:51.983051+00:00",
+  "created_utc": "2026-02-17T11:08:22.461065+00:00",
   "run": {
-    "started_utc": "2026-02-16T16:56:31.072623+00:00",
-    "duration_s": 80.90942692756653
+    "started_utc": "2026-02-17T11:07:05.971020+00:00",
+    "duration_s": 76.49004530906677
   },
   "environment": {
     "python_version": "3.11.5",
@@ -57,31 +57,31 @@
         "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\points_index_1913_fixed14.csv",
         "exists": true,
         "size_bytes": 99538,
-        "mtime_utc": "2026-02-16T16:57:40.196978+00:00"
+        "mtime_utc": "2026-02-17T11:08:12.247506+00:00"
       },
       "out_matrix": {
         "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_long_1913_fixed14.csv",
         "exists": true,
         "size_bytes": 56382661,
-        "mtime_utc": "2026-02-16T16:57:43.808365+00:00"
+        "mtime_utc": "2026-02-17T11:08:15.728777+00:00"
       },
       "out_matrix_rail_km": {
         "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_rail_km_long_1913_fixed14.csv",
         "exists": true,
         "size_bytes": 56134175,
-        "mtime_utc": "2026-02-16T16:57:47.607215+00:00"
+        "mtime_utc": "2026-02-17T11:08:19.097760+00:00"
       },
       "out_matrix_horse_km": {
         "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_horse_km_long_1913_fixed14.csv",
         "exists": true,
         "size_bytes": 56369590,
-        "mtime_utc": "2026-02-16T16:57:51.964528+00:00"
+        "mtime_utc": "2026-02-17T11:08:22.456064+00:00"
       },
       "plot_out": {
         "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\network_with_point_connections_1913_fixed14.png",
         "exists": true,
         "size_bytes": 1241417,
-        "mtime_utc": "2026-02-16T16:57:08.819147+00:00"
+        "mtime_utc": "2026-02-17T11:07:42.010002+00:00"
       }
     }
   },

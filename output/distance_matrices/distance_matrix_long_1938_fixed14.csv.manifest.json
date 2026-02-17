@@ -1,0 +1,101 @@
+{
+  "schema": "network_consumer_manifest.v1",
+  "created_utc": "2026-02-17T11:12:02.977160+00:00",
+  "run": {
+    "started_utc": "2026-02-17T11:10:29.742215+00:00",
+    "duration_s": 93.23394298553467
+  },
+  "environment": {
+    "python_version": "3.11.5",
+    "platform": "Windows-10-10.0.26100-SP0"
+  },
+  "parameters": {
+    "network": "output/networks/network_1938_fixed14.geojson",
+    "centroids": "data_preprocessed/districts_1934_10_1_centroids.geojson",
+    "cities": "data/cities_coords.geojson",
+    "horse_kmh": 4.0,
+    "out_points": "output/distance_matrices/points_index_1938_fixed14.csv",
+    "out_matrix": "output/distance_matrices/distance_matrix_long_1938_fixed14.csv",
+    "out_matrix_rail_km": "output/distance_matrices/distance_matrix_rail_km_long_1938_fixed14.csv",
+    "out_matrix_horse_km": "output/distance_matrices/distance_matrix_horse_km_long_1938_fixed14.csv",
+    "plot_out": "output/distance_matrices/network_with_point_connections_1938_fixed14.png",
+    "figsize": [
+      12.0,
+      12.0
+    ],
+    "node_size": 2.0,
+    "ext_point_size": 12.0,
+    "progress_every": 100
+  },
+  "derived": {
+    "plot_out_effective": "output/distance_matrices/network_with_point_connections_1938_fixed14.png",
+    "weight": "time_min"
+  },
+  "files": {
+    "inputs": {
+      "network": {
+        "path": "output\\networks\\network_1938_fixed14.geojson",
+        "exists": true,
+        "size_bytes": 694952,
+        "mtime_utc": "2026-02-16T16:44:29.098570+00:00"
+      },
+      "centroids": {
+        "path": "data_preprocessed\\districts_1934_10_1_centroids.geojson",
+        "exists": true,
+        "size_bytes": 39689,
+        "mtime_utc": "2026-02-16T16:39:52.267325+00:00"
+      },
+      "cities": {
+        "path": "data\\cities_coords.geojson",
+        "exists": true,
+        "size_bytes": 156231,
+        "mtime_utc": "2025-11-13T14:26:15.114254+00:00"
+      }
+    },
+    "outputs": {
+      "out_points": {
+        "path": "output\\distance_matrices\\points_index_1938_fixed14.csv",
+        "exists": true,
+        "size_bytes": 99739,
+        "mtime_utc": "2026-02-17T11:11:50.986734+00:00"
+      },
+      "out_matrix": {
+        "path": "output\\distance_matrices\\distance_matrix_long_1938_fixed14.csv",
+        "exists": true,
+        "size_bytes": 56419883,
+        "mtime_utc": "2026-02-17T11:11:55.220082+00:00"
+      },
+      "out_matrix_rail_km": {
+        "path": "output\\distance_matrices\\distance_matrix_rail_km_long_1938_fixed14.csv",
+        "exists": true,
+        "size_bytes": 56186527,
+        "mtime_utc": "2026-02-17T11:11:59.169008+00:00"
+      },
+      "out_matrix_horse_km": {
+        "path": "output\\distance_matrices\\distance_matrix_horse_km_long_1938_fixed14.csv",
+        "exists": true,
+        "size_bytes": 56399021,
+        "mtime_utc": "2026-02-17T11:12:02.971823+00:00"
+      },
+      "plot_out": {
+        "path": "output\\distance_matrices\\network_with_point_connections_1938_fixed14.png",
+        "exists": true,
+        "size_bytes": 1327733,
+        "mtime_utc": "2026-02-17T11:11:18.306775+00:00"
+      }
+    }
+  },
+  "counts": {
+    "network_nodes_loaded": 941,
+    "network_edges_loaded": 1149,
+    "graph_nodes_after_connect": 1852,
+    "graph_edges_after_connect": 2060,
+    "external_points_total": 911,
+    "external_points_by_type": {
+      "City": 659,
+      "District": 247,
+      "Border_Crossing": 5
+    },
+    "matrix_rows": 829921
+  }
+}

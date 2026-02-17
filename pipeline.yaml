@@ -8,6 +8,7 @@ paths:
 
 defaults:
   years: [1913, 1918, 1924, 1939]
+  matrix_years: [1913, 1918, 1924, 1938, 1939]
   profiles: [baseline, fixed14]
   warsaw:
     lon: 21.008333
@@ -84,7 +85,7 @@ steps:
   distance_matrices:
     enabled: true
     script: routing/compute_point_distance_matrix.py
-    years_from: defaults.years
+    years_from: defaults.matrix_years
     profiles_from: defaults.profiles
     network_path_template: "{output_root}/networks/network_{year}_{profile}.geojson"
     centroids: "{data_preprocessed_root}/districts_1934_10_1_centroids.geojson"
