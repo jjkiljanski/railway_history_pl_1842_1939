@@ -15,7 +15,7 @@ These are the most important online resources for Polish railway history and wer
 
 ![Travel-time savings between 1913 and 1939 (baseline)](output/check_plots/time_savings/warsaw_1913_1939_baseline.png)
 
-*Figure 2. Estimated travel-time savings to Warsaw in 1939 relative to 1913 (baseline scenario).* 
+*Figure 2. Estimated travel-time savings to Warsaw in 1939 relative to 1913, computed on the routable railway network. Colors indicate reduction in travel time (hours). Assumed commercial speeds: 12 km/h (1913) and 16.1 km/h (1939).* 
 
 ## What the pipeline generates
 
