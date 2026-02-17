@@ -220,6 +220,7 @@ def force_connectivity(G, stations, horse_kmh):
 
 def export_geojson(G, stations, path):
     log.info("Writing GeoJSON...")
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
     feats = []
 
     for n in G.nodes:

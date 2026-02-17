@@ -3,14 +3,18 @@ from __future__ import annotations
 import argparse
 import logging
 import math
+from pathlib import Path
 from typing import Dict, Tuple
 
 import geopandas as gpd
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import networkx as nx
+import numpy as np
+from pyproj import CRS
+from shapely import make_valid
 from shapely.geometry import Point
 from shapely.ops import unary_union
-from pyproj import CRS
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,12 +29,6 @@ def meters_per_minute(speed_kmh: float) -> float:
 
 
 def load_network_parts(network_path: str, work_crs: CRS) -> Tuple[nx.Graph, Dict[str, Point], gpd.GeoDataFrame]:
-    """
-    Load routable network GeoJSON and return:
-      - Graph with edge weight = time_min (minutes)
-      - station points in work CRS
-      - rail edges GeoDataFrame in work CRS (builder == 'rail')
-    """
     gdf = gpd.read_file(network_path)
     if gdf.crs is None:
         gdf = gdf.set_crs("EPSG:4326")
@@ -64,11 +62,19 @@ def load_network_parts(network_path: str, work_crs: CRS) -> Tuple[nx.Graph, Dict
         log.info(f"{network_path}: skipped {missing:,} edges missing time_min")
 
     rail_edges = edges[edges.get("builder", "") == "rail"].copy()
-    log.info(f"{network_path}: {G.number_of_nodes():,} nodes, {G.number_of_edges():,} edges; rail edges: {len(rail_edges):,}")
+    log.info(
+        f"{network_path}: {G.number_of_nodes():,} nodes, {G.number_of_edges():,} edges; "
+        f"rail edges: {len(rail_edges):,}"
+    )
     return G, station_points, rail_edges
 
 
-def dijkstra_from_origin(G: nx.Graph, station_points: Dict[str, Point], origin: Point, horse_kmh: float) -> Dict[str, float]:
+def dijkstra_from_origin(
+    G: nx.Graph,
+    station_points: Dict[str, Point],
+    origin: Point,
+    horse_kmh: float,
+) -> Dict[str, float]:
     v_mpm = meters_per_minute(horse_kmh)
     H = G.copy()
     H.add_node("ORIGIN")
@@ -82,7 +88,13 @@ def dijkstra_from_origin(G: nx.Graph, station_points: Dict[str, Point], origin: 
     return dist
 
 
-def isochrone_poly(origin: Point, station_points: Dict[str, Point], t_station: Dict[str, float], T: float, horse_kmh: float):
+def isochrone_poly(
+    origin: Point,
+    station_points: Dict[str, Point],
+    t_station: Dict[str, float],
+    T: float,
+    horse_kmh: float,
+):
     v_mpm = meters_per_minute(horse_kmh)
     geoms = [origin.buffer(v_mpm * T)]
     for st, t in t_station.items():
@@ -91,6 +103,37 @@ def isochrone_poly(origin: Point, station_points: Dict[str, Point], t_station: D
             if r > 0:
                 geoms.append(station_points[st].buffer(r))
     return unary_union(geoms)
+
+
+def clean_polygonal_geometries(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    if gdf.empty:
+        return gdf
+
+    out = gdf.copy()
+    out["geometry"] = out.geometry.apply(
+        lambda g: make_valid(g) if g is not None and not g.is_empty else g
+    )
+    out = out.explode(index_parts=False, ignore_index=True)
+    out = out[out.geometry.notna() & (~out.geometry.is_empty)].copy()
+    out = out[out.geom_type.isin(["Polygon", "MultiPolygon"])].copy()
+
+    out["geometry"] = out.geometry.buffer(0)
+    out = out.explode(index_parts=False, ignore_index=True)
+    out = out[out.geometry.notna() & (~out.geometry.is_empty)].copy()
+    out = out[out.geom_type.isin(["Polygon", "MultiPolygon"])].copy()
+    out = out[out.area > 1.0].copy()
+    return out
+
+
+def build_white_zero_cmap(base_name: str, floor: float = 0.0, gamma: float = 1.0):
+    base = mpl.colormaps[base_name]
+    f = min(max(float(floor), 0.0), 0.95)
+    g = max(float(gamma), 1e-6)
+    x = np.linspace(0.0, 1.0, 256)
+    x_stretched = f + (1.0 - f) * np.power(x, g)
+    colors = base(x_stretched)
+    colors[0] = np.array([1.0, 1.0, 1.0, 1.0])
+    return mpl.colors.ListedColormap(colors)
 
 
 def build_rings(
@@ -103,10 +146,6 @@ def build_rings(
     max_minutes: int,
     step_minutes: int,
 ) -> gpd.GeoDataFrame:
-    """
-    Build *ring* polygons for arrival time buckets up to max_minutes.
-    Each ring has arrive_min = upper bound of bucket (e.g., 30, 60, 90, ...)
-    """
     log.info("Computing shortest times to stations...")
     t_station = dijkstra_from_origin(G, station_points, origin, horse_kmh)
     log.info(f"Times computed for {len(t_station):,} stations")
@@ -124,8 +163,9 @@ def build_rings(
         rings.append({"arrive_min": T, "geometry": ring})
         prev = poly
 
-    rings_gdf = gpd.GeoDataFrame(rings, crs=work_crs)  # <-- FIX: set CRS explicitly
+    rings_gdf = gpd.GeoDataFrame(rings, crs=work_crs)
     rings_gdf = rings_gdf[~rings_gdf.is_empty].copy()
+    rings_gdf = clean_polygonal_geometries(rings_gdf)
     return rings_gdf
 
 
@@ -144,9 +184,14 @@ def main() -> int:
 
     ap.add_argument("--work_crs", default="EPSG:3035")
     ap.add_argument("--out_png", default="time_savings_filled.png")
+    ap.add_argument("--out_png_gray", default=None, help="Optional grayscale companion PNG.")
     ap.add_argument("--out_geojson", default="time_savings_filled.geojson")
+    ap.add_argument("--reuse_geojson", action="store_true", help="Reuse existing out_geojson and skip recomputation.")
 
     ap.add_argument("--cmap", default="viridis")
+    ap.add_argument("--gray_cmap", default="Greys")
+    ap.add_argument("--gray_gamma", type=float, default=0.55, help="Gradient stretch for grayscale (<1 darkens low values faster).")
+    ap.add_argument("--gray_floor", type=float, default=0.0, help="Optional grayscale colormap floor (0..1).")
     ap.add_argument("--alpha", type=float, default=0.75)
     ap.add_argument("--rail_width", type=float, default=0.45)
     ap.add_argument("--title", default=None)
@@ -154,17 +199,14 @@ def main() -> int:
 
     work_crs = CRS.from_user_input(args.work_crs)
 
-    # Boundary
     boundary = gpd.read_file(args.boundary)
     if boundary.crs is None:
         boundary = boundary.set_crs("EPSG:4326")
     boundary_w = boundary.to_crs(work_crs)
     boundary_geom = boundary_w.geometry.iloc[0]
 
-    # Origin
     origin = gpd.GeoSeries([Point(args.lon, args.lat)], crs="EPSG:4326").to_crs(work_crs).iloc[0]
 
-    # Networks
     log.info("Loading OLD network...")
     G_old, pts_old, rail_old = load_network_parts(args.old, work_crs)
     log.info("Loading NEW network...")
@@ -172,67 +214,103 @@ def main() -> int:
 
     max_minutes = args.hours * 60
 
-    # Rings
-    log.info("Building OLD rings...")
-    old_rings = build_rings(G_old, pts_old, origin, boundary_geom, work_crs, args.horse_kmh, max_minutes, args.step_minutes)
-    old_rings = old_rings.rename(columns={"arrive_min": "old_min"})
+    if args.reuse_geojson and Path(args.out_geojson).exists():
+        log.info(f"Reusing existing GeoJSON: {args.out_geojson}")
+        inter = gpd.read_file(args.out_geojson)
+        if inter.crs is None:
+            inter = inter.set_crs("EPSG:4326")
+        inter = inter.to_crs(work_crs)
+        inter = inter[~inter.is_empty].copy()
+        inter = clean_polygonal_geometries(inter)
+        if "save_min" not in inter.columns and "save_hours" in inter.columns:
+            inter["save_min"] = inter["save_hours"] * 60.0
+        if "save_hours" not in inter.columns:
+            inter["save_hours"] = inter["save_min"] / 60.0
+    else:
+        log.info("Building OLD rings...")
+        old_rings = build_rings(G_old, pts_old, origin, boundary_geom, work_crs, args.horse_kmh, max_minutes, args.step_minutes)
+        old_rings = old_rings.rename(columns={"arrive_min": "old_min"})
 
-    log.info("Building NEW rings...")
-    new_rings = build_rings(G_new, pts_new, origin, boundary_geom, work_crs, args.horse_kmh, max_minutes, args.step_minutes)
-    new_rings = new_rings.rename(columns={"arrive_min": "new_min"})
+        log.info("Building NEW rings...")
+        new_rings = build_rings(G_new, pts_new, origin, boundary_geom, work_crs, args.horse_kmh, max_minutes, args.step_minutes)
+        new_rings = new_rings.rename(columns={"arrive_min": "new_min"})
 
-    # Overlay → savings polygons
-    log.info("Overlaying old/new rings (can take time)...")
-    inter = gpd.overlay(old_rings, new_rings, how="intersection", keep_geom_type=False)
-    if inter.crs is None:
-        inter = inter.set_crs(work_crs)  # <-- FIX: ensure CRS survives overlay
+        log.info("Overlaying old/new rings (can take time)...")
+        inter = gpd.overlay(old_rings, new_rings, how="intersection", keep_geom_type=True)
+        if inter.crs is None:
+            inter = inter.set_crs(work_crs)
 
-    inter = inter[~inter.is_empty].copy()
-    inter["save_min"] = inter["old_min"] - inter["new_min"]
-    inter = inter[inter["save_min"] > 0].copy()
-    inter["save_hours"] = inter["save_min"]/60
+        inter = inter[~inter.is_empty].copy()
+        inter = clean_polygonal_geometries(inter)
+        inter["save_min"] = inter["old_min"] - inter["new_min"]
+        inter = inter[inter["save_min"] > 0].copy()
+        inter = inter[["save_min", "geometry"]].dissolve(by="save_min", as_index=False)
+        inter = clean_polygonal_geometries(inter)
 
-    log.info(f"Areas with positive savings: {len(inter):,} polygons")
+        covered = unary_union(inter.geometry.tolist()) if len(inter) > 0 else None
+        if covered is None or covered.is_empty:
+            zero_geom = boundary_geom
+        else:
+            zero_geom = boundary_geom.difference(covered)
 
-    # Save GeoJSON in EPSG:4326
-    inter.to_crs("EPSG:4326").to_file(args.out_geojson, driver="GeoJSON")
-    log.info(f"Wrote {args.out_geojson}")
+        rows = [{"save_min": float(r["save_min"]), "geometry": r.geometry} for _, r in inter.iterrows()]
+        if zero_geom is not None and (not zero_geom.is_empty):
+            rows.append({"save_min": 0.0, "geometry": zero_geom})
 
-    # Plot: filled gradient + rail overlay
-    fig, ax = plt.subplots(figsize=(10, 10))
+        inter = gpd.GeoDataFrame(rows, crs=work_crs)
+        inter = clean_polygonal_geometries(inter)
+        inter["save_hours"] = inter["save_min"] / 60.0
 
-    gpd.GeoSeries([boundary_geom], crs=work_crs).boundary.plot(ax=ax, linewidth=1, zorder=2)
+        Path(args.out_geojson).parent.mkdir(parents=True, exist_ok=True)
+        inter.to_crs("EPSG:4326").to_file(args.out_geojson, driver="GeoJSON")
+        log.info(f"Wrote {args.out_geojson}")
 
-    if len(inter) > 0:
-        inter.plot(
-            ax=ax,
-            column="save_hours",
-            cmap=args.cmap,
-            alpha=args.alpha,
-            linewidth=0.0,
-            legend=True,
-            legend_kwds={"label": "Time saved (hours)", "shrink": 0.6},
-            zorder=1,
-        )
+    vmax = float(inter["save_hours"].max()) if len(inter) > 0 else 1.0
 
-    rail_overlay = rail_new if len(rail_new) > 0 else rail_old
-    if len(rail_overlay) > 0:
-        rail_overlay.plot(
-            ax=ax,
-            color="black",
-            linewidth=args.rail_width,
-            alpha=0.9,
-            zorder=3,
-        )
+    def draw(out_png: str, cmap_name: str, is_gray: bool) -> None:
+        if is_gray:
+            cmap = build_white_zero_cmap(cmap_name, floor=args.gray_floor, gamma=args.gray_gamma)
+        else:
+            cmap = build_white_zero_cmap(cmap_name)
+        norm = mpl.colors.Normalize(vmin=0.0, vmax=vmax)
 
-    gpd.GeoSeries([origin], crs=work_crs).plot(ax=ax, markersize=30, zorder=4)
+        fig, ax = plt.subplots(figsize=(10, 10))
+        gpd.GeoSeries([boundary_geom], crs=work_crs).boundary.plot(ax=ax, color="black", linewidth=1, zorder=2)
 
-    ax.set_title(args.title)
-    ax.set_axis_off()
+        if len(inter) > 0:
+            inter.plot(
+                ax=ax,
+                column="save_hours",
+                cmap=cmap,
+                norm=norm,
+                alpha=args.alpha,
+                linewidth=0.0,
+                legend=False,
+                zorder=1,
+            )
 
-    plt.tight_layout()
-    plt.savefig(args.out_png, dpi=250)
-    log.info(f"Wrote {args.out_png}")
+        rail_overlay = rail_new if len(rail_new) > 0 else rail_old
+        if len(rail_overlay) > 0:
+            rail_overlay.plot(ax=ax, color="black", linewidth=args.rail_width, alpha=0.9, zorder=3)
+
+        gpd.GeoSeries([origin], crs=work_crs).plot(ax=ax, markersize=30, zorder=4)
+        ax.set_title(args.title)
+        ax.set_axis_off()
+
+        sm = mpl.cm.ScalarMappable(norm=norm, cmap=cmap)
+        sm.set_array([])
+        cbar = fig.colorbar(sm, ax=ax, fraction=0.046, pad=0.04)
+        cbar.set_label("Time saved (hours)")
+
+        plt.tight_layout()
+        Path(out_png).parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(out_png, dpi=250)
+        plt.close(fig)
+        log.info(f"Wrote {out_png}")
+
+    draw(args.out_png, args.cmap, False)
+    if args.out_png_gray:
+        draw(args.out_png_gray, args.gray_cmap, True)
     return 0
 
 

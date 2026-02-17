@@ -323,16 +323,38 @@ def compute_long_matrix(G: nx.Graph, points_meta: pd.DataFrame, weight: str = "t
     rows = []
     total = len(point_ids)
     for idx, src in enumerate(point_ids, 1):
-        dist = nx.single_source_dijkstra_path_length(G, src, weight=weight)
+        dist, paths = nx.single_source_dijkstra(G, src, weight=weight)
 
         for dst in point_ids:
             val = dist.get(dst, math.inf)
+            rail_m = 0.0
+            horse_m = 0.0
+
+            path = paths.get(dst)
+            if path is not None and len(path) >= 2:
+                for u, v in zip(path[:-1], path[1:]):
+                    attrs = G.get_edge_data(u, v, default={}) or {}
+                    dist_m_raw = attrs.get("distance_m", 0.0)
+                    try:
+                        edge_dist_m = float(dist_m_raw)
+                    except (TypeError, ValueError):
+                        edge_dist_m = 0.0
+
+                    mode = str(attrs.get("mode", "")).strip().lower()
+                    if mode == "rail":
+                        rail_m += edge_dist_m
+                    else:
+                        horse_m += edge_dist_m
+
             rows.append({
                 "origin_id": src,
                 "origin_type": type_map[src],
                 "dest_id": dst,
                 "dest_type": type_map[dst],
                 "time_min": float(val) if math.isfinite(val) else math.inf,
+                "rail_km": (rail_m / 1000.0) if math.isfinite(val) else math.inf,
+                "horse_km": (horse_m / 1000.0) if math.isfinite(val) else math.inf,
+                "total_km": ((rail_m + horse_m) / 1000.0) if math.isfinite(val) else math.inf,
             })
 
         if idx == 1 or idx % 10 == 0 or idx == total:
@@ -432,6 +454,7 @@ def plot_network_with_connectors(
 
     if out_path:
         log.info(f"Saving plot to: {out_path}")
+        Path(out_path).parent.mkdir(parents=True, exist_ok=True)
         plt.savefig(out_path, dpi=300)
     else:
         log.info("Showing interactive plot window...")
@@ -494,6 +517,8 @@ def write_manifest(
             "horse_kmh": float(args.horse_kmh),
             "out_points": str(args.out_points),
             "out_matrix": str(args.out_matrix),
+            "out_matrix_rail_km": str(args.out_matrix_rail_km),
+            "out_matrix_horse_km": str(args.out_matrix_horse_km),
             "plot_out": plot_out_effective,
             "figsize": [float(args.figsize[0]), float(args.figsize[1])],
             "node_size": float(args.node_size),
@@ -510,6 +535,8 @@ def write_manifest(
             "outputs": {
                 "out_points": _file_info(str(args.out_points)),
                 "out_matrix": _file_info(str(args.out_matrix)),
+                "out_matrix_rail_km": _file_info(str(args.out_matrix_rail_km)),
+                "out_matrix_horse_km": _file_info(str(args.out_matrix_horse_km)),
                 **({"plot_out": _file_info(plot_out_effective)} if plot_out_effective else {}),
             },
         },
@@ -534,6 +561,8 @@ def main() -> int:
 
     ap.add_argument("--out_points", default="points_index.csv", help="Output points metadata CSV")
     ap.add_argument("--out_matrix", default="distance_matrix_long.csv", help="Output distance matrix CSV")
+    ap.add_argument("--out_matrix_rail_km", default="distance_matrix_rail_km_long.csv", help="Output railway-distance matrix CSV")
+    ap.add_argument("--out_matrix_horse_km", default="distance_matrix_horse_km_long.csv", help="Output horse-distance matrix CSV")
 
     # Plot controls
     ap.add_argument("--plot_out", default="network_with_point_connections.png",
@@ -594,13 +623,29 @@ def main() -> int:
 
     # 5) Compute matrix
     mat = compute_long_matrix(G, points_meta, weight="time_min")
+    mat_time = mat[["origin_id", "origin_type", "dest_id", "dest_type", "time_min"]].copy()
+    mat_rail_km = mat[["origin_id", "origin_type", "dest_id", "dest_type", "rail_km"]].copy()
+    mat_horse_km = mat[["origin_id", "origin_type", "dest_id", "dest_type", "horse_km"]].copy()
 
     # 6) Save outputs
+    Path(args.out_points).parent.mkdir(parents=True, exist_ok=True)
+    Path(args.out_matrix).parent.mkdir(parents=True, exist_ok=True)
+    Path(args.out_matrix_rail_km).parent.mkdir(parents=True, exist_ok=True)
+    Path(args.out_matrix_horse_km).parent.mkdir(parents=True, exist_ok=True)
+    if plot_out:
+        Path(plot_out).parent.mkdir(parents=True, exist_ok=True)
+
     log.info(f"Writing points metadata: {args.out_points}")
     points_meta.to_csv(args.out_points, index=False)
 
     log.info(f"Writing distance matrix: {args.out_matrix}")
-    mat.to_csv(args.out_matrix, index=False)
+    mat_time.to_csv(args.out_matrix, index=False)
+
+    log.info(f"Writing railway-distance matrix (km): {args.out_matrix_rail_km}")
+    mat_rail_km.to_csv(args.out_matrix_rail_km, index=False)
+
+    log.info(f"Writing horse-distance matrix (km): {args.out_matrix_horse_km}")
+    mat_horse_km.to_csv(args.out_matrix_horse_km, index=False)
 
     log.info(f"All done in {time.time() - t_all:.1f}s")
 

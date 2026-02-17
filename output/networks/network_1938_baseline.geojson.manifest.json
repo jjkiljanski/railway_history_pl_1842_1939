@@ -1,0 +1,51 @@
+{
+  "schema": "network_build_manifest.v1",
+  "created_utc": "2026-02-16T16:43:52.236567+00:00",
+  "run": {
+    "started_utc": "2026-02-16T16:43:13.172505+00:00",
+    "duration_s": 39.064061403274536
+  },
+  "environment": {
+    "python_version": "3.11.5",
+    "platform": "Windows-10-10.0.26100-SP0"
+  },
+  "parameters": {
+    "year": 1938,
+    "lines": "data_preprocessed/lines_cropped.csv",
+    "stations": "data/stations.csv",
+    "out": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\networks\\network_1938_baseline.geojson",
+    "speed_normal_kmh": 16.1,
+    "speed_narrow_kmh": 16.1,
+    "speed_horse_kmh": 4,
+    "transfer_radius_m": 1200
+  },
+  "files": {
+    "inputs": {
+      "stations": {
+        "path": "data\\stations.csv",
+        "exists": true,
+        "size_bytes": 150640,
+        "mtime_utc": "2026-01-30T15:36:18.853087+00:00"
+      },
+      "lines": {
+        "path": "data_preprocessed\\lines_cropped.csv",
+        "exists": true,
+        "size_bytes": 95480,
+        "mtime_utc": "2026-02-16T16:39:54.780571+00:00"
+      }
+    },
+    "outputs": {
+      "geojson": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\networks\\network_1938_baseline.geojson",
+        "exists": true,
+        "size_bytes": 694959,
+        "mtime_utc": "2026-02-16T16:43:52.236567+00:00"
+      }
+    }
+  },
+  "graph": {
+    "nodes": 941,
+    "edges": 1149,
+    "removed_isolates": 0
+  }
+}

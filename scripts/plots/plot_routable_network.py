@@ -84,6 +84,7 @@ def main():
     plt.tight_layout()
 
     log.info(f"Saving plot to {out}")
+    Path(out).parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(out, dpi=300)
 
 

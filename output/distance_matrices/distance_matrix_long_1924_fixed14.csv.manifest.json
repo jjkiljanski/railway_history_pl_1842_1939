@@ -1,0 +1,101 @@
+{
+  "schema": "network_consumer_manifest.v1",
+  "created_utc": "2026-02-16T17:04:11.237352+00:00",
+  "run": {
+    "started_utc": "2026-02-16T17:02:35.102993+00:00",
+    "duration_s": 96.13335657119751
+  },
+  "environment": {
+    "python_version": "3.11.5",
+    "platform": "Windows-10-10.0.26100-SP0"
+  },
+  "parameters": {
+    "network": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\networks\\network_1924_fixed14.geojson",
+    "centroids": "E:\\git_projects\\railway_history_pl_1842_1939\\data_preprocessed\\districts_1934_10_1_centroids.geojson",
+    "cities": "E:\\git_projects\\railway_history_pl_1842_1939\\data\\cities_coords.geojson",
+    "horse_kmh": 4.0,
+    "out_points": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\points_index_1924_fixed14.csv",
+    "out_matrix": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_long_1924_fixed14.csv",
+    "out_matrix_rail_km": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_rail_km_long_1924_fixed14.csv",
+    "out_matrix_horse_km": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_horse_km_long_1924_fixed14.csv",
+    "plot_out": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\network_with_point_connections_1924_fixed14.png",
+    "figsize": [
+      12.0,
+      12.0
+    ],
+    "node_size": 2.0,
+    "ext_point_size": 12.0,
+    "progress_every": 100
+  },
+  "derived": {
+    "plot_out_effective": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\network_with_point_connections_1924_fixed14.png",
+    "weight": "time_min"
+  },
+  "files": {
+    "inputs": {
+      "network": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\networks\\network_1924_fixed14.geojson",
+        "exists": true,
+        "size_bytes": 647575,
+        "mtime_utc": "2026-02-16T16:43:10.685292+00:00"
+      },
+      "centroids": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\data_preprocessed\\districts_1934_10_1_centroids.geojson",
+        "exists": true,
+        "size_bytes": 39689,
+        "mtime_utc": "2026-02-16T16:39:52.267325+00:00"
+      },
+      "cities": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\data\\cities_coords.geojson",
+        "exists": true,
+        "size_bytes": 156231,
+        "mtime_utc": "2025-11-13T14:26:15.114254+00:00"
+      }
+    },
+    "outputs": {
+      "out_points": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\points_index_1924_fixed14.csv",
+        "exists": true,
+        "size_bytes": 99796,
+        "mtime_utc": "2026-02-16T17:03:57.763764+00:00"
+      },
+      "out_matrix": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_long_1924_fixed14.csv",
+        "exists": true,
+        "size_bytes": 56414673,
+        "mtime_utc": "2026-02-16T17:04:02.191178+00:00"
+      },
+      "out_matrix_rail_km": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_rail_km_long_1924_fixed14.csv",
+        "exists": true,
+        "size_bytes": 56163188,
+        "mtime_utc": "2026-02-16T17:04:06.378434+00:00"
+      },
+      "out_matrix_horse_km": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\distance_matrix_horse_km_long_1924_fixed14.csv",
+        "exists": true,
+        "size_bytes": 56393275,
+        "mtime_utc": "2026-02-16T17:04:11.227905+00:00"
+      },
+      "plot_out": {
+        "path": "E:\\git_projects\\railway_history_pl_1842_1939\\output\\distance_matrices\\network_with_point_connections_1924_fixed14.png",
+        "exists": true,
+        "size_bytes": 1279673,
+        "mtime_utc": "2026-02-16T17:03:19.878232+00:00"
+      }
+    }
+  },
+  "counts": {
+    "network_nodes_loaded": 897,
+    "network_edges_loaded": 1055,
+    "graph_nodes_after_connect": 1808,
+    "graph_edges_after_connect": 1966,
+    "external_points_total": 911,
+    "external_points_by_type": {
+      "City": 659,
+      "District": 247,
+      "Border_Crossing": 5
+    },
+    "matrix_rows": 829921
+  }
+}

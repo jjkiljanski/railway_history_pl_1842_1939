@@ -4,10 +4,12 @@ import argparse
 import logging
 import math
 from typing import Dict, Tuple
+from pathlib import Path
 
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
+import numpy as np
 import networkx as nx
 from shapely.geometry import Point
 from shapely.ops import unary_union
@@ -27,6 +29,14 @@ log = logging.getLogger(__name__)
 
 def meters_per_minute(speed_kmh: float) -> float:
     return speed_kmh * 1000.0 / 60.0
+
+
+def build_stretched_cmap(base_name: str, gamma: float = 1.0):
+    base = mpl.colormaps[base_name]
+    g = max(float(gamma), 1e-6)
+    x = np.linspace(0.0, 1.0, 256)
+    colors = base(np.power(x, g))
+    return mpl.colors.ListedColormap(colors)
 
 
 # ------------------------------------------------------------
@@ -155,11 +165,15 @@ def main() -> int:
 
     ap.add_argument("--work_crs", default="EPSG:3035")
     ap.add_argument("--out_png", default="isochrones_filled.png")
+    ap.add_argument("--out_png_gray", default=None, help="Optional grayscale companion PNG.")
     ap.add_argument("--out_geojson", default="isochrones_filled.geojson")
+    ap.add_argument("--reuse_geojson", action="store_true", help="Reuse existing out_geojson and skip recomputing rings.")
 
     # Styling
     ap.add_argument("--title", default=None)
     ap.add_argument("--cmap", default="viridis")
+    ap.add_argument("--gray_cmap", default="Greys")
+    ap.add_argument("--gray_gamma", type=float, default=0.55, help="Gradient stretch for grayscale (<1 darkens low values faster).")
     ap.add_argument("--alpha", type=float, default=0.75)
     ap.add_argument("--rail_width", type=float, default=0.45)
     args = ap.parse_args()
@@ -187,72 +201,83 @@ def main() -> int:
     time_to_station = dijkstra_from_origin(G, station_points, origin, args.horse_kmh)
     log.info(f"Computed times to {len(time_to_station):,} stations")
 
-    # --- Hour thresholds (converted to minutes internally) ---
-    step_min = args.step_hours * 60.0
-    max_min = args.hours * 60.0
-    thresholds_min = [t for t in frange(step_min, max_min, step_min)]
+    if args.reuse_geojson and Path(args.out_geojson).exists():
+        log.info(f"Reusing existing GeoJSON: {args.out_geojson}")
+        rings_gdf = gpd.read_file(args.out_geojson)
+        if rings_gdf.crs is None:
+            rings_gdf = rings_gdf.set_crs("EPSG:4326")
+        rings_gdf = rings_gdf.to_crs(work_crs)
+    else:
+        # --- Hour thresholds (converted to minutes internally) ---
+        step_min = args.step_hours * 60.0
+        max_min = args.hours * 60.0
+        thresholds_min = [t for t in frange(step_min, max_min, step_min)]
 
-    cumulative = []
-    for T_min in thresholds_min:
-        poly = isochrone_polygon(
-            origin, station_points, time_to_station, T_min, args.horse_kmh
-        ).intersection(boundary_geom)
-        cumulative.append((T_min, poly))
+        cumulative = []
+        for T_min in thresholds_min:
+            poly = isochrone_polygon(
+                origin, station_points, time_to_station, T_min, args.horse_kmh
+            ).intersection(boundary_geom)
+            cumulative.append((T_min, poly))
 
-    # Rings
-    rings = []
-    prev = None
-    for T_min, poly in cumulative:
-        ring = poly if prev is None else poly.difference(prev)
-        rings.append({
-            "from_h": 0.0 if prev is None else (T_min - step_min) / 60.0,
-            "to_h": T_min / 60.0,
-            "geometry": ring,
-        })
-        prev = poly
+        # Rings
+        rings = []
+        prev = None
+        for T_min, poly in cumulative:
+            ring = poly if prev is None else poly.difference(prev)
+            rings.append({
+                "from_h": 0.0 if prev is None else (T_min - step_min) / 60.0,
+                "to_h": T_min / 60.0,
+                "geometry": ring,
+            })
+            prev = poly
 
-    rings_gdf = gpd.GeoDataFrame(rings, crs=work_crs)
-    rings_gdf = rings_gdf[~rings_gdf.is_empty].copy()
+        rings_gdf = gpd.GeoDataFrame(rings, crs=work_crs)
+        rings_gdf = rings_gdf[~rings_gdf.is_empty].copy()
 
-    # Save GeoJSON
-    rings_gdf.to_crs("EPSG:4326").to_file(args.out_geojson, driver="GeoJSON")
-    log.info(f"Wrote {args.out_geojson} (rings: {len(rings_gdf):,})")
+        # Save GeoJSON
+        Path(args.out_geojson).parent.mkdir(parents=True, exist_ok=True)
+        rings_gdf.to_crs("EPSG:4326").to_file(args.out_geojson, driver="GeoJSON")
+        log.info(f"Wrote {args.out_geojson} (rings: {len(rings_gdf):,})")
 
-    # --- Plot ---
-    fig, ax = plt.subplots(figsize=(10, 10))
+    def draw(out_png: str, cmap: str, is_gray: bool) -> None:
+        cmap_obj = build_stretched_cmap(cmap, gamma=args.gray_gamma if is_gray else 1.0)
+        fig, ax = plt.subplots(figsize=(10, 10))
+        gpd.GeoSeries([boundary_geom], crs=work_crs).boundary.plot(ax=ax, color="black", linewidth=1)
 
-    gpd.GeoSeries([boundary_geom], crs=work_crs).boundary.plot(ax=ax, linewidth=1)
-
-    rings_gdf.plot(
-        ax=ax,
-        column="to_h",
-        cmap=args.cmap,
-        alpha=args.alpha,
-        linewidth=0.0,
-        legend=True,
-        legend_kwds={"label": "Reachable within (hours)", "shrink": 0.6},
-        zorder=1,
-    )
-
-    if len(rail_edges) > 0:
-        rail_edges.plot(
+        rings_gdf.plot(
             ax=ax,
-            color="black",
-            linewidth=args.rail_width,
-            alpha=0.9,
-            zorder=3,
+            column="to_h",
+            cmap=cmap_obj,
+            alpha=args.alpha,
+            linewidth=0.0,
+            legend=True,
+            legend_kwds={"label": "Reachable within (hours)", "shrink": 0.6},
+            zorder=1,
         )
 
-    gpd.GeoSeries([origin], crs=work_crs).plot(ax=ax, markersize=30, zorder=4)
+        if len(rail_edges) > 0:
+            rail_edges.plot(
+                ax=ax,
+                color="black",
+                linewidth=args.rail_width,
+                alpha=0.9,
+                zorder=3,
+            )
 
-    title = args.title
+        gpd.GeoSeries([origin], crs=work_crs).plot(ax=ax, markersize=30, zorder=4)
+        ax.set_title(args.title)
+        ax.set_axis_off()
 
-    ax.set_title(title)
-    ax.set_axis_off()
+        plt.tight_layout()
+        Path(out_png).parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(out_png, dpi=250)
+        plt.close(fig)
+        log.info(f"Wrote {out_png}")
 
-    plt.tight_layout()
-    plt.savefig(args.out_png, dpi=250)
-    log.info(f"Wrote {args.out_png}")
+    draw(args.out_png, args.cmap, False)
+    if args.out_png_gray:
+        draw(args.out_png_gray, args.gray_cmap, True)
     return 0
 
 
